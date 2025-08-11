@@ -1,0 +1,75 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19385464",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "おろし玉ねぎドレッシング",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4504079/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19385464",
+    "description": "すりおろした玉ねぎと生姜に調味料を合わせるだけでドレッシングのできあがり！サラダはもちろん、炒め物や揚げ物にも使えます♪",
+    "datePublished": "2017-05-03",
+    "dateModified": "2019-04-02",
+    "keywords": "玉ねぎ,生姜,すりごま(白),砂糖,しょうゆ・酢,ごま油",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎ・生姜をすりおろす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①と残りの調味料を合わせてよく混ぜればできあがり。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "存在感のあるタイプのドレッシングになります。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348504/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "スライスした玉ねぎのサラダにかければ‟W玉ねぎサラダ”\n海藻や茹でたお肉と一緒でも合います♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348505/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "焼いた厚揚げ・温サラダ・野菜炒め・唐揚げ・フライ・ローストビーフ・お刺身・しゃぶしゃぶ…などにも",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348613/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "玉ねぎ 小1/4(30g)",
+      "生姜 一片(5g)",
+      "すりごま(白) 大さじ1/2",
+      "砂糖 大さじ1",
+      "しょうゆ・酢 各大さじ2",
+      "ごま油 小さじ1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "まるみたん",
+      "url": "https://cookpad.com/jp/users/40102795"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 200
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "1213",
+          "url": "https://cookpad.com/jp/users/40198281"
+        },
+        "datePublished": "2017-07-06",
+        "text": "簡単で美味しかった(*^^*)オリーブオイルでも作ってみたいです"
+      }
+    ],
+    "commentCount": 2
+  },
+  "timestamp": "2025-08-08T19:54:15.897Z"
+}

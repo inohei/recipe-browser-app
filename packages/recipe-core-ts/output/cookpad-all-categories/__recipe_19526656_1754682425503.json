@@ -1,0 +1,79 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19526656",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "たたきをリメイク！カツオそうめん",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4503439/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19526656",
+    "description": "５月は初鰹の季節！！たたきに飽きたらこのレシピを試してみてくださいね。",
+    "datePublished": "2017-05-02",
+    "dateModified": "2017-05-11",
+    "keywords": "かつおのたたき,トマト,バジル,イタリアンパセリ,■オリーブオイル,■レモン汁(ポッカレモン),■塩コショウ,そうめん",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "まずは下準備。バジルとパセリは葉だけをちぎり、トマトはいちょう切り、かつおのたたきは短冊切りにしてください。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22345591/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "そうめんを茹でましょう。沸騰したら灰汁とり網にカツオを載せて湯にくぐらせましょう。赤みの部分を無くしてくださいね。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22345592/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「アレンジそうめん」カテゴリにカテゴリ登録されました！！（2017.5．11）"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "そうめんを茹でたら流水でしめて、カツオ、トマト、バジルとパセリを載せて■のドレッシングを回しかけてください。これで完成！",
+        "image": "https://img-global-jp.cpcdn.com/steps/22345593/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "かつおのたたき ４切れ",
+      "トマト １個",
+      "バジル ２房",
+      "イタリアンパセリ ２房",
+      "■オリーブオイル 大さじ4杯",
+      "■レモン汁(ポッカレモン) 大さじ1杯",
+      "■塩コショウ 5～6振り",
+      "そうめん ２輪"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "サイレントサイリン",
+      "url": "https://cookpad.com/jp/users/40095916"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 74
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 3
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック7FNN0F☆",
+          "url": "https://cookpad.com/jp/users/40260087"
+        },
+        "datePublished": "2019-08-04",
+        "text": "パセリの代わりにしそと玉葱でリメイクしました。白ワインと相性○。"
+      }
+    ],
+    "commentCount": 2
+  },
+  "timestamp": "2025-08-08T19:47:05.503Z"
+}

@@ -1,0 +1,193 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19654544",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "これだけ！？行列が出来る簡単味噌ラーメン",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3709118/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19654544",
+    "description": "お家で出来ちゃう魔法のような本格味噌ラーメンスープ！ あっという間にできるのに、あまりの旨味とコクに驚きます！",
+    "datePublished": "2016-02-23",
+    "dateModified": "2019-09-04",
+    "keywords": "○豚ひき肉,○ごま油,○おろし生姜(チューブ),○おろしにんにく(チューブ),○味噌,○豆板醤,○長ネギ(白い部分),水,●鳥ガラスープの素,●めんつゆ(3倍濃縮),●塩,●砂糖,●ラー油（苦手な方は入れなくてもOK）,●胡椒・胡麻,バター,中華麺",
+    "recipeYield": "2人前",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "長ネギは縦に割り、写真のように太めに刻んでおきます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852934/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋に○を入れ、ひき肉に火が通るまで炒めます。\n\n炒めることでスープに香ばしい香りとコクが出ます♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852935/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "炒めたものがこちら♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852936/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "そこに水と●を入れ沸騰させ、5分ほど煮込んだらお店やさんの味噌ラーメンスープがもう完成です！",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852937/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "後は中華麺とお好きな具材を盛りつければ完成ー！！",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852965/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ここで絶対に忘れないでほしいのが「バター」！\nマストアイテムなので絶対乗せちゃってください♡\nスープが更にパワーアップ！",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852964/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "このコクと旨味！\nまさか家で簡単に作っちゃったとは思えない程のコクと旨さです！\n\n主人も「お店よりうまい！」と大絶賛！",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852963/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ぴったりな献立や他の人気レシピはブログにて公開中です↓\nhttp://ameblo.jp/masayacallas",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852962/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "烏 匡哉の絶品ラーメンシリーズはこちら↓\n「混ぜるだけ！簡単絶品♡柚子胡椒塩ラーメン」\n（ID:18023794）",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852993/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「混ぜるだけ！簡単本格醤油ラーメンスープ」\n（ID:17959711）",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852998/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「夏の定番！激ウマ簡単ざるラーメン♡」\n（ID:18144380）",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852992/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「豚こまde♡簡単なんちゃってチャーシュー（ID:20031045）」",
+        "image": "https://img-global-jp.cpcdn.com/steps/20237826/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "大人気の魔法のチャーハン！\n\n「魔法!?ラーメン屋の本格パラパラ簡単炒飯（ID:18673951）」",
+        "image": "https://img-global-jp.cpcdn.com/steps/18853001/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「半熟とろとろ♡激ウマ簡単味付け卵（煮卵）」（ID:19509528）も是非♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/18852991/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "○豚ひき肉 100g",
+      "○ごま油 大さじ1/2",
+      "○おろし生姜(チューブ) 1cm",
+      "○おろしにんにく(チューブ) 1cm",
+      "○味噌 大さじ3（濃い味が好きな方は＋大さじ1/2）",
+      "○豆板醤 小さじ1",
+      "○長ネギ(白い部分) 10cm",
+      "水 700ml",
+      "●鳥ガラスープの素 大さじ1",
+      "●めんつゆ(3倍濃縮) 大さじ1",
+      "●塩 小さじ1/2",
+      "●砂糖 小さじ2",
+      "●ラー油（苦手な方は入れなくてもOK） 小さじ1/2",
+      "●胡椒・胡麻 お好みで",
+      "バター お好み量",
+      "中華麺 2人前"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "匡Masa",
+      "url": "https://cookpad.com/jp/users/40069971"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 117580
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 17
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "野菜係",
+          "url": "https://cookpad.com/jp/users/40460543"
+        },
+        "datePublished": "2025-08-01",
+        "text": "リピです。残り物の野菜炒めを入れました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "のりのり⭐",
+          "url": "https://cookpad.com/jp/users/40367652"
+        },
+        "datePublished": "2025-07-27",
+        "text": "すりごま入れてる方がいたので入れてみました!1人前を父と半分子しました🍜美味しかったです🤤"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "猫緑月",
+          "url": "https://cookpad.com/jp/users/102074919"
+        },
+        "datePublished": "2025-07-21",
+        "text": "味噌ラーメン、家で作れました。野菜やお肉が入って栄養がありました。美味しかったです。＾＾"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "がんばれゆきち",
+          "url": "https://cookpad.com/jp/users/40586312"
+        },
+        "datePublished": "2025-07-20",
+        "text": "味噌を炒めて本格的な味になりました。\nとても美味しくできました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "野菜係",
+          "url": "https://cookpad.com/jp/users/40460543"
+        },
+        "datePublished": "2025-07-20",
+        "text": "リピです。すりゴマ追加、ひき肉多めにして美味しかったです♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックB56CPR☆",
+          "url": "https://cookpad.com/jp/users/41085155"
+        },
+        "datePublished": "2025-07-16",
+        "text": "本格的な味でとてもおいしくできました！！"
+      }
+    ],
+    "commentCount": 2261
+  },
+  "timestamp": "2025-08-08T19:46:51.897Z"
+}

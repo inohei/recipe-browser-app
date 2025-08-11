@@ -1,0 +1,139 @@
+{
+  "url": "https://cookpad.com/jp/recipes/20252941",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "【基本】フライパンで簡単♪親子丼の黄金比",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4787207/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/20252941",
+    "description": "いろいろなレシピを調べて黄金比を計算し、基本の親子丼としました。卵を２回に分けて入れることで理想のとろとろ具合に！",
+    "datePublished": "2017-11-02",
+    "dateModified": "2022-03-17",
+    "keywords": "鶏モモ肉,玉ねぎ,卵,★醤油,★みりん,★砂糖,★だし汁（水＋顆粒だし小さじ１）,青ネギ、ミツバ、海苔（お好みで）",
+    "recipeYield": "２〜３人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎを薄切りにする。★の材料と玉ねぎをフライパンに入れ、玉ねぎがしんなりするまで煮る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/23535821/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鶏もも肉を小さめの一口大に切り、フライパンに加え、裏表返しながら煮る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/23535822/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵を割り、ざっくりと混ぜる。（写真のように、白身と黄身が全然混ざってないくらいでOK）",
+        "image": "https://img-global-jp.cpcdn.com/steps/33726553/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鶏肉に火が通ったら卵の2/3量を回しかけ、蓋をして卵が固まるまで少し煮る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/23535823/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火を止めて、残りの卵を回しかければ完成。お好みで薬味を添えてください。"
+      }
+    ],
+    "recipeIngredient": [
+      "鶏モモ肉 小１枚（200〜250g）",
+      "玉ねぎ 1/2個（100g）",
+      "卵 ３〜４個",
+      "★醤油 大さじ２",
+      "★みりん 大さじ３",
+      "★砂糖 大さじ１",
+      "★だし汁（水＋顆粒だし小さじ１） 100ml",
+      "青ネギ、ミツバ、海苔（お好みで） 少量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "白いエプロンのクマ",
+      "url": "https://cookpad.com/jp/users/40135812"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 232598
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 144
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Superlittleboo",
+          "url": "https://cookpad.com/jp/users/40036220"
+        },
+        "datePublished": "2025-07-18",
+        "text": "しっかり味でご飯が進んじゃう罪作りな美味しさ♥️ありがとう〜"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "shibuyt428",
+          "url": "https://cookpad.com/jp/users/41199889"
+        },
+        "datePublished": "2025-07-12",
+        "text": "仕上げに九条ネギを載せてみました！\n美味しくできました〜"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ポコ太さん",
+          "url": "https://cookpad.com/jp/users/40606198"
+        },
+        "datePublished": "2025-07-08",
+        "text": "具沢山で作りました(^^)味付けがとっても美味しかったです♫"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "匡史さん",
+          "url": "https://cookpad.com/jp/users/41139649"
+        },
+        "datePublished": "2025-07-04",
+        "text": "小さめチキンカツと黄金比の融合で美味しく頂きました♪やっぱり美味しい✖️美味しいはなまら美味いって事ですね✨"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "mincosmo",
+          "url": "https://cookpad.com/jp/users/40899402"
+        },
+        "datePublished": "2025-07-02",
+        "text": "美味しく出来たし、フライパンひとつでまとめて作れるのが最高！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ＳＡＳ3737",
+          "url": "https://cookpad.com/jp/users/41116274"
+        },
+        "datePublished": "2025-07-02",
+        "text": "めちゃくちゃ美味しかったー！\nいつもは白だしだったんですが、これからは、こちらを我が家の定番にさせていただきます！"
+      }
+    ],
+    "commentCount": 2542
+  },
+  "timestamp": "2025-08-08T19:43:22.184Z"
+}

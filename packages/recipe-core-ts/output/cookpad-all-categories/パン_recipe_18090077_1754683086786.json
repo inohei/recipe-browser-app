@@ -1,0 +1,123 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18090077",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "喫茶店のハムサンド",
+    "image": "https://img-global-jp.cpcdn.com/recipes/695576/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18090077",
+    "description": "♥13.12.2話題入り♥家で喫茶店のハムサンドがたべれます。",
+    "datePublished": "2008-12-08",
+    "dateModified": "2013-12-04",
+    "keywords": "パン,ハム,きゅうり,マヨネーズ,味塩",
+    "recipeYield": "１人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "食パン2枚を重ねてトースターで色がつくまで焼く。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "重ねたパンを開いて焼いてないほうの2面にマヨネーズをぬる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "きゅうりを薄くきり、パンにのせて、味塩を少々かける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ハムをのせて、最後にきゅうりをのせて、もう1枚のパンではさめばできあがり。"
+      }
+    ],
+    "recipeIngredient": [
+      "パン 2枚",
+      "ハム 2枚",
+      "きゅうり 1/2本",
+      "マヨネーズ 好きなだけ（バターの代わりに）",
+      "味塩 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "kojyu",
+      "url": "https://cookpad.com/jp/users/40047430"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 353
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "トモ２",
+          "url": "https://cookpad.com/jp/users/40432222"
+        },
+        "datePublished": "2022-04-28",
+        "text": "パンの外側はカリッと内側はしっとりしていて、この具に良く合っていました。シンプルながら本当に美味しかったです😊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックF85BC1☆",
+          "url": "https://cookpad.com/jp/users/40419188"
+        },
+        "datePublished": "2022-04-21",
+        "text": "レシピ参考にさせて頂きました。ありがとうございます"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ありんちょ☆",
+          "url": "https://cookpad.com/jp/users/40096375"
+        },
+        "datePublished": "2017-10-17",
+        "text": "アジシオ無くて味の素プラスで！朝から簡単、喫茶店の味~おいしい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あんごるぁうさぎ",
+          "url": "https://cookpad.com/jp/users/40110808"
+        },
+        "datePublished": "2016-10-08",
+        "text": "お店のみたいでした♡素材の味が引き立っておいしいです*ˊᵕˋ*"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ジョングレ",
+          "url": "https://cookpad.com/jp/users/40053103"
+        },
+        "datePublished": "2016-04-10",
+        "text": "アジシオのポイント高いですね！シンプルでおいしかった～(^^♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さくら11",
+          "url": "https://cookpad.com/jp/users/40150402"
+        },
+        "datePublished": "2015-10-10",
+        "text": "シンプルだけどしっかり美味しかったです♪"
+      }
+    ],
+    "commentCount": 38
+  },
+  "timestamp": "2025-08-08T19:58:06.786Z"
+}

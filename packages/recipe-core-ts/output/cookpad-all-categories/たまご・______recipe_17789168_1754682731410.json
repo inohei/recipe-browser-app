@@ -1,0 +1,151 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17789168",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "♡簡単レンジで茶碗蒸し♡",
+    "image": "https://img-global-jp.cpcdn.com/recipes/446137/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17789168",
+    "description": "２人分わざわざ蒸すのはめちゃめんどくさい。そんな時にはこれ!! *:(●´Д｀●)ウトーリするぐらい美味しいですよｗ",
+    "datePublished": "2007-10-19",
+    "dateModified": "2022-10-18",
+    "keywords": "卵,●水,●和風だしの素,●塩,●みりん,●しょうゆ（薄口がベスト）,具材",
+    "recipeYield": "２人分（ｺｺｯﾄ使用）",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "●の材料と具材を耐熱容器に入れてレンジでチンして火を通す。",
+        "image": "https://img-global-jp.cpcdn.com/steps/2137481/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①が人肌まで冷めたら、溶いた卵を入れてまぜる。先に器に具を入れてしまった方が楽です。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ココットに②を茶こしでこしながら注ぐ。具材も均等に加える。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ラップをふんわぁりとかけてレンジ（２００Ｗ）で7分チン。あっとゆうまに完成☆\r\n一人分のみチンする時は３分ちょっと。\r\n様子を見ながらチンして下さい。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ご家庭のレンジによって、チンする時間は調整してください。ゆすってみてぷるんと弾力がでていれば大丈夫だと思います。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "レンジの中で余熱でも少し固まるので、様子をみながらお願いします＾＾"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ダイ○ーでカワイイ器を発見❥二倍量で3つ分出来ました☻チンの時間は10分強様子をみながら(●´艸`)♪ \n蓋もアリ"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "最近のお気に入り❤残ったたこ焼きの具活用ｗＩＤ：19996572"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "最近はさらにずぼらになり、具を各々の器に入れてチン。少量のお湯で調味料を溶かし、残りの水をイン。で、卵の順になりましたｗ"
+      }
+    ],
+    "recipeIngredient": [
+      "卵 １個",
+      "●水 １６０ｃｃ",
+      "●和風だしの素 小さじ１/２",
+      "●塩 少々",
+      "●みりん 小さじ１/２",
+      "●しょうゆ（薄口がベスト） 小さじ１/２",
+      "具材 お好みで"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "harimam☆",
+      "url": "https://cookpad.com/jp/users/40029260"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 78859
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 7
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ふすこ",
+          "url": "https://cookpad.com/jp/users/40494214"
+        },
+        "datePublished": "2025-02-24",
+        "text": "3倍濃縮麺つゆ小1追加、ちくわ、刻み野菜、小松菜を入れて☆レンジでぷる②簡単ありがたいです！ご馳走様です^^"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "キュアラ☆",
+          "url": "https://cookpad.com/jp/users/40539417"
+        },
+        "datePublished": "2024-12-14",
+        "text": "カニカマ椎茸銀杏残り物の三つ葉入れ、きのこだし使用。とっても美味しかったです!1人前だけレンチン。200w8分で丁度良かったです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Mimiromi",
+          "url": "https://cookpad.com/jp/users/41119761"
+        },
+        "datePublished": "2024-11-14",
+        "text": "卵一個で、調味料の量がわかりやすいのでいつも参考にさせていただいてます。醤油味の餡のせで。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Mimiromi",
+          "url": "https://cookpad.com/jp/users/41119761"
+        },
+        "datePublished": "2024-04-06",
+        "text": "一人前レンジ200wうまく固まらず約7分でした。えのきと鶏肉を入れましたがえのきは見栄えがきれいじゃなかった。。でも味は◎です！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "神風＊",
+          "url": "https://cookpad.com/jp/users/40301908"
+        },
+        "datePublished": "2024-02-14",
+        "text": "リピ❗今回も倍量で大きな器一つで蒸しました→父が好きなほうれん草＆椎茸で即美味しいよでました♥😁👍"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "saki1010",
+          "url": "https://cookpad.com/jp/users/40036825"
+        },
+        "datePublished": "2023-12-07",
+        "text": "冷凍ホタテの解凍汁と青梗菜を入れました。簡単で美味しかったです。"
+      }
+    ],
+    "commentCount": 2217
+  },
+  "timestamp": "2025-08-08T19:52:11.410Z"
+}

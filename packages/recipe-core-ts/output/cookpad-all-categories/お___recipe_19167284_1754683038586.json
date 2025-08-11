@@ -1,0 +1,153 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19167284",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "＊簡単＊スイートポテト♡",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2388757/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19167284",
+    "description": "レンジ＆トースターで簡単・短時間 ♡ つくれぽ10000件ありがとう(*´꒳`*) 2013.11.01話題入り♡",
+    "datePublished": "2013-10-28",
+    "dateModified": "2023-10-10",
+    "keywords": "さつまいも,バター or マーガリン,砂糖,牛乳,塩,卵黄(つや出し用)",
+    "recipeYield": "5〜6個",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "さつまいもは輪切りにし、皮をむき、水に3分程さらす。\n耐熱皿に入れラップをかけてレンジで柔らかくなるまでチンする。",
+        "image": "https://img-global-jp.cpcdn.com/steps/12557368/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "柔らかくなったさつまいもをマッシャーでよく潰す。",
+        "image": "https://img-global-jp.cpcdn.com/steps/13342332/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "さつまいもが熱いうちにバター・砂糖・塩を加えよく潰し、牛乳は成形できる位のなめらかさになるまで少しずつ加える。",
+        "image": "https://img-global-jp.cpcdn.com/steps/12557369/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "成形しアルミカップにのせ、表面につや出し用の卵黄を塗る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/12558245/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "トースターで焼き色をつけたら出来上がりです♡\n＊1000wで5~10分位です。様子を見ながら焦げに注意して下さいね♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/13340584/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "一口サイズに丸めても可愛いです♡\nお弁当にもぜひ!!",
+        "image": "https://img-global-jp.cpcdn.com/steps/14771461/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2014.8.22   TOP画像変更しました。",
+        "image": "https://img-global-jp.cpcdn.com/steps/14513835/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "クックパッド健康レシピに紹介していただいています♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/14959748/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "さつまいも 中１本 ( 約200g )",
+      "バター or マーガリン 10g",
+      "砂糖 20g",
+      "牛乳 20g〜",
+      "塩 少々",
+      "卵黄(つや出し用) 1/3個"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ゆこるん☆",
+      "url": "https://cookpad.com/jp/users/40208804"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 556896
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 65
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "柴犬のお顔☆",
+          "url": "https://cookpad.com/jp/users/40301833"
+        },
+        "datePublished": "2025-07-14",
+        "text": "スイートポテト、久しぶりに作りました！お菓子作り自体、2、3年ぶりかも？！楽しく美味しくできました＼(^o^)／"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "イチゴおれんじ",
+          "url": "https://cookpad.com/jp/users/40406209"
+        },
+        "datePublished": "2025-07-14",
+        "text": "焼き芋をたくさん頂いたので、作ってみました。カンタン、美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "𓌉𓇋 ‎",
+          "url": "https://cookpad.com/jp/users/111486377"
+        },
+        "datePublished": "2025-06-15",
+        "text": "とても簡単で美味しく作れました(🍠•᎑•🍠)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かホ！",
+          "url": "https://cookpad.com/jp/users/40468952"
+        },
+        "datePublished": "2025-05-27",
+        "text": "牛乳は様子を見ながらなめらかになるまで入れました！200℃に予熱したオーブンで15分焼きました✨美味しかったです☺️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かホ！",
+          "url": "https://cookpad.com/jp/users/40468952"
+        },
+        "datePublished": "2025-05-27",
+        "text": "牛乳は様子を見ながらなめらかになるまで入れました！200℃に予熱したオーブンで15分焼きました✨美味しかったです☺️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "しんちゃんまま🌿",
+          "url": "https://cookpad.com/jp/users/40935071"
+        },
+        "datePublished": "2025-05-27",
+        "text": "初めて作りました。\n美味しそうです。\nウレシイ。"
+      }
+    ],
+    "commentCount": 18632
+  },
+  "timestamp": "2025-08-08T19:57:18.586Z"
+}

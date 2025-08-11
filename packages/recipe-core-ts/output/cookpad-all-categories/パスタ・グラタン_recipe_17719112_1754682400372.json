@@ -1,0 +1,123 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17719112",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "トマト生ハムモッツァレラ♪冷製パスタ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/427060/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17719112",
+    "description": "プチトマトを使った爽やかなパスタです♪ モッツァレラもよく合います♪生ハムもいいいアクセント♪冷製パスタの簡単味付け",
+    "datePublished": "2007-09-07",
+    "dateModified": "2019-07-03",
+    "keywords": "プチトマト,モッツァレラチーズ,生ハム,カッペリーニ,●お湯,●コンソメ,●オリーブオイル,●ガーリックパウダー,●好みの荒挽コショウ,●塩",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ミニトマトは4等分に、モッツァレラチーズはトマトと同じくらいの大きさに切っておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "●の材料を混ぜていく。\r\nまず、ボールにお湯を入れコンソメを溶かし、オリーブオイルを入れてよく混ぜる。\r\n1を加えて混ぜ合わせ、ガーリックパウダーと好みのコショウ（私はブラックペッパー）を振り、味見して塩を足す。（私は一つまみ）"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "カッペリーニを表示時間茹で、水でしめる。 2のボールに入れて混ぜ合わせる。器に盛って生ハムをトッピングして出来上がり。"
+      }
+    ],
+    "recipeIngredient": [
+      "プチトマト 10個くらい",
+      "モッツァレラチーズ 50グラムくらい",
+      "生ハム 数枚",
+      "カッペリーニ 2人分（150ｇ）",
+      "●お湯 大さじ1",
+      "●コンソメ 小さじ1",
+      "●オリーブオイル 大さじ2",
+      "●ガーリックパウダー 3振りくらい",
+      "●好みの荒挽コショウ 3振りくらい",
+      "●塩 一つまみ（適量）"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "yummysunny",
+      "url": "https://cookpad.com/jp/users/40027314"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 341
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "nekomaru79",
+          "url": "https://cookpad.com/jp/users/40653472"
+        },
+        "datePublished": "2018-08-20",
+        "text": "息子がバクバク食べてます！さっぱり美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ココアとミント",
+          "url": "https://cookpad.com/jp/users/40126439"
+        },
+        "datePublished": "2018-05-30",
+        "text": "コンソメ味の冷製パスタ美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "らぶ☆ミコママちゃん",
+          "url": "https://cookpad.com/jp/users/41037721"
+        },
+        "datePublished": "2017-05-04",
+        "text": "冷製パスタのコンソメ味、とても美味しかった♪レシピ保存しました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "４番目",
+          "url": "https://cookpad.com/jp/users/40063828"
+        },
+        "datePublished": "2013-08-08",
+        "text": "大きなトマトで作りましたがとっても美味しかったです(^-^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ミキPon",
+          "url": "https://cookpad.com/jp/users/40080149"
+        },
+        "datePublished": "2013-05-27",
+        "text": "コンソメ味の冷製パスタは初めてだったけど美味しくてリピ決定☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ye0922",
+          "url": "https://cookpad.com/jp/users/40270974"
+        },
+        "datePublished": "2013-05-19",
+        "text": "シンプルだけど、とっても美味しかったです♪プチ贅沢☆"
+      }
+    ],
+    "commentCount": 12
+  },
+  "timestamp": "2025-08-08T19:46:40.372Z"
+}

@@ -1,0 +1,152 @@
+{
+  "url": "https://cookpad.com/jp/recipes/20394215",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単♡ほうれん草とベーコンの卵マヨ炒め",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2962821/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/20394215",
+    "description": "★殿堂入り&雑誌掲載感謝です★うちの三兄弟も大好き！味付けはマヨネーズと塩コショウだけ！マヨのコクが旨い。お弁当にも♡",
+    "datePublished": "2015-01-13",
+    "dateModified": "2024-08-28",
+    "keywords": "ほうれん草,ベーコン(うちはハーフベーコン),卵,マヨネーズ,塩コショウ",
+    "recipeYield": "2〜3人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草を食べやすい大きさに切る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496738/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ベーコンも同じように食べやすい大きさに切る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496739/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにマヨネーズを入れ火にかけ、ベーコンも入れて炒める。",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496742/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ベーコンから脂が出てきたらほうれん草をドバッと入れ強火で水分を飛ばしながらさらに炒める。",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496762/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草がしんなりしてきたら、ときほぐしておいた卵を回しかける。そこに塩コショウを全体にかける。",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496765/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵が固まり始めたら一気に混ぜ、お好みの卵の固さに仕上げる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496779/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "器に盛って出来上がり♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/15496784/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草を使ったレシピ、『ポパイサラダ』もどうぞ♡レシピID:18204705",
+        "image": "https://img-global-jp.cpcdn.com/steps/16563328/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "ほうれん草 1袋",
+      "ベーコン(うちはハーフベーコン) 1パック(5枚入り使いました)",
+      "卵 2個",
+      "マヨネーズ 大さじ1強",
+      "塩コショウ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "keme_kongu",
+      "url": "https://cookpad.com/jp/users/40142427"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 304072
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 14
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "shocker7",
+          "url": "https://cookpad.com/jp/users/40678544"
+        },
+        "datePublished": "2025-08-08",
+        "text": "簡単な味付けなのに、薄すぎるということはなくご飯によく合う。手軽に作れるおかずです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックUR9L2V☆",
+          "url": "https://cookpad.com/jp/users/41127008"
+        },
+        "datePublished": "2025-07-26",
+        "text": "サッと作れてとても美味しいです♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆☆MIKE☆☆",
+          "url": "https://cookpad.com/jp/users/40549556"
+        },
+        "datePublished": "2025-07-01",
+        "text": "トマトも入れて作りました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック8QOOH4☆",
+          "url": "https://cookpad.com/jp/users/41220395"
+        },
+        "datePublished": "2025-06-24",
+        "text": "すぐできて美味しいので、助かります。ご馳走様でした。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "naoの台所",
+          "url": "https://cookpad.com/jp/users/40263511"
+        },
+        "datePublished": "2025-06-19",
+        "text": "ほうれん草一把をペロリと食べてしまいました😋\n作り方も簡単で嬉しいです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック8QOOH4☆",
+          "url": "https://cookpad.com/jp/users/41220395"
+        },
+        "datePublished": "2025-06-11",
+        "text": "お弁当に大活躍のレシピです！ご馳走様です。"
+      }
+    ],
+    "commentCount": 5323
+  },
+  "timestamp": "2025-08-08T19:43:06.173Z"
+}

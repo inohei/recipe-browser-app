@@ -1,0 +1,112 @@
+{
+  "url": "https://cookpad.com/jp/recipes/20345843",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "舞茸入り大人の和風ポテトサラダ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2654479/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/20345843",
+    "description": "ノンオイルで食感楽しい、ちょいピリ辛、大人のポテサラ(^_-)",
+    "datePublished": "2014-06-03",
+    "dateModified": "2014-06-16",
+    "keywords": "じゃがいも,舞茸（ほぐす）,玉ねぎ(スライス),○穀物酢,○こぶ茶,○柚子コショウ（お好みで）",
+    "recipeYield": "３～４人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "蒸し器で舞茸は５分蒸して取り出し、じゃがいもは柔らかくなるまで３０分程蒸す。",
+        "image": "https://img-global-jp.cpcdn.com/steps/13962801/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "○の調味料を混ぜ合わせ、熱い内に１のじゃがいもの皮を剥いて入れ、粗く潰しながら混ぜる。（潰し過ぎない）",
+        "image": "https://img-global-jp.cpcdn.com/steps/13962802/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "１の舞茸の汁気を切り、玉ねぎと一緒に２に混ぜ、なじませる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/13962803/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "じゃがいも 3個",
+      "舞茸（ほぐす） １パック（１００ｇ）",
+      "玉ねぎ(スライス) １／２個",
+      "○穀物酢 大さじ３",
+      "○こぶ茶 小さじ２．５～",
+      "○柚子コショウ（お好みで） 小さじ１／２"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Ａｇｕａ−ａｑｕｉ",
+      "url": "https://cookpad.com/jp/users/40095079"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 479
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックROYI9T☆",
+          "url": "https://cookpad.com/jp/users/41125325"
+        },
+        "datePublished": "2020-05-25",
+        "text": "妻のレパートリーに無い新触感を楽しめました。美味い！リピします。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ひろか★",
+          "url": "https://cookpad.com/jp/users/40165352"
+        },
+        "datePublished": "2016-09-03",
+        "text": "マヨネーズを使ったものよりも、さっぱり味で美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ハラペコ竜",
+          "url": "https://cookpad.com/jp/users/40137750"
+        },
+        "datePublished": "2014-10-21",
+        "text": "味の想像がつかなかったけど面白い味。美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "★mayo★",
+          "url": "https://cookpad.com/jp/users/40656013"
+        },
+        "datePublished": "2014-08-17",
+        "text": "ノンオイル良いですね～。旨味がしっかりあってとっても美味しい♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "蒼の雫sp",
+          "url": "https://cookpad.com/jp/users/40186457"
+        },
+        "datePublished": "2014-07-29",
+        "text": "舞茸の香り豊かな大人のサラダで美味しかったです(^o^)"
+      }
+    ],
+    "commentCount": 9
+  },
+  "timestamp": "2025-08-08T19:54:50.643Z"
+}

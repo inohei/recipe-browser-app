@@ -1,0 +1,264 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "name": "TOP",
+        "item": "https://www.kurashiru.com/",
+        "position": 1
+      },
+      {
+        "@type": "ListItem",
+        "name": "肉料理",
+        "item": "https://www.kurashiru.com/video_categories/56",
+        "position": 2
+      },
+      {
+        "@type": "ListItem",
+        "name": "生姜焼き",
+        "item": "https://www.kurashiru.com/video_categories/58",
+        "position": 3
+      },
+      {
+        "@type": "ListItem",
+        "name": "ご飯が進む！豚肉の生姜焼き",
+        "item": "https://www.kurashiru.com/recipes/6c351dfe-0252-4506-bafa-1e03169052d2",
+        "position": 4
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "image": "https://video.kurashiru.com/production/videos/6c351dfe-0252-4506-bafa-1e03169052d2/compressed_thumbnail_square_normal.jpg?1754671661",
+    "name": "ご飯が進む！豚肉の生姜焼き",
+    "recipeIngredient": [
+      "豚ロース 300g",
+      "薄力粉 大さじ1",
+      "すりおろし生姜 大さじ2",
+      "しょうゆ 大さじ2",
+      "砂糖 大さじ1",
+      "料理酒 大さじ1",
+      "ごま油 大さじ1",
+      "キャベツ 150g"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "キャベツは芯を切り落としておきます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "キャベツは千切りにします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "豚ロースに薄力粉をまぶします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ボウルにたれの材料を入れて混ぜ合わせます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "中火で熱したフライパンにごま油をひき、2を入れて焼きます。豚ロースに火が通り、両面にこんがりと焼き色が付いたら3を入れます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "中火で炒め合わせ、全体に味がなじんだら火から下ろします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お皿に1、5を盛り付けて完成です。"
+      }
+    ],
+    "author": {
+      "@type": "Organization",
+      "url": "https://www.kurashiru.com/files/kurashiru_large_logo.png",
+      "name": "クラシル オフィシャル"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.kurashiru.com/recipes/6c351dfe-0252-4506-bafa-1e03169052d2"
+    },
+    "recipeCategory": "おつまみ,野菜,キャベツ,肉,豚肉,豚ロース肉,その他",
+    "headline": "「ご飯が進む！豚肉の生姜焼き」の作り方を簡単で分かりやすいレシピ動画で紹介しています。",
+    "datePublished": "2017-05-01T12:29:00.000Z",
+    "dateModified": "2025-08-08T16:47:41.000Z",
+    "publisher": {
+      "@type": "Organization",
+      "name": "クラシル オフィシャル",
+      "logo": "https://www.kurashiru.com/files/kurashiru_large_logo.png"
+    },
+    "description": "定番おかず、豚の生姜焼きをご紹介します。豚ロースをさっと焼いて生姜の風味を効かせた甘じょっぱいたれを絡めれば、ごはんが進むおいしいおかずが完成です。キャベツとの相性も抜群ですよ。献立に悩んだときにおすすめの一品です。ぜひ作ってみてくださいね。",
+    "prepTime": "PT0M",
+    "cookTime": "PT20M",
+    "totalTime": "PT20M",
+    "recipeYield": "2 servings",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": 4.58,
+      "ratingCount": 5457,
+      "bestRating": 5,
+      "worstRating": 1
+    },
+    "video": {
+      "@type": "VideoObject",
+      "contentUrl": "https://video.kurashiru.com/production/videos/6c351dfe-0252-4506-bafa-1e03169052d2/original.mp4",
+      "name": "ご飯が進む！豚肉の生姜焼き",
+      "description": "定番おかず、豚の生姜焼きをご紹介します。豚ロースをさっと焼いて生姜の風味を効かせた甘じょっぱいたれを絡めれば、ごはんが進むおいしいおかずが完成です。キャベツとの相性も抜群ですよ。献立に悩んだときにおすすめの一品です。ぜひ作ってみてくださいね。",
+      "thumbnail": {
+        "@type": "ImageObject",
+        "url": "https://video.kurashiru.com/production/videos/6c351dfe-0252-4506-bafa-1e03169052d2/compressed_thumbnail_square_normal.jpg?1754671661"
+      },
+      "thumbnailUrl": "https://video.kurashiru.com/production/videos/6c351dfe-0252-4506-bafa-1e03169052d2/compressed_thumbnail_square_normal.jpg?1754671661",
+      "uploadDate": "2017-05-01T12:29:00.000Z",
+      "duration": "36S",
+      "height": "1080",
+      "width": "1080",
+      "author": {
+        "@type": "Organization",
+        "url": "https://www.kurashiru.com/files/kurashiru_large_logo.png",
+        "name": "クラシル オフィシャル"
+      },
+      "inLanguage": "ja-JP",
+      "creator": {
+        "@type": "Organization",
+        "url": "https://www.kurashiru.com/files/kurashiru_large_logo.png",
+        "name": "クラシル オフィシャル"
+      },
+      "interactionStatistic": [
+        {
+          "@type": "InteractionCounter",
+          "interactionType": {
+            "@type": "LikeAction"
+          },
+          "userInteractionCount": 12770
+        }
+      ],
+      "keywords": "簡単,おつまみ,キャベツ,肉,豚ロース肉",
+      "commentCount": 1606,
+      "comment": [
+        {
+          "@type": "Comment",
+          "text": "玉ねぎも入れました！\n日高屋の生姜焼きみたいでとっっても美味しかったです！！！ご飯にも合う！185600点！！！",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 764
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "メモ\nチューブの生姜大さじ1\n薄力粉なし\n他は分量通り\n玉ねぎ先炒めてから油引かずにお肉焼く",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 671
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "彼に好評でした🙆‍♀️",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 380
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "簡単！美味しい！\nまた作ります♪",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 231
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "生姜を大さじ2入れたら辛すぎました。",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 206
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "簡単、手間要らず‼\n良く作る我が家の1品です♪\n\n予めお肉と調味料は袋の中でもんで\nおくとしっかり味が染みてくれます。\n弱火でじっくり焼いて柔らかな仕上がりに◎\n玉ねぎ足すとお肉とのバランスもよくなり\nとっても美味しかったです♡",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 179
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "豚こま肉で玉ねぎも入れて作りました。\n美味しくてごはんが進みます🐷🍚",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 132
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "豚こま代用\nポリ袋にお肉と調味料入れてモミモミ\n生姜（チューブ）大さじ２＋\n千切り追加\nキャベツと食べるのが1番すき♪\nレシピ通りご飯進みました",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 72
+            }
+          ]
+        },
+        {
+          "@type": "Comment",
+          "text": "生姜が多く、苦かったです。。\n皆さんがいうように玉ねぎも炒めるとまた違ったのかもしれませんが。。\n\n小麦粉も無くても良さそうです。\n焼いた後についた粉の感じが個人的にはあまり好きではありませんでした。\n好みの問題かもしれません。",
+          "interactionStatistic": [
+            {
+              "@type": "InteractionCounter",
+              "interactionType": {
+                "@type": "LikeAction"
+              },
+              "userInteractionCount": 62
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,174 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18355982",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ミキサーで簡単★かぼちゃケーキ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2206450/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18355982",
+    "description": "★話題入り感謝★かぼちゃたっぷり・裏ごし必要なし♥レンジ⇒材料全部ミキサーで混ぜて焼くだけ！かぼちゃの甘味でほっこり♪",
+    "datePublished": "2013-05-10",
+    "dateModified": "2021-09-06",
+    "keywords": "かぼちゃ（正味量）,生クリーム（植物性）,砂糖,卵,薄力粉",
+    "recipeYield": "18cm型(15cmも可)　1台分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "※かぼちゃは種を取り除いて皮を剥いた正味量（250g）を用意します。\n1/4カットのかぼちゃがおよそ300ｇでした"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "かぼちゃを適当な大きさに切って耐熱容器に入れ、ふんわりとラップをかけて電子レンジで3分30秒加熱します",
+        "image": "https://img-global-jp.cpcdn.com/steps/11586396/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "オーブンに余熱を入れます（焼き時間は170℃で40分）"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "かぼちゃと材料全部をミキサーorフードプロセッサーorブレンダーで混ぜます（混ざればＯＫ）",
+        "image": "https://img-global-jp.cpcdn.com/steps/11586397/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "型に流し入れます。\n（粉類が少ないのでゆるい生地ですが、焼くと固まるので大丈夫♪）",
+        "image": "https://img-global-jp.cpcdn.com/steps/11586398/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※型は18cmの紙型を使うと便利（100均でも売ってます）\n今回は18cmの底が取れる型に敷紙を敷いて焼きました",
+        "image": "https://img-global-jp.cpcdn.com/steps/11586421/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "170℃のオーブンで40分焼きます\n（焼いてる途中、ある程度膨らみますが、冷めるとしぼみます）",
+        "image": "https://img-global-jp.cpcdn.com/steps/11586430/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "できたてアツアツの時にバニラアイスを乗せたり、冷蔵庫で冷やして食べたり、お好みでお召し上がり下さい♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/11593423/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★はたちぇさんが、ローズ型で作ってくださいました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/12202301/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★mxn さんが、バナナバージョンで作ってくださいました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/12202292/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★pi-co.. さんが、炊飯器で作ってくださいました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/12202291/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★トミアヤッペ さんが、生クリーム⇒豆乳で作ってくださいました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/12225731/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★みなさんのアレンジ\n●カボチャ\n・皮入カボチャ\n・さつまいも\n・紫芋\n・バナナ\n●生クリーム\n・牛乳\n・豆乳"
+      }
+    ],
+    "recipeIngredient": [
+      "かぼちゃ（正味量） 250g",
+      "生クリーム（植物性） 200cc",
+      "砂糖 70g",
+      "卵 3個",
+      "薄力粉 大さじ3"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "アツカ",
+      "url": "https://cookpad.com/jp/users/40075943"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 35886
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 3
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆ふもち☆",
+          "url": "https://cookpad.com/jp/users/40575066"
+        },
+        "datePublished": "2025-01-30",
+        "text": "何度もリピしています(*^^*)\nCOOPの冷凍かぼちゃで。かぼちゃがとても甘いので、キビ砂糖50グラムでも美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Meg☆0725",
+          "url": "https://cookpad.com/jp/users/40220105"
+        },
+        "datePublished": "2024-11-06",
+        "text": "しっとり美味しいケーキが、簡単にできて満足♪かぼちゃ、最高♪♪リピしたいです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックS3MM8G☆",
+          "url": "https://cookpad.com/jp/users/40913295"
+        },
+        "datePublished": "2024-11-02",
+        "text": "2回目の利用です！\nたまたまなのか、三温糖を使ったからなのかわかりませんが、表面がクレームブリュレ？風になって美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆっちゃんだい",
+          "url": "https://cookpad.com/jp/users/41217960"
+        },
+        "datePublished": "2024-10-31",
+        "text": "ハロウィンに作りました!\n家族も美味しいと喜んでくれました★　また作りたいです!"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "チャリ蔵",
+          "url": "https://cookpad.com/jp/users/41202908"
+        },
+        "datePublished": "2024-10-26",
+        "text": "ガタガタになっちゃいましたが、甘さ控えめで美味しく頂きました😋"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆☆こっち☆☆",
+          "url": "https://cookpad.com/jp/users/40599056"
+        },
+        "datePublished": "2024-10-14",
+        "text": "リピです！簡単で美味しかったです！"
+      }
+    ],
+    "commentCount": 1566
+  },
+  "timestamp": "2025-08-08T19:56:50.611Z"
+}

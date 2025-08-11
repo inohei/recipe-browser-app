@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/background.ts"],
+  "sourcesContent": ["chrome.runtime.onInstalled.addListener(() => {\n  // no-op for now\n});\n"],
+  "mappings": ";AAAA,OAAO,QAAQ,YAAY,YAAY,MAAM;AAE7C,CAAC;",
+  "names": []
+}

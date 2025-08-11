@@ -1,0 +1,138 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18350858",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "皮ごと！長芋ステーキ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1216434/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18350858",
+    "description": "今まで捨ててた皮がこんなに美味しいなんて！騙されたと思って作ってみて！2010.11.1★話題入り感謝★",
+    "datePublished": "2010-08-23",
+    "dateModified": "2016-09-23",
+    "keywords": "長芋,マヨネーズ,しょうゆ,塩・コショウ,かつお節・ごま,サラダ油",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "長芋は洗い、周りの粉をきれいに。 \r\n1.5～2cm厚さに切る。 \r\n（ひげは取らなくてOK!)"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "サラダ油（分量外）\nをフライパンに熱し、1の長芋を入れ塩・コショウしてフタをして両面こんがり焼く。（中火）"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "しょうゆをまわし入れ、いい香りがしたら盛り付ける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "マヨネーズをかけて仕上げにかつお節・ごまをのせて\r\n完成！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "soramame24さんがナンプラー追加で作ってくださいました！絶対に美味しいですよね★",
+        "image": "https://img-global-jp.cpcdn.com/steps/6530604/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "皮を味わって頂きたいレシピですので\n是非皮は剥かずにお試し下さい。\n味付けはアレンジお好みでどうぞ♪"
+      }
+    ],
+    "recipeIngredient": [
+      "長芋 15cm",
+      "マヨネーズ お好きなだけ",
+      "しょうゆ 小さじ1",
+      "塩・コショウ 少々",
+      "かつお節・ごま 適量",
+      "サラダ油 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "まな竜",
+      "url": "https://cookpad.com/jp/users/40043141"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 266474
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 16
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ういき☆彡",
+          "url": "https://cookpad.com/jp/users/40351104"
+        },
+        "datePublished": "2025-08-07",
+        "text": "美味しいレシピありがとうございます"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まかろん＆もり",
+          "url": "https://cookpad.com/jp/users/40121997"
+        },
+        "datePublished": "2025-08-03",
+        "text": "もう何回もリピしてますがやっぱり美味しいです😋"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ビビ2525",
+          "url": "https://cookpad.com/jp/users/40110761"
+        },
+        "datePublished": "2025-07-29",
+        "text": "おいしかったです！ありがとうございます！リピします！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さとみんちゃちゃちゃ",
+          "url": "https://cookpad.com/jp/users/40095232"
+        },
+        "datePublished": "2025-07-28",
+        "text": "美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "おおさきえつこ",
+          "url": "https://cookpad.com/jp/users/69659472"
+        },
+        "datePublished": "2025-07-28",
+        "text": "はじめて皮ごと調理しました\n満足の1品でした、カツオ節とマヨは多めがより美味しいです、またリピです❣️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ヒヨコとウサギ",
+          "url": "https://cookpad.com/jp/users/40283852"
+        },
+        "datePublished": "2025-07-27",
+        "text": "美味しく出来ました！"
+      }
+    ],
+    "commentCount": 9441
+  },
+  "timestamp": "2025-08-08T19:37:41.370Z"
+}

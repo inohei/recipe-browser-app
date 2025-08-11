@@ -1,0 +1,66 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19225500",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "クリーミー【アボカドドレッシング】",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4434471/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19225500",
+    "description": "コブサラダやグリーンサラダ、パスタサラダにも合うクリーミーで濃厚、なのにヘルシーなアボカドカラ—のドレッシングです。",
+    "datePublished": "2017-03-25",
+    "dateModified": "2017-03-25",
+    "keywords": "バターミルク,アボカド,J-オイルミルズ「AJINOMOTO　オリーブオイル　エクストラバージン」,レモンのしぼり汁,塩　こしょう",
+    "recipeYield": "6人分以上",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "アボカドの皮をむいて種を取ります。材料をフードプロセッサーに入れて滑らかくなるまで撹拌します。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22054454/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "塩こしょうで味付けして完成です。\n\n冷蔵庫で3日程度保存できます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "バターミルクの代用レシピ\n\nレシピID : 20073598",
+        "image": "https://img-global-jp.cpcdn.com/steps/22054456/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "バターミルク 120㏄",
+      "アボカド 1/2個",
+      "J-オイルミルズ「AJINOMOTO　オリーブオイル　エクストラバージン」 大さじ2",
+      "レモンのしぼり汁 大さじ2",
+      "塩　こしょう 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Little Darling",
+      "url": "https://cookpad.com/jp/users/40014130"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 45
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "LuvSS",
+          "url": "https://cookpad.com/jp/users/40553804"
+        },
+        "datePublished": "2020-01-27",
+        "text": "美味しかったです! 色がきれいでヘルシーなのも嬉しい☆"
+      }
+    ],
+    "commentCount": 1
+  },
+  "timestamp": "2025-08-08T19:54:39.524Z"
+}

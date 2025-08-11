@@ -1,0 +1,137 @@
+{
+  "url": "https://cookpad.com/jp/recipes/20043645",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単★簡単濃厚かぼちゃタルト",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2738694/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/20043645",
+    "description": "お手頃なかぼちゃをリッチなタルトに大変身！材料もシンプルに！ ■2018.9.24 つくれぽ400人達成！！■",
+    "datePublished": "2014-08-05",
+    "dateModified": "2024-12-13",
+    "keywords": "薄力粉,砂糖,卵黄,バター,かぼちゃ,砂糖,生クリーム,卵黄",
+    "recipeYield": "18cmタルト1個分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "バターを溶かし、砂糖と卵黄を入れて混ぜる。そこに薄力粉も混ぜてひとまとめにする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "タルト型に薄く敷きつめ、膨らみ防止のためフォークでピケをし冷蔵庫で15分程生地を休ませる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/14384949/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "180度のオーブンで15分焼き、さましておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "かぼちゃは茹でて皮を取る。\nかぼちゃとその他の材料をすべてミキサーにかける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "[4]をタルト台に流し込み、160度のオーブンで40分焼く。",
+        "image": "https://img-global-jp.cpcdn.com/steps/14384952/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "薄力粉 130g",
+      "砂糖 30g",
+      "卵黄 1個分",
+      "バター 60g",
+      "かぼちゃ 300g(大体でOK)",
+      "砂糖 60g",
+      "生クリーム 100cc",
+      "卵黄 1個分"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "asia38jp",
+      "url": "https://cookpad.com/jp/users/40278143"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 26199
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 2
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "いぬわんわんわん",
+          "url": "https://cookpad.com/jp/users/40432959"
+        },
+        "datePublished": "2025-05-03",
+        "text": "大好きなかぼちゃが更に美味しく変身。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Yuu",
+          "url": "https://cookpad.com/jp/users/109115532"
+        },
+        "datePublished": "2024-11-30",
+        "text": "グラタン皿で作りました。　めちゃくちゃ美味しい〜😍　シナモンパウダーも入れました。タルト生地、簡単なのに美味しい！　リピします。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みえひな☆",
+          "url": "https://cookpad.com/jp/users/41215794"
+        },
+        "datePublished": "2024-10-31",
+        "text": "簡単に美味しくできました！わかりやすく混ぜるだけというのがいいです。また作ります"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ひなはるばぁば",
+          "url": "https://cookpad.com/jp/users/41150617"
+        },
+        "datePublished": "2024-08-30",
+        "text": "毎年恒例のかぼちゃタルト、今年も作りました。とても美味しくできました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Moeママ☆",
+          "url": "https://cookpad.com/jp/users/76520287"
+        },
+        "datePublished": "2024-08-22",
+        "text": "おいしかったです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "★mimoon★",
+          "url": "https://cookpad.com/jp/users/40603498"
+        },
+        "datePublished": "2024-08-05",
+        "text": "ミキサーで一気に出来るのが魅力！毎度おいしーです！"
+      }
+    ],
+    "commentCount": 1019
+  },
+  "timestamp": "2025-08-08T19:58:37.064Z"
+}

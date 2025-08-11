@@ -1,0 +1,58 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19827623",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "冷凍茹でキャベツともやしのダイエット麺",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4485538/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19827623",
+    "description": "黒の小さめな円錐形の深い器に、盛り付けた見た目ボリューミーな１品！半ラーメン＋野菜たっぷりなダイエットラーメンです！",
+    "datePublished": "2017-04-22",
+    "dateModified": "2017-04-22",
+    "keywords": "インスタント塩ラーメン,冷凍茹でカットキャベツ,冷凍キノコ,もやし,竹輪,トマト",
+    "recipeYield": "１人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "残りキャベツをレンチン又は茹でて冷ましてから、ラップに包み冷凍してあるものです。キノコも様々冷凍するとよいです！",
+        "image": "https://img-global-jp.cpcdn.com/steps/22271326/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋に冷凍茹でキャベツ・キノコ類にラーメンの水分を入れ、沸騰させて、麺を茹でカットちくわなど入れる",
+        "image": "https://img-global-jp.cpcdn.com/steps/22271325/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "麺が茹で上がる手前で麺を寄せてもやしを入れ３０秒ほどたったら火を止めスープを入れて盛り付けトマトなどトッピングする",
+        "image": "https://img-global-jp.cpcdn.com/steps/22271327/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フォトの麺類は２人分作っています。\n★寄せたもやしを麺のトップに盛り付けるとよいです！"
+      }
+    ],
+    "recipeIngredient": [
+      "インスタント塩ラーメン １／２パック",
+      "冷凍茹でカットキャベツ ５０g適量で",
+      "冷凍キノコ ３０g適量で",
+      "もやし １／２パック適量で",
+      "竹輪 １本（斜め切り）",
+      "トマト １切分（角切り）"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "オリエンタルママ",
+      "url": "https://cookpad.com/jp/users/40039321"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 47
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:47:32.623Z"
+}

@@ -1,0 +1,143 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19208290",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "アク抜き不要！簡単 山ウドの卵とじ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4444821/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19208290",
+    "description": "簡単に作れてすぐ食べられる、油不使用のヘルシーレシピです。さながら婆ちゃんの素朴な田舎料理ってところです。",
+    "datePublished": "2017-03-31",
+    "dateModified": "2017-05-25",
+    "keywords": "山うど(葉の部分),生椎茸,卵,めんつゆ",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "うどは水で軽く洗いザルにあげる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "シイタケは石づきを取り、包丁で半分に切る。小さいシイタケは半分に切らずにそのまま使う。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋に麵つゆと水を入れて味を調節し、椎茸とウドを加え軽く煮立たせる。甘口が好きな人は砂糖やみりん風調味料を加えてください。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "器に卵を割り入れ、箸で7-8回軽くかき混ぜます。白身は白く、黄身は黄色く仕上げるのが料理人。溶き過ぎ・混ぜすぎないように"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ウドと椎茸に軽く火が通ったら溶き卵を回し入れ、蓋をして中強火で1分加熱し、火を止めて余熱で10分放置。加熱し過ぎは厳禁。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵が十分に煮汁を吸ってほどほどに固まったら、用意しておいた器に盛り付けて完成です。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "冷蔵庫で冷やした状態で、レンジで温めずにそのまま食べても美味しいですよ。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "山ウド（穂先）のわさび醤油漬で冷奴。油不使用でヘルシーなお浸しです。おかずにも酒の肴にもピッタリ！\nID:19654200",
+        "image": "https://img-global-jp.cpcdn.com/steps/22510902/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "山ウドと鶏モツの田舎風煮しめ。低価格・低脂質で高栄養価の鶏レバーとハツ、ゴロゴロ野菜でアッサリ煮物\nID:19247743",
+        "image": "https://img-global-jp.cpcdn.com/steps/22510904/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ウドの皮の田舎風ピリ辛煮。皮＝きんぴら？いえいえ煮付けにしても美味しいですよ。油不使用でヘルシー！\nID:19199740",
+        "image": "https://img-global-jp.cpcdn.com/steps/22510906/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "行者ニンニクと烏賊のぬた(酢味噌和え)。イッパイやるときには最高のアテ。休日の前の晩にでも是非 \nID:19196852"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "簡単ふきのとうトースト。ふきのとうは天ぷらやふきのとう味噌が一般的ですがトーストにすると絶品です。\nID:19663913"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お弁当の新しいおかずに簡単オニオンリングエッグ。ミックスベジタブルのトッピング次第で彩り自由自在！\nID:19577383",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511007/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "サンドイッチ専門店のようなたっぷり野菜のハムたまごサンド。食べやすい大きさで子供のお弁当にもOK！\nID:19302225",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511006/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "デパ地下の高級デリカテッセン顔負けの本格的なパスタサラダ。お弁当にもサンドイッチの具にもピッタリ！\nID:19263371",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511005/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ミックスベジタブルとツナ缶でスパサラダ。クロワッサンとミニフランスでサンドイッチに！お弁当にどうぞ\nID:19381009",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511004/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "屋台風シャキシャキ野菜の簡単醤油焼きそば。ベチャっとさせない焼き方で作り、野菜の食感を引出します。\nID:19260887",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511002/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "味付けされていない生タラコで作るたらこパスタ。安い助子でも美味しいたらこクリームソースが作れます。\nID:19226199",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511003/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "レトルトにひと手間加えて簡単カレーパスタ。野菜不足になりがちなパスタをたっぷりの野菜と共に戴きます\nID:19234123",
+        "image": "https://img-global-jp.cpcdn.com/steps/22513674/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "野菜たっぷり簡単ヘルシー和風パスタ。具沢山で低カロリー。ミートソースやナポリタンに飽きたときに是非\nID:19262942",
+        "image": "https://img-global-jp.cpcdn.com/steps/22513675/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鶏レバーとハツでレバニラ炒め。高栄養価でヘルシー、低価格な鶏モツと多めの野菜で油なしレバニラ風！\nID:19230530",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511001/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鶏レバーとハツの本格中華風豆腐炒め。安くてヘルシーな鶏モツと野菜をふんだんに使って油不使用で作る！\nID:19221471",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511068/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ド定番！簡単ほや酢の作り方。一口頬張ると海のミネラル分のうま味が口の中いっぱいに広がります。\nID:19199007",
+        "image": "https://img-global-jp.cpcdn.com/steps/22511000/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "山うど(葉の部分) 適量",
+      "生椎茸 5-6個",
+      "卵 2個",
+      "めんつゆ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "広東麵",
+      "url": "https://cookpad.com/jp/users/40220227"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 36
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:52:34.817Z"
+}

@@ -1,0 +1,170 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18387954",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "10分で絶品！さば缶トマト煮☆",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4180818/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18387954",
+    "description": "1000つくれぽ感謝☆あっという間に、さば缶がオシャレに大変身！ごはんにも、パンにも、パスタにも合います。",
+    "datePublished": "2016-11-14",
+    "dateModified": "2021-10-02",
+    "keywords": "さば水煮缶,玉ねぎ,オリーブオイル,塩,カットトマト缶,コンソメ,ケチャップ,こしょう,粒マスタード,粉チーズ",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎをスライスする。\nお好みでにんにくを入れても美味しいです。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945082/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにオリーブオイル、玉ねぎを入れ、しんなりするまで炒める。\n塩ふたつまみくらいふる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945096/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "トマト缶、さば缶は汁ごと、コンソメ、ケチャップを入れ、中火で5分煮る。\n途中汁がはねるようなら、弱火にしてください。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945132/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "水分が少し減ってきます。\n粒マスタード、こしょうを入れて、1分くらい煮て、火を止める。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945154/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "さば缶は、最後にほぐしても、ゴロッとそのままでも、お好みで。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945219/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "盛り付けます。\nそのままでも十分美味しいですが、お好みで粉チーズをかけると、一気にイタリアンに♫",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945227/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "大人味＊\nオリーブを混ぜたり、タイム、バジルなどハーブをトッピングしても美味です。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20945243/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "さば缶は、なるべく国産のものを使ってくださいね。\n今回使用したものは、こちらです。\n190g入りです。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20949708/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "こちらはもっとお安いですが、美味しくできました。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20984982/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "余ってしまって翌日でも、冷たいまま食べても、意外と美味しいです。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "さんまやいわしの水煮缶でも美味しくできますよ♫"
+      }
+    ],
+    "recipeIngredient": [
+      "さば水煮缶 2缶(190gのもの)",
+      "玉ねぎ 1/2こ(120gくらい)",
+      "オリーブオイル 大さじ1",
+      "塩 ふたつまみ",
+      "カットトマト缶 1缶(400g)",
+      "コンソメ 1こ",
+      "ケチャップ 大さじ1",
+      "こしょう 少々",
+      "粒マスタード 小さじ1",
+      "粉チーズ お好みで"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "あさコロモ",
+      "url": "https://cookpad.com/jp/users/40093558"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 106186
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 14
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ホットマロンラテ",
+          "url": "https://cookpad.com/jp/users/40296681"
+        },
+        "datePublished": "2025-07-20",
+        "text": "パスタソースに良いかな？と半量で作りました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックIR96AR☆",
+          "url": "https://cookpad.com/jp/users/41234653"
+        },
+        "datePublished": "2025-07-16",
+        "text": "ケチャップ大さじ3、ちょっとお砂糖足して作ってます！\nとっても美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ＳＲＨ",
+          "url": "https://cookpad.com/jp/users/40869355"
+        },
+        "datePublished": "2025-07-15",
+        "text": "じゃがいも１個投入\nすごく好きな味です\nこれは保存版だ♡\n又作ります＼(^o^)／"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "智子のキッチン工房",
+          "url": "https://cookpad.com/jp/users/40430597"
+        },
+        "datePublished": "2025-06-26",
+        "text": "こんなメニュー探すのに旅に出てました！美味しい！ありがとうございます！！！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "はっとちゃん",
+          "url": "https://cookpad.com/jp/users/40669816"
+        },
+        "datePublished": "2025-06-14",
+        "text": "粉チーズ無しですが、これいいですね！とっても美味しい\n家族のお気に入りです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みやっちゃん☆",
+          "url": "https://cookpad.com/jp/users/40573968"
+        },
+        "datePublished": "2025-06-12",
+        "text": "簡単で美味しそうなので作ってみました、粉チーズとタイムは使います。食べるのが楽しみです。素敵なレシピをありがとうございました😊"
+      }
+    ],
+    "commentCount": 1799
+  },
+  "timestamp": "2025-08-08T19:44:20.675Z"
+}

@@ -1,0 +1,114 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19291221",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "液体塩こうじで人参のドレッシング",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4477915/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19291221",
+    "description": "液体塩こうじが、人参や玉ねぎの甘味を引き出し、なめらかに仕上げます♪",
+    "datePublished": "2017-04-18",
+    "dateModified": "2023-02-20",
+    "keywords": "人参,玉ねぎ,液体塩こうじ,サラダ油,酢,胡椒",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ハナマルキの「液体塩こうじ」を使用します。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22240315/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①人参と玉ねぎはすり下ろす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "②ボウルにすべての材料を入れ、あわだて器でよく混ぜ合わせる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【ブレンダーで作る場合】野菜は１㎝角に切り、全ての材料をブレンダーにかける。"
+      }
+    ],
+    "recipeIngredient": [
+      "人参 1/3本(約50g)",
+      "玉ねぎ 1/8個(約20g)",
+      "液体塩こうじ 大さじ２",
+      "サラダ油 大さじ２",
+      "酢 大さじ２",
+      "胡椒 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ハナマルキレシピ",
+      "url": "https://cookpad.com/jp/users/40075879"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 275
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "earth。",
+          "url": "https://cookpad.com/jp/users/40168520"
+        },
+        "datePublished": "2023-02-26",
+        "text": "優しい味で美味しいです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "こぴおこそん",
+          "url": "https://cookpad.com/jp/users/40380753"
+        },
+        "datePublished": "2021-04-14",
+        "text": "玉ねぎの代わりに大根ですが、甘くて瑞々しく美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あーもこ",
+          "url": "https://cookpad.com/jp/users/40052317"
+        },
+        "datePublished": "2018-03-21",
+        "text": "簡単に作れて美味しい！液体塩こうじのお陰で深い味わいになります♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "imag",
+          "url": "https://cookpad.com/jp/users/40121231"
+        },
+        "datePublished": "2017-05-21",
+        "text": "野菜の味が生きている、新鮮でおいしいドレッシングができました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "わ五助",
+          "url": "https://cookpad.com/jp/users/40062284"
+        },
+        "datePublished": "2017-04-20",
+        "text": "覚えやすい分量でとっても美味♪液体派なので嬉しいレシピです♪"
+      }
+    ],
+    "commentCount": 9
+  },
+  "timestamp": "2025-08-08T19:54:25.391Z"
+}

@@ -1,0 +1,98 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19900151",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "爽やか♪文旦ドレッシング",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4501709/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19900151",
+    "description": "2017.5/17カテゴリー掲載2017.8/8Top10感謝！文旦の香りが爽やかなドレッシング。人参をプラスしてます",
+    "datePublished": "2017-05-01",
+    "dateModified": "2017-08-08",
+    "keywords": "文旦,人参,オリーヴオイル,酢,砂糖(上白糖),塩コショウ",
+    "recipeYield": "文旦１個分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "文旦は皮と薄皮を取っておく。人参はミキサーにかかるくらいの大きさに切る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ミキサーに①と残りの材料を全部入れてなめらかになるまで回して出来上がり！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "☆酢+砂糖をカンタン酢１００ｃｃに変えてもいいです。"
+      }
+    ],
+    "recipeIngredient": [
+      "文旦 １個",
+      "人参 ５０ｇ",
+      "オリーヴオイル ２００ｃｃ",
+      "酢 １００ｃｃ",
+      "砂糖(上白糖) ４０ｇ",
+      "塩コショウ 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "針木のぽち",
+      "url": "https://cookpad.com/jp/users/40053058"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 112
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "pafepapa",
+          "url": "https://cookpad.com/jp/users/40072393"
+        },
+        "datePublished": "2019-02-23",
+        "text": "実家から毎年届く土佐文旦！久し振りにリピ！やっぱり美味しい！笑"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "◎あーたん◎",
+          "url": "https://cookpad.com/jp/users/40037531"
+        },
+        "datePublished": "2018-04-05",
+        "text": "頂き物の文旦で◎爽やかでとても美味しかったです☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ダイナマイト漆黒",
+          "url": "https://cookpad.com/jp/users/40263606"
+        },
+        "datePublished": "2018-02-04",
+        "text": "柑橘使ったドレッシング好きです\n買ったら高そうなお味\nうまいです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "pafepapa",
+          "url": "https://cookpad.com/jp/users/40072393"
+        },
+        "datePublished": "2017-05-07",
+        "text": "文旦レシピに感謝！まずは文旦ドレッシング、さっぱりで美味しいね！"
+      }
+    ],
+    "commentCount": 8
+  },
+  "timestamp": "2025-08-08T19:54:06.757Z"
+}

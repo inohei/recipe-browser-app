@@ -1,0 +1,169 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19355526",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "【作り置き】豆腐入りふわふわ豚つくね",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4491854/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19355526",
+    "description": "話題入り感謝☆つくれぽ50件☆作っておいたら重宝する豚つくねです！冷めてもふわふわなので、お弁当にもぴったりです♪",
+    "datePublished": "2017-04-25",
+    "dateModified": "2023-08-14",
+    "keywords": "豚ひき肉（鶏ひき肉でも）,豆腐,長ねぎ(みじん切り),酒,片栗粉,ごま油,生姜(すりおろし),味噌,塩コショウ",
+    "recipeYield": "3人分（約12個分）",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "豆腐は軽く水切りして、豚つくねの材料を全てボウルに入れて、粘りが出るまでよく混ぜる",
+        "image": "https://img-global-jp.cpcdn.com/steps/22297048/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "1を一口大の楕円形に丸め（好みの形）、薄くサラダ油を引いたフライパンに並べる",
+        "image": "https://img-global-jp.cpcdn.com/steps/22297049/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火を弱めの中火に点火して、両面こんがりきつね色に焼き付ける",
+        "image": "https://img-global-jp.cpcdn.com/steps/22297050/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "冷めたら保存容器に移して、フタをして冷蔵庫で保存する",
+        "image": "https://img-global-jp.cpcdn.com/steps/22297051/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "『豆腐入りふわふわ☆豚つくね♪』（ レシピID:19624161 ）",
+        "image": "https://img-global-jp.cpcdn.com/steps/22297057/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "『豆腐ハンバーグ☆おろしソース』（ レシピID：19860861 ）",
+        "image": "https://img-global-jp.cpcdn.com/steps/23661545/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "『お弁当にも！れんこんつくね』（レシピID：19913565）",
+        "image": "https://img-global-jp.cpcdn.com/steps/23660166/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "『【作り置き】きのこのマリネ♪』（  レシピID: 19998415  ）",
+        "image": "https://img-global-jp.cpcdn.com/steps/23415617/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "『レンジで常備菜！きのこのレモンバター醤油』（    レシピID：19759280    ）",
+        "image": "https://img-global-jp.cpcdn.com/steps/23421486/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "アメブロ更新してます《Ameba OFFICIAL BLOG》\nhttps://ameblo.jp/sachi825/"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "YouTube更新してます！『sachiのお野菜キッチン。』で検索して下さいね＾＾"
+      }
+    ],
+    "recipeIngredient": [
+      "豚ひき肉（鶏ひき肉でも） 300g",
+      "豆腐 150g",
+      "長ねぎ(みじん切り) 15㎝分",
+      "酒 大さじ1杯",
+      "片栗粉 大さじ1杯",
+      "ごま油 小さじ2杯",
+      "生姜(すりおろし) 小さじ1杯分",
+      "味噌 小さじ1杯",
+      "塩コショウ 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "sachi825",
+      "url": "https://cookpad.com/jp/users/40044464"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 6451
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 2
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "アクセル☆",
+          "url": "https://cookpad.com/jp/users/40182718"
+        },
+        "datePublished": "2025-06-24",
+        "text": "【作り置き】豆腐入りふわふわ豚つくね☆  いつかの私の為に♪  仕事に家事に忙殺される毎日に助かる作り置きレシピですね♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "yikar1",
+          "url": "https://cookpad.com/jp/users/40443880"
+        },
+        "datePublished": "2025-05-22",
+        "text": "簡単に作れて美味しかったです！また作ります！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ちゅーりっぷ♪♪",
+          "url": "https://cookpad.com/jp/users/40893940"
+        },
+        "datePublished": "2025-03-18",
+        "text": "娘と作りました！簡単でわかりやすかったです(^^)幼稚園のお弁当に入れます！！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "おむらいす",
+          "url": "https://cookpad.com/jp/users/110637598"
+        },
+        "datePublished": "2024-10-13",
+        "text": "簡単で美味しくできました🤤"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "chaーki",
+          "url": "https://cookpad.com/jp/users/40076622"
+        },
+        "datePublished": "2024-06-07",
+        "text": "お弁当に入れました。冷めてもふわふわで美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆりりん星のゆり",
+          "url": "https://cookpad.com/jp/users/40556677"
+        },
+        "datePublished": "2024-05-05",
+        "text": "ふわふわで美味しいです♪ニラも入れてみました！"
+      }
+    ],
+    "commentCount": 100
+  },
+  "timestamp": "2025-08-08T19:56:11.645Z"
+}

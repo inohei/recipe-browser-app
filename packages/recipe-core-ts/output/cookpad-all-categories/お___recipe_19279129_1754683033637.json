@@ -1,0 +1,161 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19279129",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "もう買わない！全部カリッカリッの芋けんぴ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2421215/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19279129",
+    "description": "やめられない止まらない！お子様にもぜひ！",
+    "datePublished": "2013-11-29",
+    "dateModified": "2022-11-13",
+    "keywords": "サツマイモ,砂糖,水,揚げ油",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "サツマイモを2ミリにスライスして、また2ミリ幅のスティック状に切る。できるだけ同じ太さがベスト！",
+        "image": "https://img-global-jp.cpcdn.com/steps/12729732/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "切ったものから順に水を入れた容器に入れて、アク抜きする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "アク抜きしたら、キッチンペーパーで水気を軽く拭き取る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "大きめのバットなどに布巾やキッチンペーパーを敷いて、その上に芋を広げ、上から更にキッチンペーパーを被せ、最低1時間放置！",
+        "image": "https://img-global-jp.cpcdn.com/steps/12729735/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "サツマイモを乾燥させたら、鍋に油を入れて約180℃でじっくり約10分揚げる。お芋の量が少ない場合は170℃で。",
+        "image": "https://img-global-jp.cpcdn.com/steps/12729736/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "菜箸で持っても折れないくらいパリッとしてきたら、もうすぐ引き上げるサイン！",
+        "image": "https://img-global-jp.cpcdn.com/steps/12729739/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "目安は焦げる前のこんがり茶色がベスト！時間はあくまで目安なので、芋の揚がり具合を見て判断してくださいね",
+        "image": "https://img-global-jp.cpcdn.com/steps/12731804/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "別の鍋に砂糖と水を入れて、キャラメル色になるまで少し煮詰める。完全にドロドロよりも、少し水気が残ってるくらいがベスト！",
+        "image": "https://img-global-jp.cpcdn.com/steps/12729737/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "揚げたてのサツマイモを8の飴に絡ませたら、クッキングシートの上に広げて乾燥させれば完成！",
+        "image": "https://img-global-jp.cpcdn.com/steps/12729738/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "サツマイモは、ホクホク系の品種を使って下さいね☆"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "安納芋など蜜が多くてしっとり系品種も多く出回ってきていますが、しっとり系を使うと揚げてもムチムチ食感になる場合もあります"
+      }
+    ],
+    "recipeIngredient": [
+      "サツマイモ 1本（500〜600g）",
+      "砂糖 大さじ3",
+      "水 大さじ2",
+      "揚げ油 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "kabura0719",
+      "url": "https://cookpad.com/jp/users/40150328"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 46792
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 3
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "タイボー☆",
+          "url": "https://cookpad.com/jp/users/40238461"
+        },
+        "datePublished": "2025-04-05",
+        "text": "細く切ってカリッと揚げました。\n一度食べたら美味しくて手が止まりません！！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆エル♪",
+          "url": "https://cookpad.com/jp/users/40878869"
+        },
+        "datePublished": "2025-04-03",
+        "text": "10分も揚げていいのかな？と思いましたが、カリカリでとても美味しかったです^ ^"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Ri→chan",
+          "url": "https://cookpad.com/jp/users/40665011"
+        },
+        "datePublished": "2025-01-14",
+        "text": "山盛りが無くなってしまうぐらい好評でした😊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぴっちー",
+          "url": "https://cookpad.com/jp/users/40236158"
+        },
+        "datePublished": "2024-12-21",
+        "text": "これは危険な美味しさです🤤"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "がてんママ",
+          "url": "https://cookpad.com/jp/users/40457497"
+        },
+        "datePublished": "2024-12-11",
+        "text": "ちょっと時間過ぎて揚げすぎてしまったけど、\n砂糖絡めたら美味しいー！子どもも大喜びでした。まさしく、もう買いません！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "パスタマシン、購入考案中",
+          "url": "https://cookpad.com/jp/users/110983866"
+        },
+        "datePublished": "2024-12-08",
+        "text": "五郎島金時(ホクホク系)で作ってみました。\n絡める飴を2/3量にしました。\n次回はこのレシピで“塩けんぴ”を試してみようかな…"
+      }
+    ],
+    "commentCount": 883
+  },
+  "timestamp": "2025-08-08T19:57:13.637Z"
+}

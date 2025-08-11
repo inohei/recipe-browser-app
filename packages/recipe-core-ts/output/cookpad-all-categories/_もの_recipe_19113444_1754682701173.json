@@ -1,0 +1,58 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19113444",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "モチモチ生地が後を引く、なめこのチヂミ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4415533/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19113444",
+    "description": "表面はカリッと、中はモチモチ。なめこのツブツブ食感もいい感じ〜♪",
+    "datePublished": "2017-03-15",
+    "dateModified": "2017-03-15",
+    "keywords": "なめこ　,万能ねぎ　,薄力粉　,片栗粉　,かつおだし（顆粒）　,卵　,水　,ごま油　,ごま　",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ボウルに薄力粉、片栗粉、卵、水、かつおだしを入れ混ぜ、生地を作る"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにごま油を入れ温めて、なめこを炒める"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2に2~3cm幅に切った万能ねぎと1を入れ、両面こんがり焼く"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "焼き上がったら皿に盛り、仕上げにごまを振りかけて完成"
+      }
+    ],
+    "recipeIngredient": [
+      "なめこ　 100g",
+      "万能ねぎ　 1/2束",
+      "薄力粉　 50g",
+      "片栗粉　 25g",
+      "かつおだし（顆粒）　 少々",
+      "卵　 1個",
+      "水　 80cc",
+      "ごま油　 適量",
+      "ごま　 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "福島県",
+      "url": "https://cookpad.com/jp/users/40094422"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 14
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:51:41.173Z"
+}

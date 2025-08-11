@@ -1,0 +1,136 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19178363",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "キャベツ&ジャガイモで⭐簡単お好み焼き♪",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4434567/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19178363",
+    "description": "安売りでキャベツをまるごと買ったけど、独り暮らしだから余っちゃう！卵も切らしちゃって、長芋も買ってな～い！な時にどうぞ⭐",
+    "datePublished": "2017-03-26",
+    "dateModified": "2017-03-26",
+    "keywords": "キャベツ,小麦粉,ジャガイモ(できれば大きめ),水,かつお出汁(粉末),ごま油,かつお節、マヨネーズ、ソースなど",
+    "recipeYield": "２枚分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "キャベツを細かく切る。\n(千切り、1cm角(1cm×1cm)どちらでもお好みで。1cm角の方が食べやすいです♪)",
+        "image": "https://img-global-jp.cpcdn.com/steps/22054883/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ジャガイモをすりおろす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ボールに、材料を全部入れて混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンを熱して、ごま油を入れる。\nごま油が熱くなってきたら、3を半分入れて、型を丸く整える。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22054886/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "弱火ととろ火の間くらいの火加減で、7分ずつ両面を焼く。\n→完成♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/22055006/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "残りのもう１枚を焼く。"
+      }
+    ],
+    "recipeIngredient": [
+      "キャベツ 100g",
+      "小麦粉 100g",
+      "ジャガイモ(できれば大きめ) 1個(170g)",
+      "水 100cc",
+      "かつお出汁(粉末) 5g",
+      "ごま油 適量",
+      "かつお節、マヨネーズ、ソースなど 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "コロモグ",
+      "url": "https://cookpad.com/jp/users/40175634"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1781
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぱるるんキッチン",
+          "url": "https://cookpad.com/jp/users/40424273"
+        },
+        "datePublished": "2023-03-12",
+        "text": "息子のため、にんじんをすりおろしてスイートコーンも追加！簡単に出来て美味しかったです！また作ります！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Champorado",
+          "url": "https://cookpad.com/jp/users/40647905"
+        },
+        "datePublished": "2022-05-02",
+        "text": "子供達から「また作ってね！」が出ました。もちっとしておやつにもいいですね！！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "MatsCafe",
+          "url": "https://cookpad.com/jp/users/40070101"
+        },
+        "datePublished": "2022-05-01",
+        "text": "キャベツ消費に♪キャベツをそんなに食べない子供もこれでバクバク食べてくれました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック49L4Ho☆",
+          "url": "https://cookpad.com/jp/users/40153390"
+        },
+        "datePublished": "2021-07-03",
+        "text": "土曜日のお昼御飯に作りました。美味しく出来ました。また作ります。1人分で作りました。^_^"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "tomato1113",
+          "url": "https://cookpad.com/jp/users/40283689"
+        },
+        "datePublished": "2021-06-03",
+        "text": "食べ応えがありました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まめまるM",
+          "url": "https://cookpad.com/jp/users/40301651"
+        },
+        "datePublished": "2021-04-09",
+        "text": "粉もの大好き！もちもちお好み焼きもいいですね〜⁽⁽ଘ( ˊᵕˋ )ଓ⁾⁾"
+      }
+    ],
+    "commentCount": 79
+  },
+  "timestamp": "2025-08-08T19:51:26.614Z"
+}

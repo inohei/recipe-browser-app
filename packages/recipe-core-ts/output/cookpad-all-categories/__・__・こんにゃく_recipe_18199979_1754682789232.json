@@ -1,0 +1,138 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18199979",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "コク旨＊きゅうり塩こんぶ＊おつまみにも！",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2160838/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18199979",
+    "description": "☆2013.5.18 話題入り感謝☆ きゅうりと塩こんぶの鉄板コンビにごま油と鶏ガラでおいしい箸やすめです(^^)",
+    "datePublished": "2013-03-20",
+    "dateModified": "2018-09-10",
+    "keywords": "きゅうり,塩こんぶ,鶏ガラスープの素,ごま油,塩,いりごま",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "きゅうりを麺棒で叩いてから乱切りにして塩を振っておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "きゅうりの水気をキッチンペーパーでおさえてから残りの材料を全て加えて和える。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "食べるタイミングによって少ししょっぱいかもしれないのでガラスープの素や塩昆布を加減してください！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2014.6.1  写真を差し替えました(*^^*)"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "きゅうりレシピ＊お手軽な漬物\n\n簡単＊さっぱり＊きゅうりのポン酢漬け\nID 20049049\n\nこちらもどうぞ(^m^)",
+        "image": "https://img-global-jp.cpcdn.com/steps/13481850/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "春キャベツが安くなってきたので追加してみました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/16225647/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "きゅうり ２本",
+      "塩こんぶ 大１と１/2",
+      "鶏ガラスープの素 小1〜2",
+      "ごま油 大１",
+      "塩 小１/２",
+      "いりごま 大１"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "おきママ☆",
+      "url": "https://cookpad.com/jp/users/40061688"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 279001
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 1
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "マユリん",
+          "url": "https://cookpad.com/jp/users/40644784"
+        },
+        "datePublished": "2025-08-05",
+        "text": "久しぶりに。つまみが無いと不機嫌になる旦那にはこちらを出せば機嫌が良いです笑 また作ります✌️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あいこママ。",
+          "url": "https://cookpad.com/jp/users/41110608"
+        },
+        "datePublished": "2025-07-31",
+        "text": "簡単に作れて美味しかったです。きゅうりの大量消費にも良いですね(^^)リピします♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Tuyu☆",
+          "url": "https://cookpad.com/jp/users/40484696"
+        },
+        "datePublished": "2025-07-29",
+        "text": "簡単で美味しかったです🥰✨️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "yoshiｷｯﾁﾝ",
+          "url": "https://cookpad.com/jp/users/40609505"
+        },
+        "datePublished": "2025-07-28",
+        "text": "子供がパクパク食べてくれました。いつものきゅうり料理て一番かも！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まりゆりひろこ",
+          "url": "https://cookpad.com/jp/users/41114899"
+        },
+        "datePublished": "2025-07-25",
+        "text": "切り方が違っててごめんなさい。いつもと違う味つけで作りたく参考にさせてもらいました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆー03",
+          "url": "https://cookpad.com/jp/users/40625157"
+        },
+        "datePublished": "2025-07-25",
+        "text": "美味しく出来ました！！"
+      }
+    ],
+    "commentCount": 4225
+  },
+  "timestamp": "2025-08-08T19:53:09.232Z"
+}

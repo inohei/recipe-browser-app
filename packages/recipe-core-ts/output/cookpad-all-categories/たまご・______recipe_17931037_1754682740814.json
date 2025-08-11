@@ -1,0 +1,137 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17931037",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "お豆腐とツナの簡単ナゲット",
+    "image": "https://img-global-jp.cpcdn.com/recipes/470295/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17931037",
+    "description": "これだけの材料でいっぱい作れます。冷めても柔らかくおいしくいただけるので、お弁当のおかずにも最適！",
+    "datePublished": "2017-05-02",
+    "dateModified": "2024-12-21",
+    "keywords": "豆腐,ツナ缶,卵,小麦粉または片栗粉,しょうゆ,マヨネーズ（あれば）",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "豆腐をペーパータオルで包み、レンジで3分ほどチンしてそのまま冷ましてよく水切りした後、ボウルに移す。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【コツ】①の豆腐の水切りは、できる限りしっかり行ってください。レンジ→冷ますを繰り返すのもいいと思います。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①にツナ缶（油は切らなくてもOK）、卵、小麦粉または片栗粉、マヨネーズ、しょうゆを入れて、よく混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンに多めの油を熱し、③をスプーンですくって落として揚げ焼きする。両面がきつね色になったら、できあがり！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "味が付いているので、そのままでもおいしくいただけますが、ひじきやトウガラシなど入れたり、ソースで楽しんだり、お好きにどうぞ。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "味は濃いめかもしれないので、調整を。\n\n脂っこいのが苦手な方は、3でツナ缶の油を適度に切ってください。"
+      }
+    ],
+    "recipeIngredient": [
+      "豆腐 1丁",
+      "ツナ缶 1缶",
+      "卵 1個",
+      "小麦粉または片栗粉 大さじ4～5",
+      "しょうゆ 大さじ1",
+      "マヨネーズ（あれば） 大さじ2"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "うい太郎",
+      "url": "https://cookpad.com/jp/users/40045137"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 268050
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 15
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Erry_k",
+          "url": "https://cookpad.com/jp/users/40276250"
+        },
+        "datePublished": "2025-08-03",
+        "text": "サクサクっ！ふわっふわ!!\n簡単なのにしっかり主役。大好物で\n何度もお世話になってます★"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "とち",
+          "url": "https://cookpad.com/jp/users/113293500"
+        },
+        "datePublished": "2025-07-23",
+        "text": "たくさん作れて簡単で美味しいです。\nありがとうございます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックJMUBMU☆",
+          "url": "https://cookpad.com/jp/users/41174838"
+        },
+        "datePublished": "2025-07-11",
+        "text": "歯が痛い娘のために！簡単にフワフワ柔らか美味しく出来ました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まな",
+          "url": "https://cookpad.com/jp/users/40882034"
+        },
+        "datePublished": "2025-05-31",
+        "text": "ネギも入れてみました。豆腐の水切りが足りなかったのか薄くなりましたが、ふわふわに美味しくできました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックP5NNN7☆",
+          "url": "https://cookpad.com/jp/users/41225291"
+        },
+        "datePublished": "2025-05-31",
+        "text": "孫たちの夕飯に。今日も美味しくできました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "どさんこ白熊",
+          "url": "https://cookpad.com/jp/users/40759354"
+        },
+        "datePublished": "2025-05-08",
+        "text": "簡単に美味しくできました！また作りたいです"
+      }
+    ],
+    "commentCount": 7568
+  },
+  "timestamp": "2025-08-08T19:52:20.814Z"
+}

@@ -1,0 +1,158 @@
+[
+  [
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://www.lettuceclub.net/",
+            "name": "レタスクラブ"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/",
+            "name": "レシピ"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/category/",
+            "name": "料理カテゴリからレシピを探す"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/category/l17/",
+            "name": "おつまみ・小鉢"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/category/s1316/",
+            "name": "おつまみ その他"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/dish/23384/",
+            "name": "基本の和風ジュレ"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://www.lettuceclub.net/",
+            "name": "レタスクラブ"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/",
+            "name": "レシピ"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/ingredient/",
+            "name": "食材からレシピを探す"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/ingredient/m43/",
+            "name": "お菓子材料"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/ingredient/1090/",
+            "name": "粉ゼラチン"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@id": "https://www.lettuceclub.net/recipe/dish/23384/",
+            "name": "基本の和風ジュレ"
+          }
+        }
+      ]
+    }
+  ],
+  {
+    "@context": "http://schema.org/",
+    "@type": "Recipe",
+    "name": "基本の和風ジュレ",
+    "publisher": {
+      "@type": "Organization",
+      "name": "レタスクラブ",
+      "url": "https://www.lettuceclub.net",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.lettuceclub.net/asset/img/base/logo.svg"
+      }
+    },
+    "datePublished": "2016-08-25",
+    "author": {
+      "@type": "Person",
+      "name": "野口真紀",
+      "url": "https://www.lettuceclub.net/recipe/coordinator/227/"
+    },
+    "recipeCuisine": "和食",
+    "recipeCategory": "副菜",
+    "image": "https://www.lettuceclub.net/i/R1/img/dish/1/S20160910092006A_000.png",
+    "keywords": "野口真紀,塩分控えめ",
+    "description": "野菜の味をぐっと引き立たせる隠れ技☆　基本の和風ジュレをマスターしよう☆",
+    "recipeYield": "作りやすい分量",
+    "recipeIngredient": [
+      "だし汁…1カップ",
+      "うす口しょうゆ(またはしょうゆ)…大さじ1",
+      "粉ゼラチン…1袋(5g)",
+      "・みりん、塩、酢"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "鍋にだし汁、うす口しょうゆ、みりん大さじ1、塩少々を入れる。強火で煮立て、火を止めてゼラチンをふり入れ、よく混ぜる。粗熱がとれたら、酢小さじ1/2を加え、混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ステンレスのバットなどに注ぎ入れ、冷蔵室で1時間以上冷やし固める。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フォークなどで粗くくずす。●保存容器に入れ、冷蔵室で2〜3日保存可能。"
+      }
+    ]
+  }
+]

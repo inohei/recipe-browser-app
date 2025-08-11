@@ -1,0 +1,150 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17809081",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "エノキと卵だけで簡単＆美味しい中華♪",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1081305/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17809081",
+    "description": "★２０００レポ感謝★卵とえのき、ここにオイスターソースとゴマ油を入れたら、コク旨中華に変身！しっかり味でご飯が進みます。",
+    "datePublished": "2010-03-26",
+    "dateModified": "2023-02-23",
+    "keywords": "えのき,卵,★オイスターソース・みりん,★ごま油,★コショウ",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "卵は、しっかり溶き、軽く塩味をつける。\n※白身の部分が残らないように。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348092/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "えのきは3つに切り分ける。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348004/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※石づきは包丁で切ると楽です。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348014/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "えのきをしんなりするまで炒めたら、半分に寄せる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348029/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "サラダ油大さじ１を入れ、溶き卵を入れ、卵の周りが固まるまで待つ。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22348031/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵をざっくりと混ぜ半熟になったら、エノキと混ぜ、★を入れて火を止める。\n※余熱で卵が固まります。",
+        "image": "https://img-global-jp.cpcdn.com/steps/5471830/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※卵をキレイな色に仕上げるには→先に半熟炒り卵を作り取り出す。その後にエノキを炒め味付けをする。最後に卵を戻す。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※半熟卵のコツ\n油を多めに引き、よく熱したフライパンに一気に卵液を入れ素早くかきまぜ、すぐに取り出す（余熱も考慮で）"
+      }
+    ],
+    "recipeIngredient": [
+      "えのき 一袋（大袋300g）",
+      "卵 4個",
+      "★オイスターソース・みりん 各大さじ1～1.5",
+      "★ごま油 大さじ1",
+      "★コショウ 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "moj",
+      "url": "https://cookpad.com/jp/users/40038971"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 176437
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 13
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "peanutsss",
+          "url": "https://cookpad.com/jp/users/40311517"
+        },
+        "datePublished": "2025-07-17",
+        "text": "余っていたえのきで！スピード調理で最高の炒め物です！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "テレ",
+          "url": "https://cookpad.com/jp/users/113839684"
+        },
+        "datePublished": "2025-07-15",
+        "text": "作ってみました！\nとても簡単で美味しく作れました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さすらい",
+          "url": "https://cookpad.com/jp/users/40419813"
+        },
+        "datePublished": "2025-07-14",
+        "text": "驚く程に美味しかったです。皆様にもお勧めします。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "賄いのおばちゃん",
+          "url": "https://cookpad.com/jp/users/43580251"
+        },
+        "datePublished": "2025-07-10",
+        "text": "mojさんつくれぽのお返事いつもありがとうございます。とても嬉しく拝見しています。オイスターとみりん、ごま油が良い仕事してますね"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ずみーーーる",
+          "url": "https://cookpad.com/jp/users/40289535"
+        },
+        "datePublished": "2025-07-09",
+        "text": "チーズもちょっと入れて！超簡単！あと一品って時に大活躍！タンパク質と食物繊維摂って健康気分！笑"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆみ☆ゆっこ",
+          "url": "https://cookpad.com/jp/users/40647041"
+        },
+        "datePublished": "2025-06-26",
+        "text": "こちらのレシピ大好き❤\n\n余らないですが、余った時は1人ランチに丼として食べても美味しい♡"
+      }
+    ],
+    "commentCount": 5083
+  },
+  "timestamp": "2025-08-08T19:37:31.821Z"
+}

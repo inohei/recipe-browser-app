@@ -1,0 +1,97 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19322474",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "俺流！桜エビと葱の餡掛けふわふわ卵焼そば",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4487193/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19322474",
+    "description": "余っていた焼そば麺を使って、春らしい焼そばを作りました。",
+    "datePublished": "2017-04-24",
+    "dateModified": "2017-04-24",
+    "keywords": "焼そば（蒸し麺）,卵,サラダ油（焼そば用）,サラダ油（卵用）,桜エビ,刻み葱,ごま油,★水,★中華スープ（顆粒）,★酒,★片栗粉,★醤油（香り付け程度）",
+    "recipeYield": "1人前",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "焼そば麺を600wの電子レンジで1分加熱する。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにサラダ油を引き中火で加熱して、焼そば麺の両面に焼き目を付ける。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22279527/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "このくらいで良いです。\n焼けたら、お皿に移します。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22279533/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "同じフライパンにサラダ油を引き、溶いた卵を8割程火を通したら焼そばの上にうつす。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22279545/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "更に同じフライパンにごま油を引き、桜エビ・刻み葱を香りが出るまで炒める。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22279547/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "香りが出たら★の材料をフライパンに入れて、とろみが付くまで煮る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "出来上がった餡を、卵の上に掛けたら出来上がり。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22279553/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "中からこんな感じで出て来ます！！",
+        "image": "https://img-global-jp.cpcdn.com/steps/22279585/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "焼そば（蒸し麺） 1玉",
+      "卵 2個",
+      "サラダ油（焼そば用） 大さじ1",
+      "サラダ油（卵用） 大さじ1",
+      "桜エビ 大さじ2",
+      "刻み葱 大さじ2",
+      "ごま油 大さじ1",
+      "★水 200cc",
+      "★中華スープ（顆粒） 小さじ1",
+      "★酒 大さじ1",
+      "★片栗粉 小さじ1",
+      "★醤油（香り付け程度） 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "おみつさん２",
+      "url": "https://cookpad.com/jp/users/40051630"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 88
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "猫緑月",
+          "url": "https://cookpad.com/jp/users/102074919"
+        },
+        "datePublished": "2025-07-18",
+        "text": "海老が香ばしい、餡掛け焼きそば美味しく出来ました。＾＾"
+      }
+    ],
+    "commentCount": 1
+  },
+  "timestamp": "2025-08-08T19:47:23.612Z"
+}

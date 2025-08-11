@@ -1,0 +1,33 @@
+{
+  "name": "@recipe-browser/recipe-core-ts",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:extension": "esbuild extension/src/content.tsx extension/src/background.ts --bundle --format=esm --outdir=extension/dist --sourcemap",
+    "build:mobile": "esbuild extension/src/content-mobile.tsx --bundle --format=esm --outfile=../../assets/recipe-mobile/content-mobile.js --sourcemap",
+    "watch:extension": "esbuild extension/src/content.tsx extension/src/background.ts --bundle --format=esm --outdir=extension/dist --sourcemap --watch",
+    "clean": "rm -rf dist extension/dist",
+    "clean:extension": "rm -rf extension/dist",
+    "clean:mobile": "rm -f ../../assets/recipe-mobile/content-mobile.js ../../assets/recipe-mobile/content-mobile.js.map",
+    "test": "uvu -r esbuild-register tests",
+    "fetch-recipes": "tsx scripts/fetch-cookpad-recipes.ts",
+    "fetch-all-categories": "tsx scripts/fetch-all-categories.ts",
+    "check-jsonld-recipe": "tsx scripts/check-jsonld-recipe.ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "esbuild": "^0.21.5",
+    "esbuild-register": "^3.5.0",
+    "puppeteer": "^24.16.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.5.4",
+    "uvu": "^0.5.6"
+  },
+  "dependencies": {
+    "preact": "^10.22.0"
+  }
+}

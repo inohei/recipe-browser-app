@@ -1,0 +1,94 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19455153",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "じゃがいもとカボチャ、2種類のニョッキ！",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4509226/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19455153",
+    "description": "簡単で美味しい手作りパスタ！冷凍もできるので、たくさん作って保存もおススメ！どんなソースにも合うのでおもてなしにも！",
+    "datePublished": "2017-05-06",
+    "dateModified": "2017-05-08",
+    "keywords": "じゃがいも,強力粉,薄力粉,塩,かぼちゃ,強力粉,薄力粉,塩",
+    "recipeYield": "出来上がり各300g",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "じゃがいもは皮をむいて一口大に。\nかぼちゃは種を取り除いて皮を軽くむき一口大に。\n耐熱容器に入れて柔らかくします。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22370374/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "よく潰したら、粉と塩を加えて一つにまとまるくらいまで練ります。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22370375/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "食べやすい大きさに切り、お好みの形に丸めます。\nフォーク等で溝をつけます。(ソースが絡まりやすいように)",
+        "image": "https://img-global-jp.cpcdn.com/steps/22370376/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "茹でるまで時間がある場合や、冷凍する場合は少し打ち粉をしておきます。\nかぼちゃとじゃがいもで形を変えてみました！",
+        "image": "https://img-global-jp.cpcdn.com/steps/22370377/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "たっぷりのお湯で浮いてくるまで茹でます。\n水気を切り、ソースと絡めて出来上がりです！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "色々ソース！\nバジル(ID:19381538)\nクリーム(ID:18870924)\nブロッコリー(ID:19198100)"
+      }
+    ],
+    "recipeIngredient": [
+      "じゃがいも 360g",
+      "強力粉 20g",
+      "薄力粉 100g",
+      "塩 小1",
+      "かぼちゃ 270g",
+      "強力粉 40g",
+      "薄力粉 50g",
+      "塩 小1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "sa10ri工房",
+      "url": "https://cookpad.com/jp/users/40198798"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 136
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♡sayulily♡",
+          "url": "https://cookpad.com/jp/users/40137586"
+        },
+        "datePublished": "2018-06-02",
+        "text": "おもてなしで大好評☆トマトソース添えで。味のバランスが良く美味♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "えいともmama",
+          "url": "https://cookpad.com/jp/users/40286894"
+        },
+        "datePublished": "2017-10-14",
+        "text": "ミートソース絡めました！カボチャが苦手な息子も食べてくれました～"
+      }
+    ],
+    "commentCount": 4
+  },
+  "timestamp": "2025-08-08T19:46:30.991Z"
+}

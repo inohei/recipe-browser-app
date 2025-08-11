@@ -1,0 +1,127 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19643346",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "超ラクチン！新玉ねぎの丸ごとレンジ蒸し",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2485917/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19643346",
+    "description": "ついに殿堂入り！？皆様に感謝です♡ バター醤油がとってもおいしい！ 血液さらさらパワー♬ 何個でもいけちゃいますよ！",
+    "datePublished": "2014-02-02",
+    "dateModified": "2020-01-14",
+    "keywords": "新玉ねぎ,バター,醤油,粉末パセリ",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "新玉ねぎは皮を剥いて、上と下を切っておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "下の部分を上にし、米印の切り込みを入れて、バター１０グラムをのせる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ふんわりとラップをして、500Wでレンジで５分。トロトロがお好みの方は様子を見ながら７分位までOK。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ラップをはずし、ひっくり返してお醤油を適量まわしかけ、粉末パセリを散らせば出来上がり。"
+      }
+    ],
+    "recipeIngredient": [
+      "新玉ねぎ 中２個",
+      "バター ２０グラムくらい",
+      "醤油 適量",
+      "粉末パセリ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "リバコマチ",
+      "url": "https://cookpad.com/jp/users/40092849"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 219942
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 13
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "キャラメリぃ",
+          "url": "https://cookpad.com/jp/users/40087587"
+        },
+        "datePublished": "2025-06-15",
+        "text": "甘くてとてもおいしくできました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "トコタン",
+          "url": "https://cookpad.com/jp/users/40155489"
+        },
+        "datePublished": "2025-06-10",
+        "text": "生?!パセリ(*´艸`)たんまり乗せました♡美味しいです。前回、似た様な物やってみました。個人的にコレが好み♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "バウチャン",
+          "url": "https://cookpad.com/jp/users/40023790"
+        },
+        "datePublished": "2025-06-06",
+        "text": "パセリのかわりに青ネギ💕甘くなるもんですね、レンチンで簡単、ごちそうさまでした♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ささんちょ",
+          "url": "https://cookpad.com/jp/users/40261254"
+        },
+        "datePublished": "2025-06-02",
+        "text": "お肉も加えて。シンプルな味でした♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "amaranthus",
+          "url": "https://cookpad.com/jp/users/40432987"
+        },
+        "datePublished": "2025-05-30",
+        "text": "パセリがなかったのでカツオブシで代用！めっちゃ簡単なのに本格的で美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "なめこおろし",
+          "url": "https://cookpad.com/jp/users/40377501"
+        },
+        "datePublished": "2025-05-14",
+        "text": "新玉ねぎルーティンレシピ❗シンプルで簡単で甘みもあってトロトロで✨即完食です😋"
+      }
+    ],
+    "commentCount": 4105
+  },
+  "timestamp": "2025-08-08T19:43:01.708Z"
+}

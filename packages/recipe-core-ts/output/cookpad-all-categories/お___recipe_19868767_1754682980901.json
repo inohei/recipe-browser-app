@@ -1,0 +1,64 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19868767",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "お弁当に便利！プチプチ卵焼き",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4490461/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19868767",
+    "description": "味付け簡単！いつもの卵焼きにひと工夫♪",
+    "datePublished": "2017-04-25",
+    "dateModified": "2022-04-14",
+    "keywords": "丸美屋「ごましお」,卵,（お好みで）スライスチーズ",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ボウルに「ごましお」を入れ、卵を割り入れて溶きほぐします。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22291387/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "よく熱したフライパンに油を適量入れ、1を焼きます。"
+      }
+    ],
+    "recipeIngredient": [
+      "丸美屋「ごましお」 小さじ2",
+      "卵 2個",
+      "（お好みで）スライスチーズ 1枚"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "丸美屋",
+      "url": "https://cookpad.com/jp/users/40111095"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 141
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 1
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "涼ママらぐまん",
+          "url": "https://cookpad.com/jp/users/40083461"
+        },
+        "datePublished": "2022-01-31",
+        "text": "この手があったかと、目から鱗のレシピでした。"
+      }
+    ],
+    "commentCount": 1
+  },
+  "timestamp": "2025-08-08T19:56:20.901Z"
+}

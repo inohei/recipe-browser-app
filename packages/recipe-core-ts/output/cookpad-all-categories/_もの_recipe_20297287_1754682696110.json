@@ -1,0 +1,178 @@
+{
+  "url": "https://cookpad.com/jp/recipes/20297287",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "超簡単！だし醤油風味のたこ焼き～大阪～",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3722443/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/20297287",
+    "description": "話題入り感謝♡ 外はカリッ、中はトロ～ン♪大阪人好みのたこ焼きです！ 顆粒だしと昆布茶を使ってお手軽に作れます！",
+    "datePublished": "2016-03-08",
+    "dateModified": "2017-05-24",
+    "keywords": "☆小麦粉,☆だしの素,☆昆布茶,☆水,☆卵,☆薄口醤油,茹でだこ,青ネギ,天かす,サラダ油,ソース(お好みで),ポン酢(お好みで),マヨネーズ(お好みで),青のり(お好みで),刻みねぎ(お好みで),鰹節(お好みで)",
+    "recipeYield": "30個分位",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "小麦粉、だしの素、昆布茶をボールに入れて混ぜ合わせる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914133/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "水を少しずつ加えて混ぜる。(小麦粉がだまにならない様に水は少しずつ加えて下さい)",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914148/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "生地に卵を加えて混ぜ、最後に醤油を加える。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914155/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ダマが気になる場合や丁寧に作りたい場合は茶こし等を使って濾す。\n(気にならない場合は省略)",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914761/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "青ネギは洗って小口切りにする。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914159/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "刻んだねぎをザルとボールに入れ、水に浸けて洗い水気をきる。(水を2～3度替え、浸けた水が透明になるまで洗う)",
+        "image": "https://img-global-jp.cpcdn.com/steps/19393623/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "タコは食べやすいサイズに切る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914164/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "たこ焼き器をしっかりと熱し、油を塗る。(キッチンペーパーを割りばしに巻き付けた物を使えば塗りやすいです)",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914176/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "たこ焼き器に生地(直前によく混ぜる)を流し入れ、タコ、ねぎ、天かすを入れる。(お好みで紅生姜も入れて下さい)",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914198/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "表面が軽く焼けたら裏返し時々転がしながら火が通るまで焼く。(最初は生地の中身が柔らかいうちに裏返して下さい)",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914227/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "器に盛り付けてソース、青のり等お好みでトッピングして下さい。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18914394/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2016/03/18\n「だし醤油」の人気検索でトップ10入りしました。沢山の検索有難うございます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/19162472/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "☆小麦粉 130g",
+      "☆だしの素 10g(小2)",
+      "☆昆布茶 5g(小1)",
+      "☆水 500cc(2.5カップ)",
+      "☆卵 1個",
+      "☆薄口醤油 3g(小1/2)",
+      "茹でだこ 100g位",
+      "青ネギ 1/2束",
+      "天かす 適量",
+      "サラダ油 適量",
+      "ソース(お好みで) 適量",
+      "ポン酢(お好みで) 適量",
+      "マヨネーズ(お好みで) 適量",
+      "青のり(お好みで) 適量",
+      "刻みねぎ(お好みで) 適量",
+      "鰹節(お好みで) 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "じゅびにゃん",
+      "url": "https://cookpad.com/jp/users/40088658"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 3540
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "だい☆あお☆まり",
+          "url": "https://cookpad.com/jp/users/40877148"
+        },
+        "datePublished": "2023-08-13",
+        "text": "お家夏祭り開催(^з^)-☆本当においしいたこ焼きでした！！お出汁が効いてすごく好みです♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ルパンのかあさん☆彡",
+          "url": "https://cookpad.com/jp/users/40299526"
+        },
+        "datePublished": "2022-06-20",
+        "text": "父の日は珍しく夕食に家族が揃ったのでリクエストのタコパ✨　まるで銀だこみたいで毎回大好評🥰　キムチやチーズ入りも美味しいですよ"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "tomitomico",
+          "url": "https://cookpad.com/jp/users/40142420"
+        },
+        "datePublished": "2022-02-23",
+        "text": "たこ焼きがお腹いっぱい食べたくて祝日のランチに♡♡♡リピ！家族みんなでワイワイ楽しくタコパー出来ました🐙キャベツと紅生姜もin♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックYrie☆",
+          "url": "https://cookpad.com/jp/users/41181970"
+        },
+        "datePublished": "2022-02-06",
+        "text": "味がしっかりついているので何もかけなくても美味しかったです！また作ります♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♡てるてる♡",
+          "url": "https://cookpad.com/jp/users/40136269"
+        },
+        "datePublished": "2021-10-07",
+        "text": "熱々フーフー、出来たてを頂くのは最高☆ソース付けなくてもそのままで美味しいですね！ご馳走様でした(^^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Sac’HiNa",
+          "url": "https://cookpad.com/jp/users/40104355"
+        },
+        "datePublished": "2021-08-27",
+        "text": "とても美味しかったです☆"
+      }
+    ],
+    "commentCount": 141
+  },
+  "timestamp": "2025-08-08T19:51:36.110Z"
+}

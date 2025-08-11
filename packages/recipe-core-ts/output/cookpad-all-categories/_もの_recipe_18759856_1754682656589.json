@@ -1,0 +1,60 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18759856",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "冬サム　参鶏湯風鍋",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4302214/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18759856",
+    "description": "暑気払いの参鶏湯を冬野菜たっぷりのお鍋に。丸鶏でなく手軽に手羽元で、節約食材＆簡単で体の芯から温まる優しいお鍋です。",
+    "datePublished": "2017-01-25",
+    "dateModified": "2017-02-04",
+    "keywords": "鶏手羽元,もち米,○大根（２～３ｃｍ厚さの輪切りか半月切り）　,○人参（１ｃｍ厚さの輪切り）,○里芋（皮を剥いて丸ごとか半切に）,○干し椎茸（戻していしづきを取る）,○鷹の爪,○酒,○にんにく（スライス）,○生姜（スライス）,□白葱（斜め切り）,□白菜（ざく切り）,□えのき茸（いしづきを取ってほぐす）,□豆腐（一口大）,□金柑（たまたまあったから入れただけ、無くてもOK),塩",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "土鍋に洗ったもち米と水を八分目くらい入れて30分以上おきます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "１に鶏、○、白葱の青いところを入れて火にかけ、柔らかくなるまで煮ます。\n我が家では前日にストーブの上で放りっぱなしです。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "１にお好みで塩を入れて調味し、食卓で□を煮ながら頂きます。\n各自お好みでキムチを添えたり、醤油等加えたりして頂きます。"
+      }
+    ],
+    "recipeIngredient": [
+      "鶏手羽元 8本",
+      "もち米 1/2合",
+      "○大根（２～３ｃｍ厚さの輪切りか半月切り）　 １５０ｇ",
+      "○人参（１ｃｍ厚さの輪切り） １００ｇ",
+      "○里芋（皮を剥いて丸ごとか半切に） 8個",
+      "○干し椎茸（戻していしづきを取る） 4枚",
+      "○鷹の爪 1本",
+      "○酒 1カップ",
+      "○にんにく（スライス） 1片",
+      "○生姜（スライス） ２０ｇ",
+      "□白葱（斜め切り） 2本",
+      "□白菜（ざく切り） 6枚",
+      "□えのき茸（いしづきを取ってほぐす） 半パック",
+      "□豆腐（一口大） ２００ｇ",
+      "□金柑（たまたまあったから入れただけ、無くてもOK) 6個",
+      "塩 適当に"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "cookirin",
+      "url": "https://cookpad.com/jp/users/40090813"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 53
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:50:56.589Z"
+}

@@ -1,0 +1,70 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19124988",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "オーブンでパンプキンコロッケ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2384377/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19124988",
+    "description": "オーブンでヘルシーに！いっぺんに沢山出来ますよ。Hallowe'enパーティーにも",
+    "datePublished": "2013-10-23",
+    "dateModified": "2013-10-26",
+    "keywords": "マッシュカボチャ,豚挽肉,玉ねぎ,ナツメッグ,オールスパイス,パン粉,塩、胡椒,パンプキンシード",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "パン粉をフライパンで乾煎りし、八割程度きつね色にする。玉ねぎはみじん切りにしておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンで玉ねぎ、挽肉を炒めてスパイスと塩、胡椒を加えマシュパンプキンを混ぜ火を止め冷ましておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "オーブンを180℃に温めておく。\n2が冷めたら、適当な大きさに丸め1のパン粉を付け最後にパンプキンシードを刺す。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "3をオーブンシートを敷いたところへ、並べ15分焼く。"
+      }
+    ],
+    "recipeIngredient": [
+      "マッシュカボチャ 350g",
+      "豚挽肉 100g",
+      "玉ねぎ 1個",
+      "ナツメッグ 少々",
+      "オールスパイス 少々",
+      "パン粉 適量",
+      "塩、胡椒 少々",
+      "パンプキンシード 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ワタミチ",
+      "url": "https://cookpad.com/jp/users/40044078"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 205
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック85LT3Z☆",
+          "url": "https://cookpad.com/jp/users/40546984"
+        },
+        "datePublished": "2015-01-23",
+        "text": "かぼちゃの甘みがいい感じでした。オーブンのコロッケいいですね！"
+      }
+    ],
+    "commentCount": 2
+  },
+  "timestamp": "2025-08-08T19:54:59.951Z"
+}

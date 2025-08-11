@@ -1,0 +1,155 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18934486",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "甘い卵焼き簡単レシピ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1825605/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18934486",
+    "description": "母に伝授された甘い卵焼き。 ★7/9/13, 6/16/15話題入り★ ☆7/23/13 甘い卵焼きの人気検索で 1位☆",
+    "datePublished": "2012-05-23",
+    "dateModified": "2015-09-17",
+    "keywords": "卵,しょうゆ,砂糖,塩",
+    "recipeYield": "卵焼き用ﾌﾗｲﾊﾟﾝ一回分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "テフロンの卵焼き用フライパンで作る場合のやり方です。",
+        "image": "https://img-global-jp.cpcdn.com/steps/9530201/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵を器に割り入れ、調味料を全て入れてよく混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンに油を熱し、卵液を薄く流し入れ、すぐに菜箸でさっとかき混ぜる。大体３回に分けて入れるつもりで１回の量を調整。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "半熟になったら菜箸で巻いていく。難しかったらフライ返しでも。私はフライパンを縦長に置いてやりやすい方向に巻いてます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/9530204/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "巻き終わったらフライパンの空いた部分に再び卵液を薄く入れ、",
+        "image": "https://img-global-jp.cpcdn.com/steps/9530239/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "巻いた卵と新しく入れた卵液との境界を少し箸で持ち上げ、巻いた卵の下に卵液が少し入るようにする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "半熟になったら巻き卵のほうから巻いていく。やりやすい方向にフライパンの向きを変えるとラク♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/9530264/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "もう一度、５～７を繰り返して出来上がり。あとは乾いたキレイなまな板の上で切り分けて召し上がれ♪"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※焼きすぎると卵どうしがうまくくっつかないので、半熟の状態で巻き始めるのがコツ！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "9/17/2015 追加\n※巻き始めが多少くずれても気にせず、整えながら最後まで巻くとキレイに形がつきます＾＾"
+      }
+    ],
+    "recipeIngredient": [
+      "卵 ３個",
+      "しょうゆ 少々",
+      "砂糖 大スプーン１杯くらい",
+      "塩 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "hanamayl",
+      "url": "https://cookpad.com/jp/users/40051031"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 22909
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 13
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "三坂聡美",
+          "url": "https://cookpad.com/jp/users/111367416"
+        },
+        "datePublished": "2025-07-28",
+        "text": "簡単でおいしかったです😋🍴💕"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ダリア☆",
+          "url": "https://cookpad.com/jp/users/41164740"
+        },
+        "datePublished": "2025-05-19",
+        "text": "冷めてもフワフワでした😊美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あっちゃんキッチン♪",
+          "url": "https://cookpad.com/jp/users/41150966"
+        },
+        "datePublished": "2025-04-22",
+        "text": "甘い卵焼き食べたくて作りました！美味しいです♡ご馳走さま♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "らてぼう",
+          "url": "https://cookpad.com/jp/users/40613994"
+        },
+        "datePublished": "2025-03-17",
+        "text": "卵焼きを食べない息子が美味しいと言って食べてくれました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "なーなちゃん",
+          "url": "https://cookpad.com/jp/users/40064059"
+        },
+        "datePublished": "2025-02-04",
+        "text": "リピです♫甘くてふんわりして美味しいです♡明日のお弁当にも入れます♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "西＊絵子",
+          "url": "https://cookpad.com/jp/users/40074023"
+        },
+        "datePublished": "2025-01-09",
+        "text": "程よい甘さが絶妙！甘い卵焼き好きです^_^綺麗な卵色もキープされて気分あがる出来になりました♪"
+      }
+    ],
+    "commentCount": 913
+  },
+  "timestamp": "2025-08-08T19:52:30.223Z"
+}

@@ -1,0 +1,148 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17511684",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "餃子の焼き方",
+    "image": "https://img-global-jp.cpcdn.com/recipes/520597/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17511684",
+    "description": "せっかく作った餃子。フライパンに皮がくっついちゃったら悲しくなりますよね。そんな時は、この焼き方を試してみてください♪",
+    "datePublished": "2008-03-01",
+    "dateModified": "2020-06-02",
+    "keywords": "餃子,サラダ油,ごま油,水",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "餃子を用意します。冷凍してあるものは解凍しなくてOK",
+        "image": "https://img-global-jp.cpcdn.com/steps/2472961/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ここで火をつけてはいけません。フライパンにサラダ油をひき餃子を並べ水を入れます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/2472962/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火をつけます。フライパンから火が飛び出さない程度の強火で！",
+        "image": "https://img-global-jp.cpcdn.com/steps/2472963/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火をつけたら蓋をして約3分。蒸し焼き状態にします。水分が少なくなってきたら蓋を開けて完全に水分を飛ばす。\r\n※水分が残っているとごま油を入れた時油がはねて危険です。",
+        "image": "https://img-global-jp.cpcdn.com/steps/2473027/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ごま油を回し入れ（私は目分量）約1分～１分半。焼き色をつけます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【重要】 \n\nごま油を回し入れたら必ず何度かフライ返し等で焼き色具合を確認してくださいね。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お皿に盛り付けて熱々のうちに召し上がれ♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/2473030/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "シャア専用料理長さんがアレンジレシピに引用してくださいました♪感激☆とっても美味しそうです！レシピ\nID：20361735",
+        "image": "https://img-global-jp.cpcdn.com/steps/14121237/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "餃子 フライパンに乗るだけ",
+      "サラダ油 大1",
+      "ごま油 大1",
+      "水 100ｃｃ"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "hiromimama",
+      "url": "https://cookpad.com/jp/users/40033625"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 18743
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 2
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "yama_miu",
+          "url": "https://cookpad.com/jp/users/40039850"
+        },
+        "datePublished": "2025-05-18",
+        "text": "Oisixの餃子を焼きました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みさきっちん♪",
+          "url": "https://cookpad.com/jp/users/40100516"
+        },
+        "datePublished": "2025-03-27",
+        "text": "リピです♬焼き餃子♪フライパンにくっつかずに焼けました！酢醤油ラー油で食べました♪ビールと共に♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "yama_miu",
+          "url": "https://cookpad.com/jp/users/40039850"
+        },
+        "datePublished": "2025-03-26",
+        "text": "皮がパリパリに焼けました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "yama_miu",
+          "url": "https://cookpad.com/jp/users/40039850"
+        },
+        "datePublished": "2025-03-25",
+        "text": "美味しそうに焼けました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ayu",
+          "url": "https://cookpad.com/jp/users/40243171"
+        },
+        "datePublished": "2025-03-15",
+        "text": "美味しく焼けました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Moggieneko",
+          "url": "https://cookpad.com/jp/users/40306192"
+        },
+        "datePublished": "2025-03-04",
+        "text": "いつも皮が破れるので、このレシピでと試してみました。フライパンが悪いのか、皮が悪いのか、少しくっついて破れたけどほぼ満足です。"
+      }
+    ],
+    "commentCount": 1827
+  },
+  "timestamp": "2025-08-08T19:43:31.584Z"
+}

@@ -1,0 +1,106 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18020959",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "＊イワシ団子のコロコロスープ＊",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2120686/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18020959",
+    "description": "カルシウムたっぷり♪イワシのすり身を使ったレシピだよヽ(´▽｀)/",
+    "datePublished": "2013-02-15",
+    "dateModified": "2013-02-15",
+    "keywords": "★イワシのすり身,★生姜(すりおろし),★ねぎ(みじん切り),★醤油,★片栗粉,人参(細切り),キャベツ（食べやすく切る）,小松菜（食べやすく切る）,えのき茸（食べやすく切る）,コンソメ(固形),オイスターソース,塩コショウ,●水,●酒",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "鍋に●を入れて煮立てたら良く混ぜた★をスプーンですくっておとす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "１に野菜を加え（小松菜は葉を残す）火をとおす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "２にコンソメとオイスターソースを加え、小松菜の葉を入れて塩コショウで味を調えたら出来上がり！"
+      }
+    ],
+    "recipeIngredient": [
+      "★イワシのすり身 １５０g",
+      "★生姜(すりおろし) 小さじ１",
+      "★ねぎ(みじん切り) 小１本",
+      "★醤油 大さじ１",
+      "★片栗粉 少量",
+      "人参(細切り) 40g",
+      "キャベツ（食べやすく切る） １枚",
+      "小松菜（食べやすく切る） １株",
+      "えのき茸（食べやすく切る） 40g",
+      "コンソメ(固形) ２個",
+      "オイスターソース 小さじ１",
+      "塩コショウ 適量",
+      "●水 ５カップ",
+      "●酒 大さじ１"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "happyspice",
+      "url": "https://cookpad.com/jp/users/40073116"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 601
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ainuinu",
+          "url": "https://cookpad.com/jp/users/40286888"
+        },
+        "datePublished": "2019-04-17",
+        "text": "冷凍のイワシ団子で♡子どもたちに魚を食べて欲しくて♪ご馳走様です"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ティムル",
+          "url": "https://cookpad.com/jp/users/40552302"
+        },
+        "datePublished": "2018-01-27",
+        "text": "残り物の野菜でアレンジ☆イワシ団子美味しいです(^ ^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックP3Z5B5☆",
+          "url": "https://cookpad.com/jp/users/40650370"
+        },
+        "datePublished": "2016-06-14",
+        "text": "コンソメベースなのにちょっと和風？おつゆが美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "アッキータン",
+          "url": "https://cookpad.com/jp/users/40075027"
+        },
+        "datePublished": "2015-01-09",
+        "text": "すりみのスープ初めて作りました！コンソメとよく合いますね☆"
+      }
+    ],
+    "commentCount": 8
+  },
+  "timestamp": "2025-08-08T19:55:09.531Z"
+}

@@ -1,0 +1,162 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17662995",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ほうれん草のベーコンバター炒め",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1042678/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17662995",
+    "description": "2015/3/28 つくれぽ１０００人！ 2012/5/30 つくれぽ１００人！ 説明無用の王道メニュー！",
+    "datePublished": "2010-02-16",
+    "dateModified": "2015-03-28",
+    "keywords": "ほうれん草,バター,にんにく,ベーコン,白ワイン（酒）,醤油,塩胡椒",
+    "recipeYield": "２人前",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "にんにくをみじん切りにして、ベーコンを２ｃｍ幅に切ります。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草を水で洗って、葉を大きめに３等分に切ります。",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252732/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "中火で中華鍋にバターを溶かしたらベーコンにんにくを炒めます。ほうれん草の茎から炒めていきます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252733/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "まだ中火でほうれん草の真ん中を入れて炒めます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252734/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "強火にしてワイン（酒）を入れて、自分も気合を入れます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252735/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草の葉の部分を入れてさっと炒めます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252778/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋肌から醤油を落として塩胡椒して軽く煽ったら完成！",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252777/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "一人で食べると確実に太りますのでご注意を！",
+        "image": "https://img-global-jp.cpcdn.com/steps/5252789/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2010/3/11\r\n「ほうれん草」のカテゴリに推薦レシピ登録されました！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2012/2/24 「バター炒め」の人気検索で1位になりました。1位／９２９０レシピです！",
+        "image": "https://img-global-jp.cpcdn.com/steps/8930306/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "ほうれん草 １袋",
+      "バター 大１",
+      "にんにく １かけ",
+      "ベーコン ３枚",
+      "白ワイン（酒） 大１",
+      "醤油 小１",
+      "塩胡椒 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ろっくる",
+      "url": "https://cookpad.com/jp/users/40046420"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 263046
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 16
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "新妻あや",
+          "url": "https://cookpad.com/jp/users/40039639"
+        },
+        "datePublished": "2025-05-27",
+        "text": "簡単で美味しかった(*^_^*)お弁当にも入れました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ともさと8888",
+          "url": "https://cookpad.com/jp/users/40035850"
+        },
+        "datePublished": "2025-05-17",
+        "text": "超美味しいので何度も作ってます♡今日は、残ってた、じゃがいもと、小松菜も一緒に入れて冷蔵庫の大掃除！美味しいです💕"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あー汰む",
+          "url": "https://cookpad.com/jp/users/41176522"
+        },
+        "datePublished": "2025-05-15",
+        "text": "妊娠しているのでお酒は無しで作りました。\n簡単に作れるし、美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Iris77☆彡☆彡",
+          "url": "https://cookpad.com/jp/users/40305184"
+        },
+        "datePublished": "2025-05-10",
+        "text": "ニンニクがいい感じです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "アオミドチ",
+          "url": "https://cookpad.com/jp/users/40675202"
+        },
+        "datePublished": "2025-05-01",
+        "text": "ほうれん草が安かったので作りました！美味しかったです。お弁当にも入れます♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "トラケ",
+          "url": "https://cookpad.com/jp/users/40669776"
+        },
+        "datePublished": "2025-04-30",
+        "text": "作りたかった料理でした。\nまた、作ります。"
+      }
+    ],
+    "commentCount": 7189
+  },
+  "timestamp": "2025-08-08T19:43:17.549Z"
+}

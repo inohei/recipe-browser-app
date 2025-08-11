@@ -1,0 +1,62 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18844394",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単！もちもち☆薩摩芋ライスコロッケ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4317261/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18844394",
+    "description": "さつまいもとご飯のコロッケ！",
+    "datePublished": "2017-01-28",
+    "dateModified": "2018-10-02",
+    "keywords": "さつまいも,ご飯,コンソメ,マヨネーズ,小麦粉卵パン粉",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "さつまいもの皮を剥いて輪切りにして水から5分ほど煮てマッシュする\nご飯調味料をよく混ぜる",
+        "image": "https://img-global-jp.cpcdn.com/steps/21536658/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "4等分して小麦粉、卵、パン粉を付けて170度の油で3分揚げて完成",
+        "image": "https://img-global-jp.cpcdn.com/steps/21536659/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "さつまいも 1本",
+      "ご飯 100g",
+      "コンソメ 小さじ1",
+      "マヨネーズ 小さじ1",
+      "小麦粉卵パン粉 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "だんどり亭",
+      "url": "https://cookpad.com/jp/users/40051364"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 52
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックW6AMHA☆",
+          "url": "https://cookpad.com/jp/users/41014433"
+        },
+        "datePublished": "2017-02-27",
+        "text": "美味しいっていってたべてくれました！またつくりたいとおもいます！"
+      }
+    ],
+    "commentCount": 2
+  },
+  "timestamp": "2025-08-08T19:50:12.381Z"
+}

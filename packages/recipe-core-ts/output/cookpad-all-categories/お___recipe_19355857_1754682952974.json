@@ -1,0 +1,110 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19355857",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単節約時短☆豆苗としめじのさっと炒め☆",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4499079/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19355857",
+    "description": "≪話題入り☆人気検索トップ10入り≫5分で出来るスピードメニュー☆さっと炒めただけ☆とても優しい味☆お弁当の隙間にも☆",
+    "datePublished": "2017-05-03",
+    "dateModified": "2017-12-19",
+    "keywords": "豆苗,しめじ,●酒,●みりん,●塩",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "豆苗は半分に切り、しめじも用意。フライパンに油を少し入れ、しめじから炒めたら豆苗と●の調味料を入れ少し炒めて完成☆"
+      }
+    ],
+    "recipeIngredient": [
+      "豆苗 1袋",
+      "しめじ 1/3",
+      "●酒 大さじ1/2",
+      "●みりん 大さじ1/2",
+      "●塩 小さじ1/3"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "kimisunsun",
+      "url": "https://cookpad.com/jp/users/40133517"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1604
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かんなラブ",
+          "url": "https://cookpad.com/jp/users/40186665"
+        },
+        "datePublished": "2025-06-11",
+        "text": "お弁当のおかずにしました。簡単に作れて、美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ポニーリボン",
+          "url": "https://cookpad.com/jp/users/40193397"
+        },
+        "datePublished": "2020-01-28",
+        "text": "蒲鉾入り♪あっさりで美味しかったです☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "アルカママ",
+          "url": "https://cookpad.com/jp/users/40070687"
+        },
+        "datePublished": "2020-01-10",
+        "text": "簡単で美味しかったです！あと一品に最適ですね。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "komutatata",
+          "url": "https://cookpad.com/jp/users/40044730"
+        },
+        "datePublished": "2019-12-04",
+        "text": "さっと炒めて簡単に出来ました☆ごち様～(*^▽^*)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ちづりんも",
+          "url": "https://cookpad.com/jp/users/40570389"
+        },
+        "datePublished": "2018-08-06",
+        "text": "優しいお味でモリモリ食べられます(o^^o)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ＭＯＫＯＳＮＯＷ",
+          "url": "https://cookpad.com/jp/users/40069832"
+        },
+        "datePublished": "2018-06-05",
+        "text": "朝食の一品です。シンプルな味付けで栄養もあっていいですね！"
+      }
+    ],
+    "commentCount": 36
+  },
+  "timestamp": "2025-08-08T19:55:52.974Z"
+}

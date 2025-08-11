@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Recipe Sidebar",
+  "version": "0.1.0",
+  "description": "JSON-LD Recipe を検出してサイドバーに表示し、人数に応じて分量をスケーリングします。",
+  "permissions": ["storage", "sidePanel"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Recipe Sidebar"
+  },
+  "background": {
+    "service_worker": "dist/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}

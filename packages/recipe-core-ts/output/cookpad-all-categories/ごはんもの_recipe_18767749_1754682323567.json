@@ -1,0 +1,125 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18767749",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単☆トマト缶でトマトリゾット",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3362144/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18767749",
+    "description": "レシピ本に掲載されました☆ 簡単なのに美味しいリゾット。 たくさんのつくレポありがとうございます^ ^",
+    "datePublished": "2015-08-24",
+    "dateModified": "2022-06-01",
+    "keywords": "ご飯,玉ねぎ,バター,※トマト缶,※ツナ缶（油のもの）,※コンソメ,※水,塩コショウ,とろけるチーズ,パセリ",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎをみじん切りにする。\n\n熱したフライパンにバターを入れ玉ねぎを炒める。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①に※の材料とご飯を入れて水っぽさがなくなるまで、強めの弱火でしばらく煮込む。\n\nツナ缶は油ごと入れて下さい。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "塩コショウで味を整え、火を消し、とろけるチーズを加えて混ぜる。\n皿に盛り、パセリを散らして出来上がり！",
+        "image": "https://img-global-jp.cpcdn.com/steps/17301115/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "ご飯 お茶碗軽く２杯",
+      "玉ねぎ 1/4玉",
+      "バター 大1/2",
+      "※トマト缶 1/2缶",
+      "※ツナ缶（油のもの） 1/2缶",
+      "※コンソメ 1個",
+      "※水 120cc",
+      "塩コショウ 適量",
+      "とろけるチーズ ひとつかみ程度",
+      "パセリ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ぶーちゃん☆ママ",
+      "url": "https://cookpad.com/jp/users/40075031"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 161047
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "もんぶらん＊",
+          "url": "https://cookpad.com/jp/users/40573082"
+        },
+        "datePublished": "2025-08-01",
+        "text": "サバの水煮缶にコーン入り🌽チーズは無しにしてみました🐟とても簡単で美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Cooking Angel",
+          "url": "https://cookpad.com/jp/users/111302705"
+        },
+        "datePublished": "2025-07-27",
+        "text": "美味しかったです！次はマッシュルームとかも入れてみたい🍄‍🟫"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Lumiga",
+          "url": "https://cookpad.com/jp/users/40285951"
+        },
+        "datePublished": "2025-07-03",
+        "text": "冷凍シーフードも入れて♪美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "momナナ",
+          "url": "https://cookpad.com/jp/users/40387967"
+        },
+        "datePublished": "2025-05-29",
+        "text": "2025/05/28(水)晩ごはん🥢\nとても美味しく出来ました^_^レシピありがとうございます^_^また、リピ決定です♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みゅう",
+          "url": "https://cookpad.com/jp/users/40614076"
+        },
+        "datePublished": "2025-04-20",
+        "text": "とっても簡単で美味しくできました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックKIQBTF☆",
+          "url": "https://cookpad.com/jp/users/40383793"
+        },
+        "datePublished": "2025-04-17",
+        "text": "（覚書）子供用に。水300cc、コンソメ小さじ1、トマト缶100g、かぼちゃこぶし大くらいをくずし気味でチーズ少々"
+      }
+    ],
+    "commentCount": 2424
+  },
+  "timestamp": "2025-08-08T19:45:23.567Z"
+}

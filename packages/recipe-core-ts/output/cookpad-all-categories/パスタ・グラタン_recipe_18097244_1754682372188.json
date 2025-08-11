@@ -1,0 +1,131 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18097244",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "旦那喜ぶご飯3☆絶賛の喫茶店風ナポリタン",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4095625/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18097244",
+    "description": "お友達の家でご馳走になったナポがとっても美味しく！レシピを聞いて我が家用に少しアレンジしたもの。奥ゆきのある味わい♪",
+    "datePublished": "2016-10-03",
+    "dateModified": "2017-05-13",
+    "keywords": "パスタ,玉ねぎ,ピーマン,ソーセージ,ケチャップ,ウスターソース,コンソメキューブ,↑溶かす用お湯,砂糖",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎ、ピーマン、ソーセージを細かく切る。お好みですが私は薄切りにします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "■味付けを器に混ぜておきます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "パスタはゆで時間から1分減らした分数でざるにあげる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "1をフライパンでよく炒め、2を半分いれ混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "4に3のパスタを追加し、2の残りを入れてよく混ぜたらできあがり！"
+      }
+    ],
+    "recipeIngredient": [
+      "パスタ 2束",
+      "玉ねぎ 1/2",
+      "ピーマン 2個",
+      "ソーセージ 3本",
+      "ケチャップ 大さじ3",
+      "ウスターソース 大さじ2",
+      "コンソメキューブ 1個",
+      "↑溶かす用お湯 大さじ3",
+      "砂糖 小さじ1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "mai2com",
+      "url": "https://cookpad.com/jp/users/40075778"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1334
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックORJN6M☆",
+          "url": "https://cookpad.com/jp/users/95670481"
+        },
+        "datePublished": "2024-09-28",
+        "text": "ケチャップ味だけだと嫌なので、もう10年以上このレシピにお世話になってます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "sa_yUki☆",
+          "url": "https://cookpad.com/jp/users/41110543"
+        },
+        "datePublished": "2020-08-30",
+        "text": "簡単で美味しかったです。失敗なさそうです❗️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "meple☆",
+          "url": "https://cookpad.com/jp/users/40208627"
+        },
+        "datePublished": "2019-09-20",
+        "text": "外食予定の夫が急に帰宅した時にｗ♪時短で出来て喜んでもらえました"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ポテチはのり塩",
+          "url": "https://cookpad.com/jp/users/41017108"
+        },
+        "datePublished": "2019-06-04",
+        "text": "簡単に味が決まって良いですね。美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かよばぁ",
+          "url": "https://cookpad.com/jp/users/40631005"
+        },
+        "datePublished": "2019-04-16",
+        "text": "家族みんなで美味しく頂きました〜ありがとうございます♪(^｡^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "筋肉リズミカル",
+          "url": "https://cookpad.com/jp/users/40284955"
+        },
+        "datePublished": "2017-09-04",
+        "text": "ウインナーの代わりにベーコンで作りました。おいしかったです！"
+      }
+    ],
+    "commentCount": 41
+  },
+  "timestamp": "2025-08-08T19:46:12.188Z"
+}

@@ -1,0 +1,114 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19440278",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "イカと玉ねぎのバター醤油炒め",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4525914/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19440278",
+    "description": "玉ねぎの甘みとイカにバター醤油が合います。 ご飯のお供に",
+    "datePublished": "2017-05-16",
+    "dateModified": "2017-05-16",
+    "keywords": "スルメイカ(ワタヌキ),新玉ねぎ,醤油,バター,オリーブオイル",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "イカは1センチ幅に切る。玉ねぎも同じくらいに切る"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンに、オリーブオイルをいれ玉ねぎ、イカと炒め醤油とバターで味付けする"
+      }
+    ],
+    "recipeIngredient": [
+      "スルメイカ(ワタヌキ) 2はい",
+      "新玉ねぎ 1/2個",
+      "醤油 大さじ1",
+      "バター 大さじ1",
+      "オリーブオイル 小さじ1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ＪＫ☆クック",
+      "url": "https://cookpad.com/jp/users/40062687"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 843
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "第六次成長期",
+          "url": "https://cookpad.com/jp/users/41160535"
+        },
+        "datePublished": "2021-06-12",
+        "text": "簡単においしくできました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぱわにん",
+          "url": "https://cookpad.com/jp/users/40300598"
+        },
+        "datePublished": "2021-06-01",
+        "text": "小さめのヤリイカで作りました。美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ノビル",
+          "url": "https://cookpad.com/jp/users/40572450"
+        },
+        "datePublished": "2021-05-29",
+        "text": "とても美味しく頂きました♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ayuha21",
+          "url": "https://cookpad.com/jp/users/40126113"
+        },
+        "datePublished": "2020-11-01",
+        "text": "大人のおつまみ用に。さっとできて美味でした"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "★kiki★",
+          "url": "https://cookpad.com/jp/users/40623267"
+        },
+        "datePublished": "2019-06-22",
+        "text": "おつまみに作りました。美味しかったです♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ももたももた",
+          "url": "https://cookpad.com/jp/users/40947243"
+        },
+        "datePublished": "2019-06-13",
+        "text": "コーン足して♪つまみ食いして完食しそうになる位美味でした！★"
+      }
+    ],
+    "commentCount": 12
+  },
+  "timestamp": "2025-08-08T19:44:39.529Z"
+}

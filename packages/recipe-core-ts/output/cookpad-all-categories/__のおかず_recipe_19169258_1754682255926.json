@@ -1,0 +1,169 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19169258",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "手軽に♪さば缶詰で炊き込みご飯",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1419807/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19169258",
+    "description": "(2013.8.11✿100人話題入り)サバの栄養と旨味がギュッと詰まった缶詰で簡単に美味しい炊き込みご飯ができます！",
+    "datePublished": "2011-04-27",
+    "dateModified": "2013-08-30",
+    "keywords": "米,さばの水煮缶(190g),人参,生姜,醤油,酒,みりん",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "米は研いでザルにあげておく。人参と生姜は千切り。",
+        "image": "https://img-global-jp.cpcdn.com/steps/7351399/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "炊飯釜に米に調味料と缶汁すべてを加え、水を2合目盛りまで加え軽く混ぜる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/7351400/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "人参、サバの身、生姜をのせて普通炊飯スタート。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "炊き上がったらサバの身をほぐしながら全体を混ぜる。お好みで大葉や、みつ葉、刻み海苔をのせても♪"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "●お握りにしても食べ易くおススメ♪\n●多めに炊いて冷凍しておいてもOK",
+        "image": "https://img-global-jp.cpcdn.com/steps/7351402/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "●キノコ類や牛蒡、油揚げなど具アレンジはお好みで(具を増やす際は水加減を）\n鯖缶と生姜だけでも十分美味しいです♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "うさぎ君さんがお握りで♡お塩振るとさらに旨味アップとのことです♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/9686105/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "MUGU113 さんが味付け缶で作ってくれました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/10560239/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "とももグラタンさんが味噌煮缶で作ってくれました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/10560240/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "味噌煮缶：実際に作ってみた所、水煮と違い味噌煮缶は甘めの味付けになってるので少々甘い炊き込みご飯になるかもしれません。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "うさぎ君さんがサンマ蒲焼缶200ｇで作ってくれました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/11445286/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "arisa06 さんが鮭缶で作ってくれました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/11793442/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "米 2合",
+      "さばの水煮缶(190g) 1缶",
+      "人参 ４cmくらい",
+      "生姜 １かけ(10gくらい)",
+      "醤油 大さじ１",
+      "酒 大さじ１",
+      "みりん 大さじ１"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "unappa",
+      "url": "https://cookpad.com/jp/users/40097195"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 104663
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 2
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "レオミウ",
+          "url": "https://cookpad.com/jp/users/40268545"
+        },
+        "datePublished": "2025-07-29",
+        "text": "薄味で美味しかったです♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "sammie☆",
+          "url": "https://cookpad.com/jp/users/40120268"
+        },
+        "datePublished": "2025-06-07",
+        "text": "醤油大さじ2で作りました！流しそうめんのお供に。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆とらねこトラちゃん",
+          "url": "https://cookpad.com/jp/users/40129683"
+        },
+        "datePublished": "2025-05-23",
+        "text": "サバ缶で初めて炊き込みご飯を炊きました！　とても美味しいと大好評です(^^)　また作りますね☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "せとか。",
+          "url": "https://cookpad.com/jp/users/40229590"
+        },
+        "datePublished": "2025-05-21",
+        "text": "少し薄味になったので、生姜醤油をかけて食べました。生臭くなく美味しかったです！！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ともチップっぷー",
+          "url": "https://cookpad.com/jp/users/40671242"
+        },
+        "datePublished": "2025-05-19",
+        "text": "鯖缶、生臭くなるかなぁと思いましたが、全く生臭なく美味しかったです。子供も大絶賛でした。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "えびすかえら",
+          "url": "https://cookpad.com/jp/users/59492442"
+        },
+        "datePublished": "2025-05-18",
+        "text": "もう何回も作らせてもらってます。今日も美味しかったです✨レシピありがとうございました😊"
+      }
+    ],
+    "commentCount": 988
+  },
+  "timestamp": "2025-08-08T19:44:15.926Z"
+}

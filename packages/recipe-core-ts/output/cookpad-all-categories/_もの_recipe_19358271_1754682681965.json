@@ -1,0 +1,147 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19358271",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "☆初心者でもプロ級☆もちもちチヂミ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4496890/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19358271",
+    "description": "【カテゴリ・人気トップ10・話題入り】野菜と豚肉が入ってボリューミー＆栄養満点なチヂミ★タレも作って夕食の一品にどうぞ！",
+    "datePublished": "2017-04-29",
+    "dateModified": "2017-08-28",
+    "keywords": "にんじん,にら,玉ねぎ,豚バラ,●小麦粉（強力粉だとさらに良い）,●片栗粉,●砂糖,●塩,●だしの素,卵,水,お湯,ポン酢,ごま油,だしの素",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "人参、にら、玉ねぎ豚肉を1-2㎝幅にそれぞれ細切り、千切りする。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22318032/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "●の粉類、調味料類を一つの鍋に入れ、そこに卵と水で溶いた卵液を少しずつ加えて生地を作る。（ダマにならないよう気を付ける）",
+        "image": "https://img-global-jp.cpcdn.com/steps/22318033/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにごま油を引き、1の具材を2の生地に混ぜ合わせたものを中弱火で4分程焼く。焼き色が付いたら反対面も同様に焼く。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22318034/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "焼いている間にたれの材料を混ぜ合わせておく。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22322792/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "焼いたチヂミを切り分けて皿に盛って完成！たれと一緒に召し上がれ♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/22322794/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★小麦粉と片栗粉を使う唐揚げもおすすめです！\n\nレシピID:19476515",
+        "image": "https://img-global-jp.cpcdn.com/steps/22323950/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "にんじん 3㎝",
+      "にら 4本",
+      "玉ねぎ 1/4個",
+      "豚バラ 80g",
+      "●小麦粉（強力粉だとさらに良い） 70g",
+      "●片栗粉 30g",
+      "●砂糖 小さじ1",
+      "●塩 小さじ1/2",
+      "●だしの素 小さじ1",
+      "卵 1個",
+      "水 100ml",
+      "お湯 大さじ2",
+      "ポン酢 大さじ1",
+      "ごま油 小さじ1",
+      "だしの素 小さじ1/4"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "NoBPooh",
+      "url": "https://cookpad.com/jp/users/40155292"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 614
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "トゥードルズ♡",
+          "url": "https://cookpad.com/jp/users/40180005"
+        },
+        "datePublished": "2021-05-31",
+        "text": "2倍量で、野菜はレンチンしてからたっぷり入れました。ヘラで押し付けてカリカリに焼きました^ - ^かぼちゃ入り。美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "おかわりちょうだい♪",
+          "url": "https://cookpad.com/jp/users/40102625"
+        },
+        "datePublished": "2019-04-30",
+        "text": "専用の粉買わなくて良いですね！家にあるものでここまでできるとは！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ななみはママ",
+          "url": "https://cookpad.com/jp/users/40569699"
+        },
+        "datePublished": "2019-02-17",
+        "text": "美味しい！ニラが少なくて水菜追加。桜エビも入れて病みつきです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "sachi1210",
+          "url": "https://cookpad.com/jp/users/40550799"
+        },
+        "datePublished": "2019-02-13",
+        "text": "食べたくて、やっと作りました！だしの素をダシダにしました。リピ！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かな0574",
+          "url": "https://cookpad.com/jp/users/40386468"
+        },
+        "datePublished": "2019-02-06",
+        "text": "初チヂミ！材料あるものだけで作りましたが美味しくできました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "★みーちゃん♪",
+          "url": "https://cookpad.com/jp/users/40592605"
+        },
+        "datePublished": "2018-11-14",
+        "text": "何度もリピしてます！いつも家族に大好評です！"
+      }
+    ],
+    "commentCount": 53
+  },
+  "timestamp": "2025-08-08T19:51:21.965Z"
+}

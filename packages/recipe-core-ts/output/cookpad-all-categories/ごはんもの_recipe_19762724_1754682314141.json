@@ -1,0 +1,141 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19762724",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "風邪も吹き飛ぶ！美味しい卵粥❤️✨",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2501492/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19762724",
+    "description": "風邪、胃腸炎、二日酔い、ダイエット、便秘♪ 温かいおかゆ食べよ！ 話題入り&つくれぽ500突破&検索１位！ ありがとう☆",
+    "datePublished": "2014-02-12",
+    "dateModified": "2019-02-25",
+    "keywords": "ご飯,水,卵,○料理酒,○塩,○鶏がらスープの素",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ご飯と水を鍋に入れる"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "中火でグツグツと煮立たせる"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "煮立ったら、○の調味料を全て鍋に投入！\n火を弱めて何回か混ぜ回す！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵をといて、鍋に入れる。\nすぐにさっと混ぜて火を止める。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火を止めたら蓋をして五分ほど蒸らして完成！\nお好みで塩を少しふりかけてください！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ID:18080741のチリコンカンも体調が治ったら是非食べてね！とっても低カロリー♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ID 20146234 \nもち麦のお粥で楽々ダイエット！\n腹持ち最高低カロリー！こちらも是非！"
+      }
+    ],
+    "recipeIngredient": [
+      "ご飯 200g",
+      "水 400cc",
+      "卵 1個",
+      "○料理酒 小さじ1",
+      "○塩 お好みで！",
+      "○鶏がらスープの素 小さじ2"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "にこだっく",
+      "url": "https://cookpad.com/jp/users/40126638"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 39984
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 8
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックIB82OG☆",
+          "url": "https://cookpad.com/jp/users/40801346"
+        },
+        "datePublished": "2025-06-23",
+        "text": "ここ数日お腹の調子が悪い母に、三日連続で作りました。美味しいと言って喜んでくれました。次は調子悪くなくてもリクエスト来そうです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "mikankoーhr",
+          "url": "https://cookpad.com/jp/users/40912956"
+        },
+        "datePublished": "2025-05-06",
+        "text": "具合が悪く、二日間食べれなかった息子に作りました。\n優しい味で、何回もおかわりして\n美味しい！と。\nレシピに出会えて感謝です♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ｍｏｌｔｏ",
+          "url": "https://cookpad.com/jp/users/40341195"
+        },
+        "datePublished": "2025-04-21",
+        "text": "体調不良でお弁当にお粥を。ほうれん草のお浸しとお漬け物、昆布添えました。次は白だしで試してみます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "rrr0808",
+          "url": "https://cookpad.com/jp/users/40593675"
+        },
+        "datePublished": "2025-04-02",
+        "text": "いつもは家族の為に作っていましたが今日は胃腸炎になった自分に作りました　お腹にやさしい味です"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Malolonlon",
+          "url": "https://cookpad.com/jp/users/40357556"
+        },
+        "datePublished": "2025-03-06",
+        "text": "水分多めでスープのように食べることができとてもおいしかったです♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック73I571☆",
+          "url": "https://cookpad.com/jp/users/40639919"
+        },
+        "datePublished": "2025-02-22",
+        "text": "お粥嫌いの娘が美味しい！って食べてくれました。レシピ感謝です。"
+      }
+    ],
+    "commentCount": 1289
+  },
+  "timestamp": "2025-08-08T19:45:14.141Z"
+}

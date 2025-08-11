@@ -1,0 +1,138 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19204008",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "無限キャベツ★簡単混ぜるだけ♪大量消費",
+    "image": "https://img-global-jp.cpcdn.com/recipes/5340675/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19204008",
+    "description": "TOP掲載2019.4☆話題のレシピ2019.1感謝☆塩昆布とゴマが香りお箸が止まらない♪火を使わずすぐでき栄養そのまま",
+    "datePublished": "2018-11-17",
+    "dateModified": "2020-08-24",
+    "keywords": "キャベツ（小さめ１/２）,塩,●ツナ,●白いりごま,●ゴマ油,●塩昆布,（〇黒コショウ、にんにくペースト、輪切り唐辛子、塩レモンなど）",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "キャベツは食べやすい大きさにざく切りにする。\nまたは、手でちぎってもOK♪（春キャベツはちぎりがオススメ）",
+        "image": "https://img-global-jp.cpcdn.com/steps/25841757/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "キャベツを塩もみする。\nキャベツに塩をまぶして混ぜ、１０分程おく。しんなりしてきたら、ぎゅっと水分をしぼる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/25841758/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "キャベツと、●の材料を混ぜる。できあがり♪\n（〇の材料はお好みで）",
+        "image": "https://img-global-jp.cpcdn.com/steps/25841759/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ツナも作るとウマー\n\n簡単★自家製ツナ＠半端ない美味さ\n\nレシピID : 18540051",
+        "image": "https://img-global-jp.cpcdn.com/steps/25841760/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ゆず風味を足しても爽やかウマー♪\n\n塩ゆず★簡単万能ペースト☆香り最高\n\nレシピID : 19121939",
+        "image": "https://img-global-jp.cpcdn.com/steps/25842097/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お弁当用に、人参の細切りも一緒に入れてみました。春色になっていい感じでした♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/26551851/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "キャベツ（小さめ１/２） ３００ｇ",
+      "塩 小さじ１",
+      "●ツナ ７０～８０ｇ（１缶分）",
+      "●白いりごま 大さじ１",
+      "●ゴマ油 大さじ１",
+      "●塩昆布 適量（ひとつまみ）",
+      "（〇黒コショウ、にんにくペースト、輪切り唐辛子、塩レモンなど） お好みでプラスしてもOK"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "草カワセミ",
+      "url": "https://cookpad.com/jp/users/40143745"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 30053
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "keikotan✱",
+          "url": "https://cookpad.com/jp/users/41227681"
+        },
+        "datePublished": "2025-08-01",
+        "text": "簡単においしくできました❣😋\nキャベツを美味しく消費できるので、また作りたいです😊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "りょうりっこ☆",
+          "url": "https://cookpad.com/jp/users/40058162"
+        },
+        "datePublished": "2025-05-07",
+        "text": "冷凍庫の肥やしになってた春キャベツの救済レシピ✨美味し😋"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック3D63YZ☆",
+          "url": "https://cookpad.com/jp/users/40651423"
+        },
+        "datePublished": "2025-04-18",
+        "text": "美味しかった〜！簡単！箸が、止まりません！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "アクセル☆",
+          "url": "https://cookpad.com/jp/users/40182718"
+        },
+        "datePublished": "2025-04-09",
+        "text": "無限キャベツ★簡単混ぜるだけ♪大量消費☆  キャベツをもりもり食べれるレシピ♡  簡単美味しい副菜ですね♬*° ご馳走様です❊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♡みL1と♡",
+          "url": "https://cookpad.com/jp/users/40313608"
+        },
+        "datePublished": "2024-11-16",
+        "text": "あると思ｯてたけど塩昆布が無かｯて塩昆布無ですがこれは本当にやみつきになりそうです！！また絶対塩昆布有りで作りますｯ！！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かおり♡♡♡",
+          "url": "https://cookpad.com/jp/users/40392638"
+        },
+        "datePublished": "2024-10-01",
+        "text": "ヘルシー美味しかったです！"
+      }
+    ],
+    "commentCount": 499
+  },
+  "timestamp": "2025-08-08T19:58:46.109Z"
+}

@@ -1,0 +1,131 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19413541",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "液体塩こうじで♪梅と大根とささみのサラダ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4519211/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19413541",
+    "description": "液体塩こうじを使って、旨味たっぷり簡単さっぱりサラダ♪",
+    "datePublished": "2017-05-12",
+    "dateModified": "2024-04-12",
+    "keywords": "鶏ささみ,液体塩こうじ,大根,キュウリ,A.液体塩こうじ,A.酢,A.梅肉チューブ,A.ごま油",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ハナマルキの「液体塩こうじ」を使用します。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22412538/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①袋に筋を取ったささみと、液体塩こうじを入れ、よく揉みこみ冷蔵庫で30分程漬けこむ。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "②大根・きゅうりは薄切りにする。塩を少々ふり、10分ほど置き水分を絞る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "③耐熱皿に①を並べ、ラップをし600wの電子レンジで4～6分加熱する。ラップをしたまま冷まし、ほぐしておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "④ボウルに【B】を混ぜ合わせ、②③を加えて和える。"
+      }
+    ],
+    "recipeIngredient": [
+      "鶏ささみ ２本",
+      "液体塩こうじ 小さじ１",
+      "大根 ５～６㎝",
+      "キュウリ １本",
+      "A.液体塩こうじ 大さじ１",
+      "A.酢 小さじ１",
+      "A.梅肉チューブ 小さじ1～2",
+      "A.ごま油 小さじ１"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ハナマルキレシピ",
+      "url": "https://cookpad.com/jp/users/40075879"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 3507
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "コムギ大好き",
+          "url": "https://cookpad.com/jp/users/40312885"
+        },
+        "datePublished": "2024-11-01",
+        "text": "粒の入った塩麹使用。梅を叩いてみりんと合わせて使いました。ささみが本当に柔らかく味付けも旨味がありさっぱりと美味しいです♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "真観子さん",
+          "url": "https://cookpad.com/jp/users/40155392"
+        },
+        "datePublished": "2022-05-16",
+        "text": "きゅうりがなかったので入れなかったんですが塩麹がいい味出してました！！脂質制限しているので脂質も少ないメニューで助かりました✨"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆこPIN",
+          "url": "https://cookpad.com/jp/users/40241249"
+        },
+        "datePublished": "2021-04-07",
+        "text": "さっぱり美味しい♪無限に食べてしまいそうです。(っ´ω｀)っ"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆみらんたん",
+          "url": "https://cookpad.com/jp/users/40044645"
+        },
+        "datePublished": "2021-01-26",
+        "text": "胸肉使用^^;さっぱり美味しかったです(*´ω｀*)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆ・う・こ",
+          "url": "https://cookpad.com/jp/users/40901007"
+        },
+        "datePublished": "2019-05-05",
+        "text": "塩こうじの甘みがでてとても美味しかったですψ(´ڡ`♡)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックMB0955☆",
+          "url": "https://cookpad.com/jp/users/40319286"
+        },
+        "datePublished": "2019-01-31",
+        "text": "液体塩麹のお味が染みてとても美味しかったです( ᐢ˙꒳​˙ᐢ )"
+      }
+    ],
+    "commentCount": 15
+  },
+  "timestamp": "2025-08-08T19:48:55.079Z"
+}

@@ -1,0 +1,130 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17496846",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "炊飯器で★さつまいも☆簡単★大学芋",
+    "image": "https://img-global-jp.cpcdn.com/recipes/510214/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17496846",
+    "description": "今まで作るのをためらっていた大学芋。 友達から簡単レシピを教えてもらい、作ってみたら…食卓に並ぶ前に味見が止まらない‼",
+    "datePublished": "2008-02-16",
+    "dateModified": "2017-04-10",
+    "keywords": "サツマイモ,砂糖,水,醤油,黒ゴマ",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "サツマイモを洗って、乱切り（お好みの大きさでOK）にしたら、\r\n水に10分くらい浸しておく。",
+        "image": "https://img-global-jp.cpcdn.com/steps/2425562/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "水気を切ったサツマイモを炊飯器に入れて、砂糖をふりかけ釜を持ってこぼれないようにシェイク！",
+        "image": "https://img-global-jp.cpcdn.com/steps/2425563/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "｛２｝に水・醤油を入れて、軽くかき混ぜたら、炊飯器のスイッチをオン！",
+        "image": "https://img-global-jp.cpcdn.com/steps/2425564/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※さつまいもの種類によってはかなり水分の多いものもあるので、その際は水の分量を減らしてみて下さい。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "出来上がりの合図が鳴ったら、仕上げに黒ゴマを振るだけ！\r\nビックりだわv(^∀^*)",
+        "image": "https://img-global-jp.cpcdn.com/steps/2425572/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "サツマイモ 中３本位",
+      "砂糖 大さじ５",
+      "水 大さじ３～４",
+      "醤油 小さじ１強",
+      "黒ゴマ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "nyagomin",
+      "url": "https://cookpad.com/jp/users/40035268"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 13693
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "beagleのライラ",
+          "url": "https://cookpad.com/jp/users/41135016"
+        },
+        "datePublished": "2025-06-11",
+        "text": "太めの芋1本しかなく半量で作ったけど、今回の芋は水分を3分の2くらいで作ったら好みの感じになったかも。ホクホクで美味しかったよ。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック370T06☆",
+          "url": "https://cookpad.com/jp/users/40764246"
+        },
+        "datePublished": "2025-02-14",
+        "text": "何度も作らせていただいてます。本当に美味しいです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Syunpi",
+          "url": "https://cookpad.com/jp/users/40166445"
+        },
+        "datePublished": "2025-01-24",
+        "text": "お弁当用に小分けにして冷凍します！簡単に美味しくできました^ ^\nありがとうございます！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆☆のんたん☆",
+          "url": "https://cookpad.com/jp/users/41233353"
+        },
+        "datePublished": "2024-11-17",
+        "text": "ごま入れてないけどめっちゃ美味しい♡ヘルシーだし、もう大学いもは揚げません(笑)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Ｎよんよん",
+          "url": "https://cookpad.com/jp/users/41128267"
+        },
+        "datePublished": "2024-11-15",
+        "text": "揚げない大学芋。ヘルシーで手間無し。レシピに感謝。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "maaa•_•",
+          "url": "https://cookpad.com/jp/users/40411739"
+        },
+        "datePublished": "2024-11-08",
+        "text": "紅はるかで美味しすぎ…♡こんなに簡単に出来て最後蜜まで絡めて完成しちゃうなんて神レシピです♪"
+      }
+    ],
+    "commentCount": 1170
+  },
+  "timestamp": "2025-08-08T19:55:32.720Z"
+}

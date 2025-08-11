@@ -1,0 +1,142 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19395564",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "【龍愛】丼物のお供☆かきたま汁",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4455127/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19395564",
+    "description": "⏱5分内 2018/09/19話題入り♪ たまごふわふわかきたま汁。",
+    "datePublished": "2017-04-05",
+    "dateModified": "2021-12-31",
+    "keywords": "水,だしの素,醤油,塩,水溶き片栗粉（片栗粉＋水）,⬆又は⬇,すりおろしたじゃがいも,たまご,刻みネギ",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "鍋にお湯(又は水)を入れ火にかけ沸騰したら、だしの素、醤油、塩を入れる。\n※じゃがいも入れる場合はここで投入。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ボウル等に水溶き片栗粉、卵を入れかき混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①を素早くかき混ぜながら、②を回し入れ、火を止め蓋をして１分蒸す。　\n刻みネギを散らして完成。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※穴開きお玉で濾すより、沸騰した状態でグルグルかき混ぜた方がたまごがふわふわになるので、作り方変更しました。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お麩入り⇨",
+        "image": "https://img-global-jp.cpcdn.com/steps/22268711/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "たまごなし【お吸い物】\nレシピID：20541079",
+        "image": "https://img-global-jp.cpcdn.com/steps/22882992/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "水 800ml",
+      "だしの素 山盛り小匙1",
+      "醤油 小匙1",
+      "塩 小匙1",
+      "水溶き片栗粉（片栗粉＋水） 小匙1/2＋小匙1",
+      "⬆又は⬇ どちらでもok",
+      "すりおろしたじゃがいも 中‐1個分",
+      "たまご M‐2個",
+      "刻みネギ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "龍愛recipe★",
+      "url": "https://cookpad.com/jp/users/40131230"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 2031
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 1
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "こ〜くんコック",
+          "url": "https://cookpad.com/jp/users/41167218"
+        },
+        "datePublished": "2021-06-19",
+        "text": "豆腐を入れました。じゃがいも摺りのひと手間でグンと美味しく！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックKJ9D2Y☆",
+          "url": "https://cookpad.com/jp/users/41144231"
+        },
+        "datePublished": "2020-09-17",
+        "text": "簡単でも、味は抜群！じゃがいも摺り下ろしが良いかなと思います。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "やふやふ",
+          "url": "https://cookpad.com/jp/users/40530710"
+        },
+        "datePublished": "2020-02-06",
+        "text": "じゃがいもでのトロミ付け、片栗粉よりも美味しいです♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "1男4女のママ",
+          "url": "https://cookpad.com/jp/users/40239532"
+        },
+        "datePublished": "2019-07-17",
+        "text": "美味しかったです。ありがとうござます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ウマナミ",
+          "url": "https://cookpad.com/jp/users/40881777"
+        },
+        "datePublished": "2019-07-01",
+        "text": "余っていたじゃがいもの消費に。優しいお味でした！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆YMYU☆",
+          "url": "https://cookpad.com/jp/users/40557935"
+        },
+        "datePublished": "2019-05-20",
+        "text": "トロトロのふわふわで、とっても美味しかったです♡"
+      }
+    ],
+    "commentCount": 35
+  },
+  "timestamp": "2025-08-08T19:47:48.432Z"
+}

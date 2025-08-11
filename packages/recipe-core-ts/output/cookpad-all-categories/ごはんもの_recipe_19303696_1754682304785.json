@@ -1,0 +1,153 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19303696",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単♪普通のカレーライス☆隠し味は…",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3532039/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19303696",
+    "description": "市販のルーを使った基本のカレーライス。隠し味は、にんにく、しょうが、バターと砂糖！",
+    "datePublished": "2015-11-22",
+    "dateModified": "2016-09-28",
+    "keywords": "豚小間肉,じゃがいも,人参,玉ねぎ,サラダ油,にんにく(チューブ),しょうが(チューブ),カレールー,バター,砂糖,ごはん",
+    "recipeYield": "４人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "野菜は皮をむいて、玉ねぎはくし切り、人参は5mm厚さの半月～いちょう切り、じゃがいもは4～8等分に切る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18055692/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンに油とにんにくとしょうがのすりおろしを熱し、最初に豚肉を炒め、色が変わったら野菜を入れてさっと炒める。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18055693/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "水600ccを入れて沸騰したらスプーンであくを取る。水の量はカレールーのパッケージに従う。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18055694/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "蓋をして20分ほど人参が柔らかくなるまで煮る。オーブンペーパーの真ん中に穴を開けたもの等で落し蓋をすると煮崩れしない。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18055800/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ルーを入れ、とろみがつくまで混ぜながら煮る。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18055825/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "最後にバターと砂糖を入れ混ぜる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/18055830/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "器に盛ってできあがり。",
+        "image": "https://img-global-jp.cpcdn.com/steps/20561864/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "豚小間肉 250g",
+      "じゃがいも ２個",
+      "人参 1/2本",
+      "玉ねぎ ２個",
+      "サラダ油 適宜",
+      "にんにく(チューブ) 適宜",
+      "しょうが(チューブ) 適宜",
+      "カレールー ４皿分",
+      "バター 大さじ１",
+      "砂糖 小さじ１",
+      "ごはん ４人分"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "＜まっきー＞",
+      "url": "https://cookpad.com/jp/users/40100227"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 41197
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 20
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "41karacook",
+          "url": "https://cookpad.com/jp/users/41205376"
+        },
+        "datePublished": "2025-07-13",
+        "text": "子供たちがおかわりしてくれた👍"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "サンアイ",
+          "url": "https://cookpad.com/jp/users/41228465"
+        },
+        "datePublished": "2025-03-04",
+        "text": "簡単に作れて美味しかったです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♪3kindsママ♪",
+          "url": "https://cookpad.com/jp/users/40227055"
+        },
+        "datePublished": "2024-11-28",
+        "text": "好評でした😊コクが出て美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ルパンのかあさん☆彡",
+          "url": "https://cookpad.com/jp/users/40299526"
+        },
+        "datePublished": "2024-11-21",
+        "text": "いつものカレーが・・美味しくなってる‼️ 隠し味一つでこんなにまろやかでコクが出るなんてびっくりです😂"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "sanahey530",
+          "url": "https://cookpad.com/jp/users/41229758"
+        },
+        "datePublished": "2024-11-13",
+        "text": "関西なので､牛肉で作りました｡生姜とにんにくの隠し味いいですね。とてもおいしかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "なち時雨＠",
+          "url": "https://cookpad.com/jp/users/40178004"
+        },
+        "datePublished": "2024-11-11",
+        "text": "隠し味でコクのある美味しいカレーに仕上がりました。リピしています。♪"
+      }
+    ],
+    "commentCount": 828
+  },
+  "timestamp": "2025-08-08T19:45:04.785Z"
+}

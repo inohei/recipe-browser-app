@@ -1,0 +1,127 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19083911",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ニラと納豆のサクねばスタミナチヂミ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4403374/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19083911",
+    "description": "混ぜて焼くだけの簡単チヂミです♪マヨネーズと炭酸水でサクサクに、ニラと納豆でスタミナをつけましょう。",
+    "datePublished": "2017-03-09",
+    "dateModified": "2017-03-13",
+    "keywords": "ニラ,納豆,小麦粉,片栗粉,マヨネーズ,炭酸水,鶏ガラスープの素,塩昆布,ごま油",
+    "recipeYield": "２枚分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ニラをザク切りに。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ボウルにごま油以外の全ての材料を入れよく混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにごま油をひき、2を半分流し込み均等な暑さになるように広げる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "両面焦げ目がつくまで中強火でカリっと焼いたらお好みの大きさに切ってタレをつけてどうぞ。\nもう一枚も同じように。"
+      }
+    ],
+    "recipeIngredient": [
+      "ニラ 1/2袋",
+      "納豆 1パック",
+      "小麦粉 大さじ4",
+      "片栗粉 大さじ2",
+      "マヨネーズ 大さじ2",
+      "炭酸水 100cc",
+      "鶏ガラスープの素 小さじ1",
+      "塩昆布 大さじ1",
+      "ごま油 大さじ2"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "MatsCafe",
+      "url": "https://cookpad.com/jp/users/40070101"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 741
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "dada_kana★",
+          "url": "https://cookpad.com/jp/users/40803884"
+        },
+        "datePublished": "2021-07-21",
+        "text": "ニラと納豆のチヂミお初でしたが、美味しかったです。チーズも追加で。4歳と2歳の子供もパクパク食べました！夏にいいですね♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックN3XI88☆",
+          "url": "https://cookpad.com/jp/users/41116187"
+        },
+        "datePublished": "2020-07-18",
+        "text": "安定の美味しさです！ありがとうございます！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みや☆じゅん",
+          "url": "https://cookpad.com/jp/users/40296528"
+        },
+        "datePublished": "2020-07-11",
+        "text": "簡単！おいしくできました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ピチョパン屋さん",
+          "url": "https://cookpad.com/jp/users/40158038"
+        },
+        "datePublished": "2020-07-01",
+        "text": "美味しい～キムチ入れて！こんぶなかったでも美味しい！リピします"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックN3XI88☆",
+          "url": "https://cookpad.com/jp/users/41116187"
+        },
+        "datePublished": "2020-06-17",
+        "text": "すぐさまリピートしてしまいました！ありがとうございます！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックN3XI88☆",
+          "url": "https://cookpad.com/jp/users/41116187"
+        },
+        "datePublished": "2020-06-13",
+        "text": "塩昆布多めです！タレなくても美味しかったです！"
+      }
+    ],
+    "commentCount": 24
+  },
+  "timestamp": "2025-08-08T19:51:50.639Z"
+}

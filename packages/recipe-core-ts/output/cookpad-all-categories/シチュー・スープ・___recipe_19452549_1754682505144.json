@@ -1,0 +1,64 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19452549",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "たけのこと鶏皮のお味噌汁",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4495367/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19452549",
+    "description": "旬のたけのこたっぷり使いました。鶏皮の旨味が美味しいです。この時期ならではのお味噌汁です。",
+    "datePublished": "2017-04-27",
+    "dateModified": "2017-04-27",
+    "keywords": "たけのこ,鶏皮,油揚げ,水,和風顆粒だし,味噌",
+    "recipeYield": "５～６杯分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "たけのこは大きめに鶏皮は小さめにカットします。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22311671/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お水を沸騰させ具とだしを入れて煮込みます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22311672/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鶏皮が煮えたらお味噌を入れひと煮立ちさせます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22311673/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "完成です。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22311674/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "たけのこ ３００ｇ",
+      "鶏皮 ７０ｇ",
+      "油揚げ １枚",
+      "水 ８００ｃｃ",
+      "和風顆粒だし 大さじ1",
+      "味噌 ５０ｇ"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "キョ〜コ",
+      "url": "https://cookpad.com/jp/users/40129854"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 192
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 2
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:48:25.144Z"
+}

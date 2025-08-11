@@ -1,0 +1,144 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18644848",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単なのに本格的♪チャプチェ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/811157/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18644848",
+    "description": "次々と炒めてボウルに入れていくだけで、本格的なチャプチェが簡単に出来ます＾＾",
+    "datePublished": "2009-05-19",
+    "dateModified": "2009-06-01",
+    "keywords": "韓国春雨（ｏｒ糸こん）,　・しょうゆ,　・砂糖,　・みりん,　・塩,牛肉,　・しょうゆ,　・砂糖,　・すりおろしにんにく,　・ごま油,　・炒りごま,エリンギ,ニラ,玉ねぎ,人参,　・ごま油,　・塩",
+    "recipeYield": "４人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "春雨は熱湯で５～６分ゆで、適当な長さに切る。牛肉は細く切り、調味料で和えておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "野菜は千切りにして、ごま油と塩でそれぞれ炒め、ボウルに入れていく。※注意※絶対に一緒に炒めないこと"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①の牛肉を炒め、ボウルに入れる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "春雨用のタレをフライパンに入れて火にかけ、春雨を加えて汁気がなくなるまで炒りつける。ボウルに入れ、全部を混ぜ出来上がり。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "糸こんの場合は、適当な長さに切り、３分茹で、油を引かずに炒める。その後、タレを入れて炒りつけます。"
+      }
+    ],
+    "recipeIngredient": [
+      "韓国春雨（ｏｒ糸こん） １００ｇ（２００ｇ）",
+      "　・しょうゆ 大さじ　３",
+      "　・砂糖 大さじ　１",
+      "　・みりん 大さじ　２",
+      "　・塩 少々",
+      "牛肉 １００ｇ",
+      "　・しょうゆ 大さじ　１",
+      "　・砂糖 小さじ　２",
+      "　・すりおろしにんにく １片",
+      "　・ごま油 小さじ　１",
+      "　・炒りごま 小さじ　１",
+      "エリンギ ２本",
+      "ニラ １把",
+      "玉ねぎ 1/2個",
+      "人参 1/2本",
+      "　・ごま油 各小さじ　１",
+      "　・塩 各少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ぺくちん",
+      "url": "https://cookpad.com/jp/users/40022430"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 276391
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 82
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "meguミ",
+          "url": "https://cookpad.com/jp/users/40195253"
+        },
+        "datePublished": "2025-08-02",
+        "text": "これはうまい"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ヤヤ87",
+          "url": "https://cookpad.com/jp/users/40414377"
+        },
+        "datePublished": "2025-08-01",
+        "text": "マロニーで作りました。\nとって美味しく出来ました✨️\n嬉しいです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Hina＊72",
+          "url": "https://cookpad.com/jp/users/40404986"
+        },
+        "datePublished": "2025-07-30",
+        "text": "美味しかったです！我が家はもう少し量が必要で春雨150g牛肉200g肉の下味だけ倍量に。別炒め大変だけど必須ですね！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ドビィー",
+          "url": "https://cookpad.com/jp/users/40657984"
+        },
+        "datePublished": "2025-07-27",
+        "text": "美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "kaihatu",
+          "url": "https://cookpad.com/jp/users/40673036"
+        },
+        "datePublished": "2025-07-26",
+        "text": "簡単でした！美味！！！ビールにも合いますね"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぽりぽりんご♪",
+          "url": "https://cookpad.com/jp/users/40580398"
+        },
+        "datePublished": "2025-07-25",
+        "text": "とても美味しいです。ご飯がよく進みます！"
+      }
+    ],
+    "commentCount": 7622
+  },
+  "timestamp": "2025-08-08T19:53:04.512Z"
+}

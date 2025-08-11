@@ -1,0 +1,70 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18925433",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ターサイと豚肉のコーン鍋",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4352435/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18925433",
+    "description": "ターサイを丸のまま使った大胆な鍋です☆ 下ごしらえがほとんど不要♬",
+    "datePublished": "2017-02-15",
+    "dateModified": "2017-02-20",
+    "keywords": "ターサイ,豚ロース薄切り肉,ホールコーン,ブイヨン,醤油,発酵酵素玄米,芽ひじき,えのき茸,万能ネギ（小口切り）",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ターサイは洗って裏側から芯に８等分に切り込みを入れておく。※食べやすくなります。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋にターサイ１束を入れ",
+        "image": "https://img-global-jp.cpcdn.com/steps/21690267/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "豚肉を広げて並べる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21690268/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "もう１束のターサイをのせて、コーンを汁ごとのせる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21690269/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ブイヨンと醤油を入れて加熱し、豚肉に火が通ったらできあがり☆"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "〆は発酵酵素玄米で雑炊。芽ひじきとえのき茸を加えて卵を溶き入れ、万能ネギを振ったら出来上がり☆",
+        "image": "https://img-global-jp.cpcdn.com/steps/21690917/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "ターサイ ２束",
+      "豚ロース薄切り肉 300g",
+      "ホールコーン １缶",
+      "ブイヨン 800cc",
+      "醤油 大２",
+      "発酵酵素玄米 ２膳分",
+      "芽ひじき 大２",
+      "えのき茸 1/3パック",
+      "万能ネギ（小口切り） ２本分"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "uki345",
+      "url": "https://cookpad.com/jp/users/40054866"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 12
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:50:37.948Z"
+}

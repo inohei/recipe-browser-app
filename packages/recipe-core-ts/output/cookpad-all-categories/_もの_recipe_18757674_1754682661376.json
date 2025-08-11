@@ -1,0 +1,139 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18757674",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "あごダシ効いた白だし素の簡単本格寄せ鍋",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4307098/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18757674",
+    "description": "寒い！絶対に美味しい鍋つゆ！ で寄せ鍋を作りたい。市販の鍋つゆではなく、自作に拘り。でも鰹節から出汁を取る面倒を省いて◎",
+    "datePublished": "2017-01-23",
+    "dateModified": "2019-01-27",
+    "keywords": "水,だし昆布(４×７ｃｍ程度）,☆ヤマキ割烹白だし,薄口醤油,みりん,酒,☆シマヤ焼きあごダシ素,★濃口醤油,★岩塩か藻塩,★ヤマキ鰹だしの素４ｇなら,白菜、人参、ネギ、椎茸、えのき等,☆油揚げ、および薩摩揚かちくわなど,海老、渡蟹、蛤、タラ、鮭など",
+    "recipeYield": "２人前土鍋いっぱい",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "土鍋に水を注ぎ昆布を入れておく。すぐ火を点けてもよい。残りの調味料を順次加える。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "沸きを待たずに人参や白菜芯など、固く火の通りにくい具を。沸いたら油揚げや薩摩揚、渡り蟹や海老、鮭など魚介類も順次加える。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "椎茸、ネギなどを順に加え最後に葉物を全体に広げ載せ、終盤も特に蓋をして蒸し煮でそれらにサッと火を通し出来上がり。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※寄せ鍋の場合は昆布は出さなくてよいです。　油揚と練り物は１ｃｍ程度幅か厚に切って。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "19/1/27追記\nお好みで★を加えることで、更にしまりが出て一層コクある味付けにパワーアップします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お手軽な味変に、取皿に柚子胡椒でも○です。"
+      }
+    ],
+    "recipeIngredient": [
+      "水 ４５０ｍｌ",
+      "だし昆布(４×７ｃｍ程度） １枚",
+      "☆ヤマキ割烹白だし 60ml",
+      "薄口醤油 １５ｍｌ",
+      "みりん １５ｍｌ",
+      "酒 ３０ｍｌ",
+      "☆シマヤ焼きあごダシ素 １／２本４ｇ",
+      "★濃口醤油 ５ｍｌ",
+      "★岩塩か藻塩 １つまみ",
+      "★ヤマキ鰹だしの素４ｇなら 1包",
+      "白菜、人参、ネギ、椎茸、えのき等 適量",
+      "☆油揚げ、および薩摩揚かちくわなど 適量",
+      "海老、渡蟹、蛤、タラ、鮭など 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ＰＯＮ’Ｓｔａｂｌｅ",
+      "url": "https://cookpad.com/jp/users/40119205"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 837
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "しーさつまま",
+          "url": "https://cookpad.com/jp/users/40346964"
+        },
+        "datePublished": "2020-03-01",
+        "text": "アゴ出しなく、昆布、普通のダシと、白だしで寄せ鍋のスープが出来ました！とても美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ちゃーりーWKY",
+          "url": "https://cookpad.com/jp/users/40205740"
+        },
+        "datePublished": "2020-02-02",
+        "text": "しょう油は加えず、甘塩のタラの塩味で仕上げました。白だしとアゴだし、いい組み合わせですね！  おいしいです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ﾌﾞﾚﾝﾀﾞ",
+          "url": "https://cookpad.com/jp/users/40082233"
+        },
+        "datePublished": "2018-12-27",
+        "text": "残りものを入れて鍋にしました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "riedon",
+          "url": "https://cookpad.com/jp/users/40594826"
+        },
+        "datePublished": "2018-01-18",
+        "text": "美味しい鍋つゆ、ありがとうございました☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "うさこママ★",
+          "url": "https://cookpad.com/jp/users/40085109"
+        },
+        "datePublished": "2018-01-17",
+        "text": "本格的♡美味しかったです(⌒▽⌒)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♡ひな祭り♡",
+          "url": "https://cookpad.com/jp/users/40055859"
+        },
+        "datePublished": "2017-12-07",
+        "text": "美味しく頂きました❤️ごちそう様(*≧∀≦*)"
+      }
+    ],
+    "commentCount": 12
+  },
+  "timestamp": "2025-08-08T19:51:01.376Z"
+}

@@ -1,0 +1,159 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18035447",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "★簡単本格的♪コロコロ蟹クリームコロッケ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4079351/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18035447",
+    "description": "お弁当にもピッタリの美味しいコロコロ蟹クリームコロッケか完成しました♪。 一度食べたら癖に成るお味に仕上がっています。",
+    "datePublished": "2017-03-11",
+    "dateModified": "2018-04-21",
+    "keywords": "蟹(缶詰),玉葱,バター,薄力粉,牛乳,食塩,胡椒,溶き卵,薄力粉,パン粉,揚げ油,ケチャップ,ウスターソース,蜂蜜,赤ワイン,ドライパセリ,トマト",
+    "recipeYield": "12個分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "バットにクッキングシートを敷いておく。\n玉葱は薄くスライスする。\n蟹缶詰の水分を切る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ホワイトソースを作る。\nフライパンにバターを熱し、玉葱を加えしんなりするまで炒める。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "薄力粉を加え粉っぽさがなくなるまで炒め火を止める。牛乳を加え木べらに持ち代え混ぜ合わせたら、火を付け混ぜながら加熱する。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "煮立ったら食塩・胡椒を加え混ぜながら3分間加熱し、蟹を加え1分間混ぜながら加熱しバットに広げる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "粗熱が取れたら、ラップをし冷蔵庫で20～30分間冷ましておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "12等分にタネを分け丸く丸め、薄力粉・溶き卵・パン粉の順で衣を付け、再び溶き卵・パン粉の順に付ける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "180℃の油でこんがりとするまで揚げ、油を切る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ソースを作る。\n小鍋に全ての材料を入れ、とろみが付くまで加熱する。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お皿に蟹クリームコロッケを盛り、ドライパセリを掛けトマトで彩る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2017.5.25カテゴリに承認されました♪。有難うございます★。"
+      }
+    ],
+    "recipeIngredient": [
+      "蟹(缶詰) 正味100g",
+      "玉葱 1/2個",
+      "バター 30g",
+      "薄力粉 大さじ3",
+      "牛乳 250ml",
+      "食塩 3撮み",
+      "胡椒 少々",
+      "溶き卵 2個分",
+      "薄力粉 適量",
+      "パン粉 適量",
+      "揚げ油 適量",
+      "ケチャップ 大さじ1",
+      "ウスターソース 大さじ1",
+      "蜂蜜 大さじ1",
+      "赤ワイン 大さじ1",
+      "ドライパセリ 適量",
+      "トマト 1個"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "anko栄養士",
+      "url": "https://cookpad.com/jp/users/40094432"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 4413
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "⭐⭐あろま⭐⭐",
+          "url": "https://cookpad.com/jp/users/41079431"
+        },
+        "datePublished": "2021-09-04",
+        "text": "簡単に、美味しく出来ました。ありがとうございました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "moripu",
+          "url": "https://cookpad.com/jp/users/40326050"
+        },
+        "datePublished": "2021-03-04",
+        "text": "美味しくできました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "きなこ0108",
+          "url": "https://cookpad.com/jp/users/41154782"
+        },
+        "datePublished": "2021-02-11",
+        "text": "クリーミーで、ソースもとても美味しかった♪ 蟹クリームにはコンソメを少し足してみました"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック2CMIQR☆",
+          "url": "https://cookpad.com/jp/users/40128902"
+        },
+        "datePublished": "2021-01-17",
+        "text": "作ってみました！カニ缶使ってみましたが家族も食べてくれるかドキドキです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "猫まんま☆",
+          "url": "https://cookpad.com/jp/users/40655874"
+        },
+        "datePublished": "2021-01-06",
+        "text": "カニ缶で美味しかったです(^^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックリックチック",
+          "url": "https://cookpad.com/jp/users/40141077"
+        },
+        "datePublished": "2020-12-03",
+        "text": "家族に好評でした。ずっと眠っていたカニ缶を汁ごと使いました。美味しかったです。"
+      }
+    ],
+    "commentCount": 54
+  },
+  "timestamp": "2025-08-08T19:49:48.532Z"
+}

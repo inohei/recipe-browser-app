@@ -1,0 +1,140 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19018655",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "里芋（親芋）の和風コロッケ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4389726/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19018655",
+    "description": "むっちりねっとり癖になる食感！甘辛く煮た葱生姜たっぷりの挽き肉が入った和風のコロッケです。",
+    "datePublished": "2017-03-04",
+    "dateModified": "2017-09-21",
+    "keywords": "里芋（親芋）,豚ミンチ（牛でも鶏でも）,白葱(みじん切り),生姜(みじん切り),にんにく(みじん切り),醬油,味醂,小麦粉(薄力粉),パン粉,揚げ油",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "親芋は適当な大きさに切って、串がすっと通るまで茹でるかふかすかして、熱いうちに潰します。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンを熱し、油を引いて、にんにくと生姜をさっと炒めて、ミンチを加えて炒めます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "２のミンチの色が変わったら葱を加えて炒め、しんなりしたら醬油と味醂を加えて汁気がなくなるまで焦がさないように煮ます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "１と３がそれぞれ冷めたら混ぜて、お好みの大きさに丸めます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ボールに小麦粉を入れて、水を加えてぽたぽた落ちる程度にします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "３を４にくぐらせて、パン粉をまぶし、高温（180℃）に熱したたっぷりの油で1分位、狐色に揚げます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "サツマイモコロッケ（レシピID : 19733677）もおいしいよ！",
+        "image": "https://img-global-jp.cpcdn.com/steps/23258843/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "里芋（親芋） 皮を剥いて７００ｇ",
+      "豚ミンチ（牛でも鶏でも） ２００ｇ",
+      "白葱(みじん切り) 2本",
+      "生姜(みじん切り) 大匙1杯",
+      "にんにく(みじん切り) 1片",
+      "醬油 大匙2",
+      "味醂 大匙2",
+      "小麦粉(薄力粉) ５０ｇ",
+      "パン粉 適量",
+      "揚げ油 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "cookirin",
+      "url": "https://cookpad.com/jp/users/40090813"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 353
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "TeaChan214",
+          "url": "https://cookpad.com/jp/users/40315477"
+        },
+        "datePublished": "2022-11-14",
+        "text": "むちっとした食感のコロッケでした。親芋だと皮剥きがすごく楽❣️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "xxこのみxx",
+          "url": "https://cookpad.com/jp/users/40273031"
+        },
+        "datePublished": "2020-04-23",
+        "text": "親芋でもっちり美味でした！味噌ソースでいただきました｡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みぃみい93",
+          "url": "https://cookpad.com/jp/users/40221239"
+        },
+        "datePublished": "2018-03-28",
+        "text": "親芋の大量消費に！鶏ミンチで作りました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "塩ポンヌ",
+          "url": "https://cookpad.com/jp/users/40127334"
+        },
+        "datePublished": "2018-03-02",
+        "text": "大量にもらった里芋に困ってたので助かりました。とても美味しい！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "rakuen",
+          "url": "https://cookpad.com/jp/users/40051373"
+        },
+        "datePublished": "2018-01-27",
+        "text": "里芋で。冷めるの待てず水分と格闘しましたが和風味も良いですね♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あんちゃんanan",
+          "url": "https://cookpad.com/jp/users/40068401"
+        },
+        "datePublished": "2017-12-24",
+        "text": "親芋コロッケ！！レンチンで簡単に作れました。パン粉前ですが、、、"
+      }
+    ],
+    "commentCount": 14
+  },
+  "timestamp": "2025-08-08T19:49:58.126Z"
+}

@@ -1,0 +1,135 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18632297",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "大根の煮物",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1278634/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18632297",
+    "description": "かどやの純正ごま油をプラスしてコク豊か♪旬のみずみずしい大根を使った、ほんのり甘くてほっこりおいしい煮物レシピ。",
+    "datePublished": "2010-12-06",
+    "dateModified": "2010-12-06",
+    "keywords": "大根,絹さや,水,しょうゆ,酒、みりん,砂糖,純正ごま油",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "今回は、「純正ごま油」を使用します。",
+        "image": "https://img-global-jp.cpcdn.com/steps/6558513/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "大根は2cm厚さの輪切りにしてから皮をむき、1切れを2等分にする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋に【A】、<2>を入れてフタをし、強火にかける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "沸とうしたら中火にし、大根に竹串がスーっと通るまで煮る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "器に<4>を盛り付け、お好みで茹でて細切りにした絹さやを添える。"
+      }
+    ],
+    "recipeIngredient": [
+      "大根 10cm長さ分（200g～250g）",
+      "絹さや 適宜",
+      "水 1/2カップ",
+      "しょうゆ 大さじ1と1/2",
+      "酒、みりん 各大さじ1",
+      "砂糖 大さじ1/2",
+      "純正ごま油 大さじ1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "かどや製油",
+      "url": "https://cookpad.com/jp/users/40048285"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 345403
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 114
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぷっくりさん。",
+          "url": "https://cookpad.com/jp/users/40655418"
+        },
+        "datePublished": "2025-07-09",
+        "text": "簡単時短で味しっかり染みました!美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "えりこ82☆",
+          "url": "https://cookpad.com/jp/users/40259829"
+        },
+        "datePublished": "2025-07-03",
+        "text": "今日の夕食です✨美味しくて3倍量で作りました💕コクもあって味も染み染み🤤大根が美味しく食べれますね😋有難うございます❤"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ちゃちゅ2",
+          "url": "https://cookpad.com/jp/users/40418389"
+        },
+        "datePublished": "2025-06-20",
+        "text": "煮物はやっぱり美味しい♡味しみしみでうまうま♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "プルンバゴ",
+          "url": "https://cookpad.com/jp/users/40268710"
+        },
+        "datePublished": "2025-06-12",
+        "text": "1.5倍量圧力鍋８分で美味しく出来ました。又作りたいレシピです☺️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "美桜✩",
+          "url": "https://cookpad.com/jp/users/54814699"
+        },
+        "datePublished": "2025-05-28",
+        "text": "初めてのつくれぽを投稿させていただきます。ごま油が苦手なので、気持ち程度少なめでしたが一瞬で完食でした。またリピします！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆みおたん☆",
+          "url": "https://cookpad.com/jp/users/40050631"
+        },
+        "datePublished": "2025-05-27",
+        "text": "圧力鍋で美味しく出来ました♪"
+      }
+    ],
+    "commentCount": 11813
+  },
+  "timestamp": "2025-08-08T19:37:55.897Z"
+}

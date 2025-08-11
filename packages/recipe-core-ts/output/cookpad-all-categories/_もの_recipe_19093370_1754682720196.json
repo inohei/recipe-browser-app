@@ -1,0 +1,64 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19093370",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "★ゆずの香かほる・かぼちゃのチヂミ。",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4364060/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19093370",
+    "description": "かぼちゃにはビタミンＡが豊富で視力低下や目の疲れ予防や美容にもよいビタミンEが豊富。",
+    "datePublished": "2017-02-18",
+    "dateModified": "2018-12-16",
+    "keywords": "かぼちゃ,小麦粉,水,塩,ゆず茶,サラダ油",
+    "recipeYield": "8㎝×6枚",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "かぼちゃの皮をむき薄切りにして分量外の水大さじ1をふりラップをして600Wレンジで2分回す。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21742655/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "①のかぼちゃに小麦粉とゆず茶、水、塩を加えよく混ぜる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21742656/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにサラダ油を熱し②の生地を流し入れ両面を焼くと出来上がり。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21742657/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ヤンニョムジャン作り方：醤油大さじ3、酢大さじ1、砂糖小さじ1、水大さじ1、粉唐辛子・ごま適量、小ねぎ2本を混ぜ合わせる",
+        "image": "https://img-global-jp.cpcdn.com/steps/21742658/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "自家製ゆず茶。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21742840/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "かぼちゃ 200ｇ",
+      "小麦粉 大さじ2",
+      "水 1/2ｃｕｐ",
+      "塩 少々",
+      "ゆず茶 小さじ1",
+      "サラダ油 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "★いも★",
+      "url": "https://cookpad.com/jp/users/40054762"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 42
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:52:00.196Z"
+}

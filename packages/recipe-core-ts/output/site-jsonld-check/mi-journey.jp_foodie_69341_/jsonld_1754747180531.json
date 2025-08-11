@@ -1,0 +1,144 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://mi-journey.jp/foodie/69341/",
+        "url": "https://mi-journey.jp/foodie/69341/",
+        "name": "【シェフ解説】豚肉の生姜焼きレシピ。豚ロース、豚バラの使い分け、玉ねぎのタレに注目！ | 三越伊勢丹の食メディア | FOODIE（フーディー）",
+        "isPartOf": {
+          "@id": "https://mi-journey.jp/foodie/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://mi-journey.jp/foodie/69341/#primaryimage"
+        },
+        "image": {
+          "@id": "https://mi-journey.jp/foodie/69341/#primaryimage"
+        },
+        "thumbnailUrl": "https://mi-journey.jp/foodie/wp-content/uploads/2021/04/210410syogayaki6.jpg",
+        "datePublished": "2021-04-08T01:00:11+00:00",
+        "dateModified": "2025-02-26T04:37:31+00:00",
+        "description": "おかず人気1位ともいえる、豚肉の生姜焼き（しょうが焼き）の作り方をプロが紹介します。粉をふって作る厚みのある「豚ロース肉」と、粉をふらずに作る「豚バラ薄切り肉」の2つのレシピを紹介します。タレは漬け込むか問題も解説！",
+        "breadcrumb": {
+          "@id": "https://mi-journey.jp/foodie/69341/#breadcrumb"
+        },
+        "inLanguage": "ja",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://mi-journey.jp/foodie/69341/"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "ja",
+        "@id": "https://mi-journey.jp/foodie/69341/#primaryimage",
+        "url": "https://mi-journey.jp/foodie/wp-content/uploads/2021/04/210410syogayaki6.jpg",
+        "contentUrl": "https://mi-journey.jp/foodie/wp-content/uploads/2021/04/210410syogayaki6.jpg",
+        "width": 750,
+        "height": 564,
+        "caption": "豚ロース肉の生姜焼きのイメージ"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://mi-journey.jp/foodie/69341/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "ホーム",
+            "item": "https://mi-journey.jp/foodie/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "【シェフ解説】豚肉の生姜焼きレシピ。豚ロース、豚バラの使い分け、玉ねぎのタレに注目！"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://mi-journey.jp/foodie/#website",
+        "url": "https://mi-journey.jp/foodie/",
+        "name": "FOODIE",
+        "description": "三越伊勢丹の食メディア",
+        "publisher": {
+          "@id": "https://mi-journey.jp/foodie/#organization"
+        },
+        "alternateName": "FOODIE",
+        "potentialAction": [
+          {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://mi-journey.jp/foodie/?s={search_term_string}"
+            },
+            "query-input": {
+              "@type": "PropertyValueSpecification",
+              "valueRequired": true,
+              "valueName": "search_term_string"
+            }
+          }
+        ],
+        "inLanguage": "ja"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://mi-journey.jp/foodie/#organization",
+        "name": "三越伊勢丹",
+        "url": "https://mi-journey.jp/foodie/",
+        "logo": {
+          "@type": "ImageObject",
+          "inLanguage": "ja",
+          "@id": "https://mi-journey.jp/foodie/#/schema/logo/image/",
+          "url": "https://mi-journey.jp/foodie/wp-content/uploads/2025/06/mitsukoshi_isetan_logo.png",
+          "contentUrl": "https://mi-journey.jp/foodie/wp-content/uploads/2025/06/mitsukoshi_isetan_logo.png",
+          "width": 696,
+          "height": 696,
+          "caption": "三越伊勢丹"
+        },
+        "image": {
+          "@id": "https://mi-journey.jp/foodie/#/schema/logo/image/"
+        },
+        "sameAs": [
+          "https://www.facebook.com/mi.foodie",
+          "https://x.com/mi_foodie",
+          "https://www.instagram.com/mi_foodie/"
+        ]
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "name": "【シェフ解説】豚肉の生姜焼きレシピ。豚ロース、豚バラの使い分け、玉ねぎのタレに注目！",
+    "description": "家庭料理の定番、豚肉の生姜焼き（しょうが焼き）。新生活をむかえて自炊を始めた人が、最初に覚えたい基本の料理のひとつですよね。でも、生姜焼き用の厚めの豚肉を使ったり、薄切りの豚肉を使",
+    "image": "https://mi-journey.jp/foodie/wp-content/uploads/2021/04/210410syogayaki6.jpg",
+    "datePublished": "2021-04-08",
+    "recipeIngredient": "豚ロース肉（生姜焼き用）…150g \r玉ねぎ（1cm幅のくし形に切る）…1/4個（約50g） \r調味料（タレ） \r生姜のすりおろし…大さじ1/2 \r玉ねぎのすりおろし…大さじ1 \rにんにくのすりおろし…少々 \r酒…大さじ2 \rしょうゆ…大さじ2 \r砂糖…大さじ1 \rみりん…大さじ1 \r小麦粉、サラダ油…各適量",
+    "recipeCuisine": "肉料理",
+    "recipeyield": "1人分",
+    "recipeInstructions": [
+      "1.タレを混ぜ合わせる",
+      "\r2.豚肉に粉をまぶす",
+      "\r3.フライパンに油をひき、豚肉を重ならないように並べて焼く",
+      "\r4.1〜2分たって焼き色がついたら裏返す",
+      "\r5.玉ねぎを加えて肉をかぶせ、蒸し焼きのようにして炒める",
+      "\r6.タレを加える"
+    ],
+    "totalTime": "",
+    "video": {
+      "@type": "VideoObject",
+      "name": "【シェフ解説】豚肉の生姜焼きレシピ。豚ロース、豚バラの使い分け、玉ねぎのタレに注目！",
+      "description": "家庭料理の定番、豚肉の生姜焼き（しょうが焼き）。新生活をむかえて自炊を始めた人が、最初に覚えたい基本の料理のひとつですよね。でも、生姜焼き用の厚めの豚肉を使ったり、薄切りの豚肉を使",
+      "thumbnailUrl": "https://mi-journey.jp/foodie/wp-content/uploads/2021/04/210410syogayaki6.jpg",
+      "contentUrl": "https://www.youtube.com/watch?v=aDmyGRcNGFQ",
+      "embedUrl": "https://www.youtube.com/embed/aDmyGRcNGFQ",
+      "uploadDate": "2021-09-14"
+    }
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19077777",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ぱぱっと簡単、さつまいもの甘煮",
+    "image": "https://img-global-jp.cpcdn.com/recipes/915184/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19077777",
+    "description": "つくれぽ800人超！ お弁当に、夕食に、あと一品なにかほしい時に便利。 甘おかずがいい箸休めに。",
+    "datePublished": "2009-09-18",
+    "dateModified": "2025-05-03",
+    "keywords": "さつまいも,水,砂糖,しょうゆ",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "さつまいもは皮をよく洗い、１センチ弱の厚さの輪切りにする。 \r\n水にさらしてあくをとる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "小鍋に、さつまいもと水を入れ（ひたひたになるくらい）、砂糖を入れて、煮る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "２・３分位したら、しょうゆを入れて、さつまいもに火が通るまで煮たら出来上がり。"
+      }
+    ],
+    "recipeIngredient": [
+      "さつまいも 1本（200グラムくらい）",
+      "水 ２００～２５０ｃｃ",
+      "砂糖 大さじ2～3",
+      "しょうゆ 大さじ半分"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "chinacafe",
+      "url": "https://cookpad.com/jp/users/40066719"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 46426
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 36
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "。かのこ。",
+          "url": "https://cookpad.com/jp/users/40679888"
+        },
+        "datePublished": "2025-06-26",
+        "text": "甘めにして夕食の一品に😋ご馳走様でした♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "なおすけ151a",
+          "url": "https://cookpad.com/jp/users/40365649"
+        },
+        "datePublished": "2025-05-25",
+        "text": "箸休めとお弁当用に❤️今回も美味しくできましたー🥰"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "rieko0505",
+          "url": "https://cookpad.com/jp/users/40089397"
+        },
+        "datePublished": "2025-05-01",
+        "text": "美味しかったです。分量の目安、参考になりました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぐらたん",
+          "url": "https://cookpad.com/jp/users/110344605"
+        },
+        "datePublished": "2025-05-01",
+        "text": "美味しくできました！\nまた作りたいです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆけり３兄弟",
+          "url": "https://cookpad.com/jp/users/40043522"
+        },
+        "datePublished": "2025-04-09",
+        "text": "カットを輪切り➜乱切りに\nしてます🙏💦\nサッと1品出来上がって助かりました\nレシピありがとうございます😊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ナミダ猫",
+          "url": "https://cookpad.com/jp/users/40898360"
+        },
+        "datePublished": "2025-04-05",
+        "text": "またまたリピ！はちみつで結構適当に作っても美味しくなる。ありがとうございます！"
+      }
+    ],
+    "commentCount": 1199
+  },
+  "timestamp": "2025-08-08T19:56:59.388Z"
+}

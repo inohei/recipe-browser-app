@@ -1,0 +1,85 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "recipe",
+    "name": "こだわり手作り！回鍋肉",
+    "image": "https://park.ajinomoto.co.jp/wp-content/uploads/2018/03/707350.jpeg",
+    "author": {
+      "@type": "Organization",
+      "name": "AJINOMOTO PARK"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "味の素株式会社"
+    },
+    "datePublished": "2018-03-06",
+    "dateModified": "2024-01-12",
+    "description": "しゃきしゃきキャベツの食感がたまらない☆回鍋肉レシピ！「Cook Do®」熟成豆板醤のピリ辛がクセになる♪ご飯がすすむレシピです！たべたい、つくりたい、がきっと見つかる！人気レシピから、簡単時短レシピ、健康を考えたレシピなど、作る人を”もっと”応援します。",
+    "recipeYield": "4(servings)",
+    "totalTime": "PT25M",
+    "recipeIngredient": [
+      "豚バラ薄切り肉 240g",
+      "キャベツ 2枚（100g）",
+      "ピーマン 1個",
+      "ねぎ 1/3本",
+      "Aにんにくのすりおろし 大さじ1",
+      "Aしょうがのすりおろし 大さじ1",
+      "Aしょうゆ 大さじ1",
+      "A「Cook Do」熟成豆板醤 小さじ2（10g）",
+      "A「Cook Do」甜麺醤 小さじ2（10g）",
+      "B水 大さじ4・1/2",
+      "B砂糖 大さじ1・1/3",
+      "B「丸鶏がらスープ」 小さじ1/2",
+      "C片栗粉 大さじ1",
+      "C水 大さじ1",
+      "「AJINOMOTO さらさらキャノーラ油」 大さじ2"
+    ],
+    "recipeInstructions": [
+      "（１）豚肉は５ｃｍ幅に切り、キャベツはひと口大のザク切りにする。ピーマンは種を取って乱切りにし、ねぎは１ｃｍ幅の斜め切りにする。",
+      "（２）フライパンに油大さじ１を熱し、（１）のキャベツ・ピーマンを強火で炒め、いったん取り出す。フライパンで（１）の豚肉・ねぎを中火で炒め、肉に焼き色がついたらいったん取り出す。",
+      "（３）フライパンに残りの油を熱し、中火でＡを炒め、香りがたったら、Ｂを加えてひと煮立ちさせる。",
+      "（４）（２）の豚肉・ねぎを戻し入れて合わせ、（２）のキャベツ・ピーマンを戻し入れ、炒め合わせる。Ｃの水溶き片栗粉を回し入れ、とろみをつける。",
+      "＊「熟成豆板醤」の量はお好みで調整してください。"
+    ],
+    "recipeCuisine": "中国風",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "328kcal",
+      "carbohydrateContent": "9.9g",
+      "cholesterolContent": "42mg",
+      "fiberContent": "1.1g",
+      "proteinContent": "10g",
+      "sodiumContent": "540mg"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://www.ajinomoto.co.jp/",
+          "name": "レシピ大百科"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://park.ajinomoto.co.jp/recipe/search?search_word=豚バラ薄切り肉",
+          "name": "豚バラ薄切り肉のレシピ検索結果"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://park.ajinomoto.co.jp/recipe/card/707350/",
+          "name": "こだわり手作り！回鍋肉"
+        }
+      }
+    ]
+  }
+]

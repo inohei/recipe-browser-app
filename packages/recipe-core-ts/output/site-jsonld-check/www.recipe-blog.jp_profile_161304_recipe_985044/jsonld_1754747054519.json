@@ -1,0 +1,74 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://foodistnote.recipe-blog.jp/?page_id=227202",
+        "url": "https://foodistnote.recipe-blog.jp/?page_id=227202",
+        "name": "レシピブログサービス終了のお知らせ | フーディストノート",
+        "isPartOf": {
+          "@id": "https://foodistnote.recipe-blog.jp/#website"
+        },
+        "primaryImageOfPage": {
+          "@id": "https://foodistnote.recipe-blog.jp/?page_id=227202#primaryimage"
+        },
+        "image": {
+          "@id": "https://foodistnote.recipe-blog.jp/?page_id=227202#primaryimage"
+        },
+        "thumbnailUrl": "https://foodistnote.recipe-blog.jp/wp-content/uploads/2025/06/27185053/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-2-20250627185052-20250627185053.png",
+        "datePublished": "2025-06-30T01:00:00+00:00",
+        "dateModified": "2025-06-27T09:51:03+00:00",
+        "inLanguage": "ja",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": [
+              "https://foodistnote.recipe-blog.jp/?page_id=227202"
+            ]
+          }
+        ]
+      },
+      {
+        "@type": "ImageObject",
+        "inLanguage": "ja",
+        "@id": "https://foodistnote.recipe-blog.jp/?page_id=227202#primaryimage",
+        "url": "https://foodistnote.recipe-blog.jp/wp-content/uploads/2025/06/27185053/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-2-20250627185052-20250627185053.png",
+        "contentUrl": "https://foodistnote.recipe-blog.jp/wp-content/uploads/2025/06/27185053/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3-2-20250627185052-20250627185053.png",
+        "width": 832,
+        "height": 500,
+        "caption": "レシピブログ"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://foodistnote.recipe-blog.jp/#website",
+        "url": "https://foodistnote.recipe-blog.jp/",
+        "name": "フーディストノート",
+        "description": "フーディストノートは、フーディスト（SNSで活躍する料理インフルエンサー・料理クリエイター・プロ料理家）の人気料理レシピや暮らしを豊かにするアイデアを発信するライフスタイルメディアです。毎日の食卓に大活躍のおすすめ料理レシピ、食を楽しむアイデアやトレンド、食品やキッチンツールに関するコラムなど、料理・食と暮らしにまつわる情報が満載です。便利な時短・簡単レシピも多数掲載中！",
+        "inLanguage": "ja"
+      }
+    ]
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://foodistnote.recipe-blog.jp",
+          "name": "フーディストノート"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://foodistnote.recipe-blog.jp/recipeblog-closed/",
+          "name": "レシピブログサービス終了のお知らせ"
+        }
+      }
+    ]
+  }
+]

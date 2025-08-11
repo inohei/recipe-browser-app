@@ -1,0 +1,54 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19439099",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "アジのたたきのごま和え",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4526075/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19439099",
+    "description": "アジのたたきを使ってのアレンジレシピです。お酒の肴に最高！少ないお刺身を使ってお腹いっぱい食べる節約レシピでもあります。",
+    "datePublished": "2017-05-15",
+    "dateModified": "2017-06-15",
+    "keywords": "アジのたたき,胡瓜（スライス）,ワカメ,白ゴマ・ワサビ・醤油",
+    "recipeYield": "２人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "胡瓜は塩揉み、ワカメは乾燥品なら水に戻しておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "アジのたたき（ID19519127参照）と、水切りしたワカメと絞った胡瓜とゴマをボールで混ぜ合わせる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "皿に盛り仕上げ用にゴマをふり、醤油・ワサビを添えて完成。"
+      }
+    ],
+    "recipeIngredient": [
+      "アジのたたき １/２～１尾分",
+      "胡瓜（スライス） １/２本分",
+      "ワカメ 少量",
+      "白ゴマ・ワサビ・醤油 好みで適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "クッキング秀さん",
+      "url": "https://cookpad.com/jp/users/40132466"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 394
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 8
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:44:53.480Z"
+}

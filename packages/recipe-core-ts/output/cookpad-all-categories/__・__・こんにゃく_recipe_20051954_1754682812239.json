@@ -1,0 +1,132 @@
+{
+  "url": "https://cookpad.com/jp/recipes/20051954",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "きくらげとチンゲン菜の卵炒め",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3821875/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/20051954",
+    "description": "きくらげのコリコリ感とチンゲン菜のシャキシャキ感のコラボをお楽しみ下さい",
+    "datePublished": "2016-04-23",
+    "dateModified": "2016-04-23",
+    "keywords": "乾燥きくらげ,チンゲン菜,卵,鶏がらスープの素,塩こしょう",
+    "recipeYield": "１人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "きくらげはぬるま湯で戻し一口大にちぎり、チンゲン菜は食べ易い大きさに切る",
+        "image": "https://img-global-jp.cpcdn.com/steps/19363274/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンに分量外のサラダ油を加熱して溶いた卵を入れてほぐし、一旦取り出す",
+        "image": "https://img-global-jp.cpcdn.com/steps/19363275/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンを一度洗って、再び分量外のサラダ油を加熱して、きくらげとチンゲン菜を入れて鶏がらスープの素を入れて炒める",
+        "image": "https://img-global-jp.cpcdn.com/steps/19363276/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "チンゲン菜が柔らかくなってくると、卵を戻しいれ、塩こしょうを振って炒める",
+        "image": "https://img-global-jp.cpcdn.com/steps/19363277/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お皿に盛って出来上がり",
+        "image": "https://img-global-jp.cpcdn.com/steps/19363327/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "乾燥きくらげ １０ｇ",
+      "チンゲン菜 １株",
+      "卵 １個",
+      "鶏がらスープの素 小さじ１",
+      "塩こしょう 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "単！！",
+      "url": "https://cookpad.com/jp/users/40050638"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 180
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "チェリチョコ",
+          "url": "https://cookpad.com/jp/users/40192530"
+        },
+        "datePublished": "2024-09-24",
+        "text": "簡単にできて彩りもよく素敵です！キクラゲの食感で幸せに。ご馳走様です(*^▽^*)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かずくん☆",
+          "url": "https://cookpad.com/jp/users/40158616"
+        },
+        "datePublished": "2022-03-03",
+        "text": "余っていた青梗菜利用。少し炒める時間長かった！　次回さっと仕上げます^ ^ご馳走様♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ビルメンズ",
+          "url": "https://cookpad.com/jp/users/40206904"
+        },
+        "datePublished": "2020-07-10",
+        "text": "お店の味のようで美味しい♪ありがとうございました♪( ≧∀≦)ノ"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "あおやがら",
+          "url": "https://cookpad.com/jp/users/40111045"
+        },
+        "datePublished": "2020-06-06",
+        "text": "キクラゲを大量収穫したので♪\nまた作ります"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "コロどろっぷ",
+          "url": "https://cookpad.com/jp/users/40605983"
+        },
+        "datePublished": "2018-11-15",
+        "text": "美味しくてご飯が進みました(o^^o)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かお1200",
+          "url": "https://cookpad.com/jp/users/40601774"
+        },
+        "datePublished": "2017-05-16",
+        "text": "人参もin✧*。味付け美味しいです❤"
+      }
+    ],
+    "commentCount": 14
+  },
+  "timestamp": "2025-08-08T19:53:32.239Z"
+}

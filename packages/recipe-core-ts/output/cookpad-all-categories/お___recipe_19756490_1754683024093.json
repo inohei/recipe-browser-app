@@ -1,0 +1,143 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19756490",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "絶品！簡単でおいしいスイートポテト",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4727676/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19756490",
+    "description": "☆話題入りレシピ☆柔らかくしっとりとした食感で家族や友達に好評でした！簡単にできるのでおすすめです◎",
+    "datePublished": "2017-09-25",
+    "dateModified": "2024-12-02",
+    "keywords": "さつまいも,卵黄,☆牛乳(豆乳),☆砂糖(グラニュー糖),☆マーガリン(バター),☆塩",
+    "recipeYield": "約12個分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "①さつまいもの皮を剥き、約1センチの輪切りにする。短時間水にさらし、耐熱皿に平く並べる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "②上からラップをかけ、柔らかくなるまでレンジでチンする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "③ボウルに移し、マッシャー（なければスプーンなど）で細かく潰す。",
+        "image": "https://img-global-jp.cpcdn.com/steps/23285889/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "④☆の材料を入れ、ムラなく混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "⑤好きな形に整えて、表面に卵黄を塗る。アルミカップに乗せ、トースターで約10分、ほんのり焼き色がつくまで焼く。",
+        "image": "https://img-global-jp.cpcdn.com/steps/23285927/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "⑥一度取り出し、卵黄を2度塗りし、プラス2、3分焼く。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "⑦完成！！！"
+      }
+    ],
+    "recipeIngredient": [
+      "さつまいも さつまいも小2本(大1本)",
+      "卵黄 1個分",
+      "☆牛乳(豆乳) 50cc",
+      "☆砂糖(グラニュー糖) 15g",
+      "☆マーガリン(バター) 30g",
+      "☆塩 ひとつまみ"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "◎reipom◎",
+      "url": "https://cookpad.com/jp/users/40261358"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 118996
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 15
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "junkonana",
+          "url": "https://cookpad.com/jp/users/40267343"
+        },
+        "datePublished": "2025-04-06",
+        "text": "分かりやすく簡単なレシピで、美味しいスイートポテトができました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "miiママキッチン",
+          "url": "https://cookpad.com/jp/users/41170417"
+        },
+        "datePublished": "2025-02-04",
+        "text": "簡単に出来て、この美味しさ\nしっとりやわらかで家族にも大好評です"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "どるりん",
+          "url": "https://cookpad.com/jp/users/40543839"
+        },
+        "datePublished": "2025-01-22",
+        "text": "栗の甘露煮のシロップで作りました。簡単なので、おやつにささっと作れて良かったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "okkomaru",
+          "url": "https://cookpad.com/jp/users/40087582"
+        },
+        "datePublished": "2025-01-01",
+        "text": "とっても美味しく焼けました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックE87LGF☆",
+          "url": "https://cookpad.com/jp/users/41062557"
+        },
+        "datePublished": "2024-12-07",
+        "text": "コーヒーのおともが欲しいっ!!って時に、簡単に作れました♡\n焦げ目がつかないのはなぜ??\n柔らかくて甘すぎず美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック5WK14J☆",
+          "url": "https://cookpad.com/jp/users/68877289"
+        },
+        "datePublished": "2024-11-23",
+        "text": "簡単に出来て美味しく出来ました♪中に漬けておいたラムレーズンちょっと忍ばせてみました。"
+      }
+    ],
+    "commentCount": 1983
+  },
+  "timestamp": "2025-08-08T19:57:04.093Z"
+}

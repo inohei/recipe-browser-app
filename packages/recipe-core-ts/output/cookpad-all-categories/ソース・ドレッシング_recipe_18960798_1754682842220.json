@@ -1,0 +1,143 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18960798",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "家にあるもので作る★簡単ハンバーグソース",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2338315/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18960798",
+    "description": "殿堂入り★作って頂いた皆様に感謝♡ 簡単なのに本格的なソースです！",
+    "datePublished": "2013-09-08",
+    "dateModified": "2020-08-23",
+    "keywords": "ケチャップ,ウスターソース,醤油,砂糖,バター",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "鍋にケチャップ、ウスターソース、醤油、砂糖を入れて火にかける。ふつふつとなってきたらバターを加え、混ぜながら溶かす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "再度ふつふつとなってから、1〜2分程、火にかけたまま混ぜ合わせる。",
+        "image": "https://img-global-jp.cpcdn.com/steps/12290786/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※ハンバーグを焼いたあとのフライパンで作れば、洗いものも少なくて楽ちんです♪"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ハンバーグにかけるとこんな感じ♪\nチーズも乗ってます(^ー゜)",
+        "image": "https://img-global-jp.cpcdn.com/steps/12290788/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "オムライスにも合います(*^◯^*)",
+        "image": "https://img-global-jp.cpcdn.com/steps/19384509/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "★★★★★★★★★★★★★★★★★同じ材料で煮込みハンバーグもできます！ぜひお試し下さい(๑･̑◡･̑๑)    ↓↓↓"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "両面を焼いたハンバーグ(中まで火が通ってなくてOK)を水150cc＋上記材料で煮込むとふわふわ煮込みハンバーグに★★★★"
+      }
+    ],
+    "recipeIngredient": [
+      "ケチャップ 大さじ4",
+      "ウスターソース 大さじ4",
+      "醤油 大さじ1",
+      "砂糖 大さじ2",
+      "バター 10g"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "チワワんズ",
+      "url": "https://cookpad.com/jp/users/40061157"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 40518
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 18
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みちゃ0214",
+          "url": "https://cookpad.com/jp/users/40322707"
+        },
+        "datePublished": "2025-07-26",
+        "text": "今回はマッシュルームも入れて煮込みハンバーグにしました👍️美味しくいただきました☺️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "nyabu204",
+          "url": "https://cookpad.com/jp/users/40683203"
+        },
+        "datePublished": "2025-07-20",
+        "text": "リピートです♥2人分でケチャップ・ウスターは大さじ2で、その他レシピ通り。すごく美味しくて毎回好評です！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "エリィガガ",
+          "url": "https://cookpad.com/jp/users/40314789"
+        },
+        "datePublished": "2025-07-08",
+        "text": "リビリピリピです♪\n毎回お砂糖気持ち少なめにしています。\n美味しすぎて、ソースはこのレシピ以外考えられません♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "へい♡ゆー♡",
+          "url": "https://cookpad.com/jp/users/40254424"
+        },
+        "datePublished": "2025-07-07",
+        "text": "おはようございます\nヘビロテしてますが、レボし忘れ画像を発見しました♪♪\n美味しかったでーす🩷"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "はっちゃん",
+          "url": "https://cookpad.com/jp/users/95802693"
+        },
+        "datePublished": "2025-06-30",
+        "text": "ケチャップも溶けきらず、味も甘すぎてびっくり…うえっとなりました……😭😭"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ラフロイグ31年",
+          "url": "https://cookpad.com/jp/users/40171881"
+        },
+        "datePublished": "2025-06-28",
+        "text": "ちょい作り過ぎました（笑）ハンバーグが沈んでる（笑）でも、高評価でした！"
+      }
+    ],
+    "commentCount": 3761
+  },
+  "timestamp": "2025-08-08T19:54:02.220Z"
+}

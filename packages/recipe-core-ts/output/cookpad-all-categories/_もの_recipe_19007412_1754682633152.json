@@ -1,0 +1,135 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19007412",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "鍋だしは買う必要なし！鶏ガラスープ塩鍋",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1353444/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19007412",
+    "description": "つくねや鶏肉豚肉、ギョーザに合う鍋だしです。ラーメンを入れたり雑炊にしても美味しいよ☆我が家はだしを買わなくなりました♪",
+    "datePublished": "2018-02-13",
+    "dateModified": "2024-12-07",
+    "keywords": "水,鶏ガラスープの素,酒,塩,醤油,ごま油,お野菜好きなものを",
+    "recipeYield": "4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "材料のすべてを投入して火にかける！それだけ！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お好みでごま油・醤油の量を調整してね"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ラーメンや雑炊がとっても合います☆\nわかめを入れて卵をといて中華スープにも！"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "1月22日\nデイリーアクセス総合\n５位にランクインしました(^^)v",
+        "image": "https://img-global-jp.cpcdn.com/steps/21586495/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "レシピID：21490384\n鍋だしは買う必要なし！ある物でちゃんこ鍋もどうぞ♫"
+      }
+    ],
+    "recipeIngredient": [
+      "水 1000ｃｃ",
+      "鶏ガラスープの素 大２＋小１",
+      "酒 大２",
+      "塩 小２分の１",
+      "醤油 小１弱",
+      "ごま油 小１＋小２分の１",
+      "お野菜好きなものを 以下私の好みの物です"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ayana703ママ",
+      "url": "https://cookpad.com/jp/users/40097127"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 329958
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 25
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "makirin☆",
+          "url": "https://cookpad.com/jp/users/40248915"
+        },
+        "datePublished": "2025-07-26",
+        "text": "夏バテにもいいですね！美味しかったです"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "茶太郎ラッシュ･ω･",
+          "url": "https://cookpad.com/jp/users/40762974"
+        },
+        "datePublished": "2025-07-09",
+        "text": "〆の雑炊写🤭白菜ウインナー豚肉ちくわ白ネギもやし袋焼きそば麺(←ラーメンの代わりに)入れました❕久々に美味すぎ❕旦那氏大絶賛🤍"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆あさ",
+          "url": "https://cookpad.com/jp/users/40350855"
+        },
+        "datePublished": "2025-07-02",
+        "text": "少し体調崩してる娘に。お出汁がとても美味しかったようでしっかり食べてました♡♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "みちばたの花",
+          "url": "https://cookpad.com/jp/users/40645188"
+        },
+        "datePublished": "2025-06-01",
+        "text": "野菜が沢山食べれて美味しい鍋です。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さとみんちゃちゃちゃ",
+          "url": "https://cookpad.com/jp/users/40095232"
+        },
+        "datePublished": "2025-05-26",
+        "text": "美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "٩(^‿^)۶",
+          "url": "https://cookpad.com/jp/users/41230416"
+        },
+        "datePublished": "2025-05-07",
+        "text": "夜勤明けの旦那さん用に準備‼️温めて直して食べてもらう時に、水餃子も追加します‼️市販の味とは違う味٩(^‿^)۶旨いです😋"
+      }
+    ],
+    "commentCount": 4518
+  },
+  "timestamp": "2025-08-08T19:50:33.152Z"
+}

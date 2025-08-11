@@ -1,0 +1,118 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19526685",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ハニーシナモンバナナトースト",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4500878/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19526685",
+    "description": "【話題入り】シナモン香るとろけるバナナとはちみつのハーモニーが絶妙な、朝食やおやつにおすすめの簡単トースト♪",
+    "datePublished": "2017-05-10",
+    "dateModified": "2018-10-21",
+    "keywords": "食パン,バナナ,はちみつ,シナモンパウダー",
+    "recipeYield": "1人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "輪切りにしたバナナを食パンにのせてシナモンパウダーをかける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "オーブントースターでパンがこんがりとするまで焼いたら、はちみつを全体にかける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【ブログ】\n\nLINEで更新通知が届きます♪\n\nhttp://ys-recipe.blog.jp/"
+      }
+    ],
+    "recipeIngredient": [
+      "食パン 1枚",
+      "バナナ 1本",
+      "はちみつ 適量",
+      "シナモンパウダー 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "Y’ｓ",
+      "url": "https://cookpad.com/jp/users/40038027"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 728
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックGGLXTL☆",
+          "url": "https://cookpad.com/jp/users/40616123"
+        },
+        "datePublished": "2022-07-10",
+        "text": "クリームチーズも一緒に♪美味しく出来ました(^o^)vありがとうございます☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "choco831",
+          "url": "https://cookpad.com/jp/users/40199461"
+        },
+        "datePublished": "2022-04-05",
+        "text": "いい感じに◎できて大満足！ごちそうさまΨ( 'ч' ☆)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "もゆずん",
+          "url": "https://cookpad.com/jp/users/40641833"
+        },
+        "datePublished": "2021-08-29",
+        "text": "簡単で朝から至福の時間でした♪チョコバナナもついでに♫"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "chako106HM",
+          "url": "https://cookpad.com/jp/users/40654986"
+        },
+        "datePublished": "2021-02-13",
+        "text": "蜂蜜とシナモンとバナナ🍌最強の組み合わせ♡家族にも大好評(*^^*)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Ebi1783☆",
+          "url": "https://cookpad.com/jp/users/40464618"
+        },
+        "datePublished": "2020-06-12",
+        "text": "簡単で美味しかったです(^○^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "すももの枝",
+          "url": "https://cookpad.com/jp/users/40682252"
+        },
+        "datePublished": "2020-05-03",
+        "text": "シナモンが絶妙すぎます！とっても美味しくいただきました。"
+      }
+    ],
+    "commentCount": 50
+  },
+  "timestamp": "2025-08-08T19:57:52.894Z"
+}

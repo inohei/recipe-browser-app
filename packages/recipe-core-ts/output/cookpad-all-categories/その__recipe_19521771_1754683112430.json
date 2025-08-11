@@ -1,0 +1,150 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19521771",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "スプーン止まらない♫簡単デザート牛乳寒天",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1999077/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19521771",
+    "description": "寒天は手軽ですぐ固まるのでちびちゃんのおやつにも♡2013/11/8つくれぽ100人！ありがとうございます！",
+    "datePublished": "2012-10-19",
+    "dateModified": "2023-02-06",
+    "keywords": "水,牛乳,粉末寒天,みかんの缶詰,砂糖,砂糖,砂糖,※砂糖の分量は参考程度で…",
+    "recipeYield": "４人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "《重要！》水の状態から寒天を入れます！ぐるぐるー！よーく混ぜてください！",
+        "image": "https://img-global-jp.cpcdn.com/steps/10447104/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "沸騰させ2分ほどかきまぜたら砂糖を投入！煮溶かします。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※牛乳は面倒でなければ人肌程度に温めた方がいいみたいです！わたしは普通に入れちゃってます。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火を止めてから牛乳をいれ、容器の中に流し込みます。みかんの缶詰も容器の中に。みかんのみ。汁は捨ててしまってOK。",
+        "image": "https://img-global-jp.cpcdn.com/steps/10447107/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "粗熱が取れたら冷蔵庫で冷やしましょう！\n常温でもかたまります。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "個別の容器に入れてもかわいいです",
+        "image": "https://img-global-jp.cpcdn.com/steps/10582599/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "他のフルーツでも大丈夫です！酸味のないフルーツの場合は砂糖減らしてもいいと思います(^O^)"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "砂糖、多いように感じますが分量通り作ってみて、甘すぎたら2回目以降調整した方がいいかも！\n冷えると甘味がどっかいきます！"
+      }
+    ],
+    "recipeIngredient": [
+      "水 300cc",
+      "牛乳 200cc",
+      "粉末寒天 4g",
+      "みかんの缶詰 1缶",
+      "砂糖 40g甘さ控えめ",
+      "砂糖 50gサッパリした甘さ",
+      "砂糖 60g甘め",
+      "※砂糖の分量は参考程度で… あとはお好みで"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "asupoyo",
+      "url": "https://cookpad.com/jp/users/40052765"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 99004
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 49
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "コメメ",
+          "url": "https://cookpad.com/jp/users/40266993"
+        },
+        "datePublished": "2025-08-05",
+        "text": "こちらのレシピで何度も作ってます。今回はお砂糖⇒ラカントで作りました。水から寒天を煮溶かす方法が１番失敗なく作れます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Yuki178",
+          "url": "https://cookpad.com/jp/users/109076502"
+        },
+        "datePublished": "2025-07-25",
+        "text": "夏休みのおやつに！美味しくて止まりません☺️シロップも追加しました～"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "グリーンリーフ系",
+          "url": "https://cookpad.com/jp/users/40980441"
+        },
+        "datePublished": "2025-07-23",
+        "text": "倍量で、三温糖で作りました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Ｎよんよん",
+          "url": "https://cookpad.com/jp/users/41128267"
+        },
+        "datePublished": "2025-07-21",
+        "text": "2倍作りました。砂糖は、50gでおさえむした。これが1番だまにならず作りやすいです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "tkmtjk",
+          "url": "https://cookpad.com/jp/users/40101934"
+        },
+        "datePublished": "2025-07-05",
+        "text": "子供が1人で食べてしまうくらい美味しい〜♡すぐ出来る素敵デザートです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Ｎよんよん",
+          "url": "https://cookpad.com/jp/users/41128267"
+        },
+        "datePublished": "2025-06-25",
+        "text": "2倍作成。牛乳600水400砂糖65gで。"
+      }
+    ],
+    "commentCount": 2318
+  },
+  "timestamp": "2025-08-08T19:58:32.430Z"
+}

@@ -1,0 +1,128 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18625940",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "お弁当に★枝豆inちくわのベーコン巻き",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4258327/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18625940",
+    "description": "話題入り&カテゴリ掲載ありがとうございます♫ お弁当のおかずに困ったときや、簡単おつまみが欲しいときにも。",
+    "datePublished": "2016-12-27",
+    "dateModified": "2017-05-25",
+    "keywords": "ちくわ,ハーフベーコン,枝豆(冷凍枝豆を解凍),マヨネーズ",
+    "recipeYield": "4個分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ちくわを二等分し、更に縦に切り込みを入れて枝豆を挟めるようにする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ちくわの切り込み部分にマヨネーズと枝豆3粒を挟む。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ベーコンで巻き、巻き終わりを下にしてトースターで5〜6分焼く。\n※焦げ付きに注意。焼き時間は要調節。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "枝豆の代わりにアスパラでも。\n半分に切ってお弁当に入れました♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/21987464/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "ちくわ 2本",
+      "ハーフベーコン 4枚",
+      "枝豆(冷凍枝豆を解凍) 12粒",
+      "マヨネーズ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "まやチャン",
+      "url": "https://cookpad.com/jp/users/40102296"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 7186
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 7
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "240915",
+          "url": "https://cookpad.com/jp/users/41033276"
+        },
+        "datePublished": "2025-02-05",
+        "text": "簡単で美味しかったです。ありがとうございました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆yopipi",
+          "url": "https://cookpad.com/jp/users/40095580"
+        },
+        "datePublished": "2025-01-31",
+        "text": "お弁当に入れました。美味しいし、見た目のもかわいいです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "りりごはん",
+          "url": "https://cookpad.com/jp/users/40615071"
+        },
+        "datePublished": "2024-11-29",
+        "text": "お弁当の彩りにぴったり！簡単で可愛くて重宝しています🙏素敵レシピありがとうございます！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ちーまぐ",
+          "url": "https://cookpad.com/jp/users/40282077"
+        },
+        "datePublished": "2024-09-18",
+        "text": "弾力がある竹輪で食べ応えもあり、美味しかったです！彩りもよく、お弁当の一品にいいですね☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さやたーん",
+          "url": "https://cookpad.com/jp/users/40430201"
+        },
+        "datePublished": "2024-04-21",
+        "text": "ベーコンとちくわの間にチーズも入れてみました！彩りも可愛く仕上がりました、素敵なレシピ感謝！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "パッシーユ",
+          "url": "https://cookpad.com/jp/users/40568022"
+        },
+        "datePublished": "2023-05-10",
+        "text": "ちくわに縦切り込みを入れずに枝豆でマヨを押し込みました。フライパンの洗い物もなく、お弁当おかずに助かります！"
+      }
+    ],
+    "commentCount": 166
+  },
+  "timestamp": "2025-08-08T19:55:43.784Z"
+}

@@ -1,0 +1,86 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19295412",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "とことん安上がり！簡単トムヤム家ラーメン",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4477236/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19295412",
+    "description": "ジャンクな味がたまらない！ ・肉はいれないこと ・安物のインスタント麺を使うこと が最大限にうまくなるコツ。",
+    "datePublished": "2017-04-18",
+    "dateModified": "2017-04-23",
+    "keywords": "インスタント袋麺(塩・醤油系がおすすめ),トムヤムペースト,卵,野菜なんでも(キャベツ、もやし、人参、きのこetc...基本なんでも合います),酢・砂糖・一味唐辛子・ナンプラーなど",
+    "recipeYield": "１人前",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "辛いもん好きならマストバイ！「トムヤムペースト」これさえあれば手抜きラーメンがタイ仕様へと早変わり。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22237465/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【下準備】\nインスタントラーメンの袋に記載してある水の量より、100ccほど増やして沸騰させておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "このラーメンのメインのトッピングは「揚げ目玉焼き」！\n多めの油で揚げ焼きして、別皿に取り出しておきます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22237467/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "同じ鍋で野菜炒めをつくります。冷蔵庫の残り野菜で十分。※個人的オススメは大根です。一度試してみて。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22239820/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "下準備しておいた水が沸騰したら、トムヤムペーストを大さじ1ほど入れてよく溶かします。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22237466/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "あとはインスタントラーメンの袋の作り方に準じてつくるだけ。乾麺を茹でて付属スープもきちんと表示通りにつかいましょう。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22237468/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "丼に移して、野菜炒めと揚げ目玉焼きをトッピングします。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22239825/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "あとは、テーブル調味料で自分好みの味に仕上げて啜るべし！\nわが家はナンプラー、砂糖、一味唐辛子、米酢を用意します。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22239824/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "作り方を一枚イラストにしてみました。プリントして冷蔵庫に貼るやつです。",
+        "image": "https://img-global-jp.cpcdn.com/steps/22239834/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【追記】スープに塩分も旨味も十分溶け込んでいるので、目玉焼きも野菜炒めも味付けなしでOKです"
+      }
+    ],
+    "recipeIngredient": [
+      "インスタント袋麺(塩・醤油系がおすすめ) 1袋",
+      "トムヤムペースト 大さじ1",
+      "卵 1個",
+      "野菜なんでも(キャベツ、もやし、人参、きのこetc...基本なんでも合います) 適量",
+      "酢・砂糖・一味唐辛子・ナンプラーなど お好みの量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "mojamojayo",
+      "url": "https://cookpad.com/jp/users/40087207"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 131
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:47:28.236Z"
+}

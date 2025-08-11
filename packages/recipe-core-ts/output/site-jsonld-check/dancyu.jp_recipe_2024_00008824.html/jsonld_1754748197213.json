@@ -1,0 +1,94 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "涼やかな食べ心地の&quot;きゅうりの塩水漬けと白身魚とハーブのカルパッチョ&quot;",
+    "description": "塩漬けで発酵したきゅうりの酸味と玉ねぎの風味、ディルの甘やかな香りが混ざり夏らしく、涼やかで上品な味わいのソースに仕上がります。体がホッとする発酵食品を取り入れたレシピを、料理研究家の真藤舞衣子さんに教えてもらいました。",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://dancyu.jp/recipe/2024_00008824.html"
+    },
+    "image": "https://dancyu.jp/images/m8824.jpg ",
+    "author": {
+      "@type": "Person",
+      "name": "dancyu（ダンチュウ）編集部"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "株式会社 プレジデント社",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.president.co.jp/fileadmin/res/global/logo/default.png"
+      }
+    },
+    "datePublished": "2024-06-13T15:00:00+09:00",
+    "dateModified": "2024-06-13T15:00:02+09:00"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https://dancyu.jp/",
+          "name": "dancyu (ダンチュウ) | 食こそエンターテインメント！"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://dancyu.jp/recipe/",
+          "name": "つくる"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://dancyu.jp/series/hakkogohan/",
+          "name": "体が喜ぶ、発酵ごはん"
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@id": "https://dancyu.jp/recipe/2024_00008824.html",
+          "name": "涼やかな食べ心地の&quot;きゅうりの塩水漬けと白身魚とハーブのカルパッチョ&quot;"
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org/",
+    "@type": "Recipe",
+    "datePublished": "2024-06-13",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "サルサヴェルデをつくる：きゅうりの塩水漬けと玉ねぎをみじん切りにして小さいボウルに入れ、そこに粗く刻んだディルとイタリアンパセリ、塩麹、オリーブオイルを入れてよく混ぜる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "仕上げ：鯛をそぎ切りにしてお皿に並べて、上からサルサヴェルデをかける。"
+      }
+    ],
+    "name": "塩水漬けと白身魚とハーブのカルパッチョ",
+    "image": "https://dancyu.jp/images/m8824.jpg ",
+    "description": "塩漬けで発酵したきゅうりの酸味と玉ねぎの風味、ディルの甘やかな香りが混ざり夏らしく、涼やかで上品な味わいのソースに仕上がります。体がホッとする発酵食品を取り入れたレシピを、料理研究家の真藤舞衣子さんに教えてもらいました。",
+    "recipeYield": "2〜3人分",
+    "recipeIngredient": [
+      "鯛：1サク（刺身用）",
+      "★ サルサヴェルデ：",
+      "・ きゅうりの塩水漬け※：1／3本",
+      "・ 玉ねぎ：1／4個",
+      "・ ディル：3本",
+      "・ イタリアンパセリ：1本",
+      "・ 塩麹：小さじ2",
+      "・ オリーブオイル：大さじ1と1／2"
+    ]
+  }
+]

@@ -1,0 +1,237 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17858696",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "殿堂レシピ♔タラのムニエル♡バター醤油✨",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3085191/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17858696",
+    "description": "「タラ｣｢ムニエル｣「バター」の人気検索No.1レシピ♔旬なお魚や野菜でOK♪大絶賛の声多数✨クリップ者数43万人突破！",
+    "datePublished": "2015-03-24",
+    "dateModified": "2025-03-10",
+    "keywords": "鱈(たら),ほうれん草,薄力粉または片栗粉,塩,胡椒,ブラックペッパー,バター,醤油,オリーブオイル,レモン",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "タラは塩と胡椒をし、水気を取って薄力粉又は片栗粉をまぶします。我が家ではオーマイの小麦粉を使用中♡超サラサラで驚きます！",
+        "image": "https://img-global-jp.cpcdn.com/steps/16109072/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにオリーブオイルを引き熱し、皮目からタラを焼きましょう！",
+        "image": "https://img-global-jp.cpcdn.com/steps/16109100/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "こんがりと両面焼けたらバターと醤油を加えましょう。※醤油は入れ過ぎに注意！加減してね！",
+        "image": "https://img-global-jp.cpcdn.com/steps/16109116/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "焼けたタラはお皿に盛り、同じフライパンでほうれん草を炒め盛り付けます。残ったソースもかけちゃいましょ〜う♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/16109281/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "※ほうれん草は根元の赤い部分に栄養がたっぷりあります‼スパッと切り落とさずによく洗って食べて下さいね♪炒めると甘いです♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "最後にブラックペッパーを振りかけたら、お洒落なタラムニの完成で〜す☆('ω'ﾉﾉ\" ﾊｲﾊｸｼｭ! 好みでレモン添えて♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "バター醤油☆第２弾！ふぐの一夜干し♡バター醤油 これオススメ♪(  ID:19633078  )",
+        "image": "https://img-global-jp.cpcdn.com/steps/19655837/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "バター醤油☆第３弾！ワカメとベビーホタテのバター醤油炒め☆間違いな〜い！( ID: 19789146 )",
+        "image": "https://img-global-jp.cpcdn.com/steps/25083253/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「クックパッドmagazine! Vol.4」 に紹介されてました♡有難うございます♡2016.01.05",
+        "image": "https://img-global-jp.cpcdn.com/steps/18412293/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "新たに！ふぐのムニエルバージョン♡バター醤油のレシピを追加しました♪ムニエル作っちゃおう！ ID: 18758988",
+        "image": "https://img-global-jp.cpcdn.com/steps/25328841/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "返信機能が残念なことに、もう無くなっちゃったけど、頂いたつくレポは朝起きた時とお仕事の休憩時間、寝る前に必ずみています♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "もー！ほんと沢山の方が作ってくれて、気に入ってくれて♡リピしまくってくれて♡すっごく！すーーーっごく！嬉しいです☆",
+        "image": "https://img-global-jp.cpcdn.com/steps/28206769/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ホキ、カレイ、タチウオ、アカマンボウ、釣ってきたスズキの稚魚、シイラ、パンガシウス、パラマンディ、釣ってきたサワラや、",
+        "image": "https://img-global-jp.cpcdn.com/steps/31488620/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鯛、鮭、ホッケ、めかじき、冷凍スケソウダラ、シイラ、黒鯛(チヌ)、旦那さんが釣ってきたタラ！そしてタラのアラ！アラまで！",
+        "image": "https://img-global-jp.cpcdn.com/steps/31488748/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "アブラカレイの場合はその名の通り脂が乗っています。溶けやすくボロボロとなり易いのでなるだけ、キチンと水気をしっかりオフ！",
+        "image": "https://img-global-jp.cpcdn.com/steps/23974295/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "付け合わせにキノコ類、ブロッコリー、葱、コーンなど、アレンジレポ嬉しいです♡意外だったのは海老や白子！驚きでした有難う♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ちなみに♪レポくれた方の中にレシピUPしとったら覗きに行くのがMyブーム♡もしかしたら...ひょっこり貴方のとこにも❤"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "どしどし！素敵なつくレポをお待ちしてまーす♪リピートの方は是非フォローもお願いしますね♡♡♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "毎日美味しいの声が届きます！嬉しすぎるぅ♡｢ムニエルはこれ！｣｢うまぁ〜｣｢最高！｣｢もうかれこれ5年前からリピ」etc"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【私の気になったレポをご紹介！】\nオヒョウとな！初耳で即ググりました！（笑）大きなヒラメでカレイの仲間なんですね〜！",
+        "image": "https://img-global-jp.cpcdn.com/steps/34704249/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草の味に似た、栄養価の高いツルムラサキ♡個人的にぬめり込で好きです！アリ♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/34858228/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草にはシュウ酸「アク(えぐみ)」があり、気になるよ！って方は塩茹でしてから使うといいよ♪私、その手間省いてたの。",
+        "image": "https://img-global-jp.cpcdn.com/steps/35191661/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「タラ」「ムニエル」の検索はトップ維持です！2023.1.30たーくさんのレポ全て読んでます♡使う調味料の量はお好みで♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/35289478/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "TVでご紹介頂きました！「バター」レシピ検索47万ある中の1位✨有難うございます♚『ニッポン人の頭の中』2024.3.9",
+        "image": "https://img-global-jp.cpcdn.com/steps/36848676/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "「バター」で1位✨「バター醤油」で1位✨「ムニエル」で1位✨「タラ(鱈)」でも1位✨を目指してます！#タグで応援してね♡"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "クックパッドがだいぶ変わっちゃったけど、返信機能は復活です🥹♡覗き行きます！返信したくてウズウズしてたゼ！笑"
+      }
+    ],
+    "recipeIngredient": [
+      "鱈(たら) 3切れ",
+      "ほうれん草 1束",
+      "薄力粉または片栗粉 適量",
+      "塩 少々",
+      "胡椒 少々",
+      "ブラックペッパー 少々",
+      "バター 15g",
+      "醤油 お好み",
+      "オリーブオイル 大さじ1",
+      "レモン あれば"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "kittko♡",
+      "url": "https://cookpad.com/jp/users/40094900"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 452179
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 15
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ほのりんママさん",
+          "url": "https://cookpad.com/jp/users/40655087"
+        },
+        "datePublished": "2025-07-29",
+        "text": "タラは子供が好きなお魚で、美味しいと喜んで食べてくれました😊付け合わせに、ほうれん草がなかったのでブロッコリーにしました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "aozora＊",
+          "url": "https://cookpad.com/jp/users/41158490"
+        },
+        "datePublished": "2025-07-28",
+        "text": "リピートです🍽️また作ります✨"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "라마오",
+          "url": "https://cookpad.com/jp/users/96245665"
+        },
+        "datePublished": "2025-07-17",
+        "text": "味付けがすごく美味しかったです！\n魚あまり得意じゃないのですがこれなら食べれました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ものぐさtakky",
+          "url": "https://cookpad.com/jp/users/40694505"
+        },
+        "datePublished": "2025-07-13",
+        "text": "簡単に美味しくできて最高です❣️"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "なつき☆ミ",
+          "url": "https://cookpad.com/jp/users/40147129"
+        },
+        "datePublished": "2025-07-07",
+        "text": "すっかり我が家の定番です🥰簡単で美味しくて最高✨レシピありがとうございます💕"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "rinchan820",
+          "url": "https://cookpad.com/jp/users/40980604"
+        },
+        "datePublished": "2025-07-05",
+        "text": "赤魚でもとても美味しくできました♡ありがとうございます♡"
+      }
+    ],
+    "commentCount": 7835
+  },
+  "timestamp": "2025-08-08T19:44:11.282Z"
+}

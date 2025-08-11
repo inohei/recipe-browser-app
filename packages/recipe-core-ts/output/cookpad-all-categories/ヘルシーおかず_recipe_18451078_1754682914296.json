@@ -1,0 +1,133 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18451078",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ポン酢だけ＊ひじき枝豆ツナほうれん草",
+    "image": "https://img-global-jp.cpcdn.com/recipes/2220726/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18451078",
+    "description": "栄養たっぷり♡ツナ入りで子供もパクパク♬ 調味料はポン酢だけ＊とっても簡単です✿ お弁当にもどうぞ♡",
+    "datePublished": "2013-05-19",
+    "dateModified": "2013-08-25",
+    "keywords": "ひじき(乾燥),ほうれん草,ツナ,枝豆(冷凍や水煮ﾊﾟｯｸでも),ポン酢しょうゆ,白いりごま",
+    "recipeYield": "２人分くらい",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ひじきは戻す。\nほうれん草は茹でるかレンジで加熱して食べやすい大きさに切る。\nツナと枝豆は水分(油分)を切っておく。",
+        "image": "https://img-global-jp.cpcdn.com/steps/11666195/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ボウルなどに材料を全部入れて混ぜるだけ✿\nできあがりです♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/11666196/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お弁当にもどうぞ♬",
+        "image": "https://img-global-jp.cpcdn.com/steps/11666197/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ブロッコリーも入れました♬\nお好きな野菜などを入れて作ってみてください✿^^",
+        "image": "https://img-global-jp.cpcdn.com/steps/11775906/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "うんままさんが、コーン入りで作って下さいました♡\nお子さんに喜んでもらえそうですね!\n素敵アレンジ有難うございます♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/11767417/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "ひじき(乾燥) 大さじ１",
+      "ほうれん草 ２株",
+      "ツナ 大さじ１",
+      "枝豆(冷凍や水煮ﾊﾟｯｸでも) 大さじ２",
+      "ポン酢しょうゆ 大さじ１/２",
+      "白いりごま 小さじ１"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ぷらすないん",
+      "url": "https://cookpad.com/jp/users/40049730"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 5093
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ゆいなめこ",
+          "url": "https://cookpad.com/jp/users/40113414"
+        },
+        "datePublished": "2025-01-30",
+        "text": "とっても簡単に美味しく出来ました！！ありがとうございます♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まろんかふぇ",
+          "url": "https://cookpad.com/jp/users/40037793"
+        },
+        "datePublished": "2024-03-28",
+        "text": "味付けはさっぱりだけどツナが入るからコクもあって美味しい和え物でした💛ご馳走様です😊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "わらびもっちー",
+          "url": "https://cookpad.com/jp/users/40389871"
+        },
+        "datePublished": "2022-12-13",
+        "text": "さっぱりしていて、大好評でした！じゃこをトッピングしてみました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "K0A9O0R8U♪",
+          "url": "https://cookpad.com/jp/users/40081224"
+        },
+        "datePublished": "2021-02-24",
+        "text": "サッパリ美味しいし栄養満点(*≧∀≦*)ご馳走様でした♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "プリン後輩",
+          "url": "https://cookpad.com/jp/users/40272356"
+        },
+        "datePublished": "2020-03-30",
+        "text": "残っていた大豆で代用！ポン酢だけなのに美味しかったです^^"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "imiuifi",
+          "url": "https://cookpad.com/jp/users/40850324"
+        },
+        "datePublished": "2020-03-03",
+        "text": "簡単で美味しくて彩りもあって最高。また作ります"
+      }
+    ],
+    "commentCount": 148
+  },
+  "timestamp": "2025-08-08T19:55:14.296Z"
+}

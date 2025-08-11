@@ -1,0 +1,131 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18191262",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "本格風♪にんにく農家のボンゴレビアンコ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4121869/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18191262",
+    "description": "★★★人気検索『ボンゴレビアンコ』トップ10入り★★★粗みじんにんにくを使った簡単ガーリックパスタ",
+    "datePublished": "2016-10-17",
+    "dateModified": "2017-04-10",
+    "keywords": "パスタ,あさり,白ワイン,オリーブオイル,粗みじんにんにく,バター,醤油,塩コショウ,乾燥パセリ",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "沸騰したお湯に大さじ1の塩を入れ、パスタを茹でる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにオリーブオイル、粗みじんにんにくを入れ、弱火で香りをだす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "あさり、白ワインを投入し、あさりが開くまで蓋をし、中火で蒸す。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "あさりがすべて開いたら、パスタ、調味料Aを入れ、味を調える。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お皿に盛り付け、乾燥パセリをふりかけ完成。"
+      }
+    ],
+    "recipeIngredient": [
+      "パスタ 200g",
+      "あさり 好きな分",
+      "白ワイン 50cc",
+      "オリーブオイル 大さじ2",
+      "粗みじんにんにく 1片分",
+      "バター 適量",
+      "醤油 少々",
+      "塩コショウ 少々",
+      "乾燥パセリ 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "にんにくのよしだ家",
+      "url": "https://cookpad.com/jp/users/40094047"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1581
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "IMKI",
+          "url": "https://cookpad.com/jp/users/40381272"
+        },
+        "datePublished": "2021-01-28",
+        "text": "シンプルで簡単に作れました！美味しかったです。テレワーク中の旦那にも好評でした。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "SaChi_2020",
+          "url": "https://cookpad.com/jp/users/40736935"
+        },
+        "datePublished": "2020-11-20",
+        "text": "パセリ無しで...。あさりがプリプリでパスタもしっかり本格的な味でした！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まるるん♧",
+          "url": "https://cookpad.com/jp/users/41103404"
+        },
+        "datePublished": "2020-08-26",
+        "text": "初めて作りました。とてもおいしくいただきました。リピします!!"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "IMKI",
+          "url": "https://cookpad.com/jp/users/40381272"
+        },
+        "datePublished": "2020-05-25",
+        "text": "何回かリピしています。本格的なパスタが手軽に作れて嬉しいです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ちゃんまるだよ",
+          "url": "https://cookpad.com/jp/users/40080673"
+        },
+        "datePublished": "2019-09-25",
+        "text": "シンプルですが美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ショヨ",
+          "url": "https://cookpad.com/jp/users/40567260"
+        },
+        "datePublished": "2018-09-26",
+        "text": "パジルと唐辛子を加えた！美味しかった！レシピありがとう"
+      }
+    ],
+    "commentCount": 75
+  },
+  "timestamp": "2025-08-08T19:46:16.838Z"
+}

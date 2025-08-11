@@ -1,0 +1,134 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17611136",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単♪ハートの卵焼き～",
+    "image": "https://img-global-jp.cpcdn.com/recipes/395659/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17611136",
+    "description": "祝♡つくれぽ300人超え！！ 感謝感激デス(๑❛ꆚ❛๑) いつもの卵焼きが可愛く大変身♡ お試しあれ〜♫",
+    "datePublished": "2007-06-27",
+    "dateModified": "2016-10-21",
+    "keywords": "たまご,砂糖,塩",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "材料を混ぜ合わせ\r\n中火～弱火で焦がさないように焼く。",
+        "image": "https://img-global-jp.cpcdn.com/steps/1911104/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お好みの長さに切る。　お弁当の深さが深い場合は　長めにカットするといいですよ。",
+        "image": "https://img-global-jp.cpcdn.com/steps/1911105/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "写真のように切る。\r\nＡのお花が書いてある面が下になるようにひっくり返す。\r\nＢはそのまま。",
+        "image": "https://img-global-jp.cpcdn.com/steps/1911106/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "出来上がり♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/1911126/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "使用例です♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/2717789/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "たまご ２個",
+      "砂糖 小さじ２",
+      "塩 ２つまみ"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ゆうとママぁ",
+      "url": "https://cookpad.com/jp/users/40041386"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 13789
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 3
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "cherusy",
+          "url": "https://cookpad.com/jp/users/40125405"
+        },
+        "datePublished": "2025-05-09",
+        "text": "なんとか作れました！\n作り方で混乱するので助かりました！！\nありがとうございます！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "fl＊＊",
+          "url": "https://cookpad.com/jp/users/40446075"
+        },
+        "datePublished": "2024-12-02",
+        "text": "何回も作ってます！娘のリクエストで。卵焼きは白だしの卵焼き。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "いずぅとゆーま",
+          "url": "https://cookpad.com/jp/users/40051749"
+        },
+        "datePublished": "2024-10-27",
+        "text": "息子の運動会のベイマックスお弁当に♡簡単に可愛く出来ました(^O^)"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♡YKitchen♡",
+          "url": "https://cookpad.com/jp/users/40339562"
+        },
+        "datePublished": "2024-09-12",
+        "text": "幼稚園のお弁当に♡喜んでくれました♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "kam嫁",
+          "url": "https://cookpad.com/jp/users/40099795"
+        },
+        "datePublished": "2024-05-21",
+        "text": "最後に仕上げてハートに✨"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "いづみき",
+          "url": "https://cookpad.com/jp/users/40831209"
+        },
+        "datePublished": "2024-02-21",
+        "text": "息子の遠足のお弁当に！可愛い！と喜んで食べてくれました！"
+      }
+    ],
+    "commentCount": 802
+  },
+  "timestamp": "2025-08-08T19:52:25.526Z"
+}

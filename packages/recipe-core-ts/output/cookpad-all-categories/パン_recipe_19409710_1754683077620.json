@@ -1,0 +1,112 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19409710",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "朝食やランチに♪オニオンツナマヨトースト",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4513578/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19409710",
+    "description": "クックパッドニュース掲載&話題入！お弁当や朝食で残ったツナや玉ねぎで簡単！玉ねぎの甘みが意外と美味しく食べた感ありますよ",
+    "datePublished": "2017-05-09",
+    "dateModified": "2020-03-18",
+    "keywords": "食パン,☆薄切りスライス玉ねぎ,☆ツナ,☆スイートコーン,☆マヨネーズ,☆塩コショウ、ゴマ",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎは薄くスライスする。☆印の材料を全部混ぜパンにのせてトースターで焼く。玉ねぎがやわらかくなりこんがり焼けたら完成",
+        "image": "https://img-global-jp.cpcdn.com/steps/22389315/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "食パン 1枚",
+      "☆薄切りスライス玉ねぎ 1/8カット(適量)",
+      "☆ツナ 約20g(約1/4缶)",
+      "☆スイートコーン 適量",
+      "☆マヨネーズ 大さじ1",
+      "☆塩コショウ、ゴマ 適量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ゆず☆ななみ",
+      "url": "https://cookpad.com/jp/users/40107576"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 915
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック2H9MD0☆",
+          "url": "https://cookpad.com/jp/users/41006370"
+        },
+        "datePublished": "2023-10-21",
+        "text": "コーンが無かったのでハム、玉ねぎ、キャベツのみじん切りで作りました。上出来です、ありがとうございます！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "YCHキッチン",
+          "url": "https://cookpad.com/jp/users/40382268"
+        },
+        "datePublished": "2022-12-03",
+        "text": "シャキっとした玉葱がおいしいですね。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さめぽよ",
+          "url": "https://cookpad.com/jp/users/40270900"
+        },
+        "datePublished": "2022-04-09",
+        "text": "本日ランチにいただきました。コーン無く息子のリクエストでチーズトッピングしました。手早くできた上にボリュームもあり美味しかった♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "めみたん☆",
+          "url": "https://cookpad.com/jp/users/40100837"
+        },
+        "datePublished": "2022-03-15",
+        "text": "いっぱいのせてお腹いっぱい頂いたよ！美味しかったぁ～今は寒暖差あるよね~体調注意してね御馳走様でした"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ベティ３",
+          "url": "https://cookpad.com/jp/users/41126535"
+        },
+        "datePublished": "2021-09-15",
+        "text": "具沢山で美味しくいただきました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆ドキンちゃん☆”",
+          "url": "https://cookpad.com/jp/users/40062372"
+        },
+        "datePublished": "2021-09-13",
+        "text": "簡単にできて美味しかったです♪"
+      }
+    ],
+    "commentCount": 31
+  },
+  "timestamp": "2025-08-08T19:57:57.620Z"
+}

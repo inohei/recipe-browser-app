@@ -1,0 +1,39 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "鰹節屋・だし屋、ヤマキ。",
+    "url": "https://www.yamaki.co.jp/"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "月見うどん",
+    "image": "https://www.yamaki.co.jp/recipe/wp-content/uploads/bc16be9f09319ebf1f183f1796ba41bb.jpg",
+    "description": "月見うどん",
+    "recipeYield ": 2,
+    "cookTime": "PT10M",
+    "recipeIngredient": [
+      "冷凍うどん",
+      "【A】めんつゆ",
+      "【A】水",
+      "卵",
+      "かまぼこ",
+      "わけぎ"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "うどんを表示通りゆで、水気を切って器に盛る。中心を少しくぼませて、そこに卵を割り入れる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "【A】を合わせて温める。沸騰したら、①の卵を割らないように優しくまわし入れる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "刻んだわけぎ、かまぼこを飾る。"
+      }
+    ]
+  }
+]

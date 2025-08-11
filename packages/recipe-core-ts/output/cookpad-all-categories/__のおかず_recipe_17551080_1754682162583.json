@@ -1,0 +1,168 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17551080",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "✿そぼろ三色丼ぶり✿",
+    "image": "https://img-global-jp.cpcdn.com/recipes/547908/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17551080",
+    "description": "殿堂入りレシピ♡レポ2800人突破\\(＊＞∇＜)ﾉ 母の味♫子供の頃から母の三色丼が大好きでした♡ランチやお弁当にも！",
+    "datePublished": "2008-04-09",
+    "dateModified": "2025-03-03",
+    "keywords": "豚ひきにく(又は鶏挽肉）,卵,ほうれん草（又は絹さや）,✿しょうゆ,✿酒,✿みりん,✿砂糖,♡だし,♡みりん,♡しょうゆ,♡塩,♡白ゴマ,☆砂糖,☆塩,☆酒",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ボウルに卵を溶きほぐし、☆の調味料を入れてフライパンに流し込み、菜箸４本で、よくかき混ぜ半熟状態になったら火を止める。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "挽肉を鍋に入れ、✿の調味料を加えて味付けし、よく混ぜてから強火にかけ、汁気がなくなるまで煮る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほうれん草は塩茹でし、水気を切って細かく刻み、♡の調味料と材料を加えてあえる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "丼ぶりに、ご飯を盛って、1・2・3の具を並べ入れれば完成♪",
+        "image": "https://img-global-jp.cpcdn.com/steps/682ba2b97d69262c/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "■NAVERまとめで\n【クックパッド】超旨い☆お手軽☆丼ものレシピ１５選に！",
+        "image": "https://img-global-jp.cpcdn.com/steps/26177600/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "くまのっぽさんが、巻き寿司にしてくれました♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/26598363/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ちゃあ☆ちゃさんが\nお雛様ケーキ寿司に♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/26598375/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "しじみごはんさんが、恵方巻にそぼろを♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/28515501/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "うさうさぴよまるさんが可愛い三色丼に♡",
+        "image": "https://img-global-jp.cpcdn.com/steps/28782534/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "よーこ。さんが、お子さんのために可愛いくまさんの二色丼に♪(*◡‿◡人)",
+        "image": "https://img-global-jp.cpcdn.com/steps/29556457/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "豚ひきにく(又は鶏挽肉） 100ｇ～150ｇ",
+      "卵 2～3個",
+      "ほうれん草（又は絹さや） 1束",
+      "✿しょうゆ 大2",
+      "✿酒 大2",
+      "✿みりん 大1",
+      "✿砂糖 大1",
+      "♡だし 小1/2",
+      "♡みりん 小1",
+      "♡しょうゆ 小1",
+      "♡塩 少々",
+      "♡白ゴマ 適量",
+      "☆砂糖 大1",
+      "☆塩 少々",
+      "☆酒 大1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "shioriのママ",
+      "url": "https://cookpad.com/jp/users/40036805"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 255551
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 8
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まる゜",
+          "url": "https://cookpad.com/jp/users/40217078"
+        },
+        "datePublished": "2025-08-06",
+        "text": "桜島どりモモミンチで作りました。五色にしました。好きな味付けなので美味しかったです(^^♪素敵レシピありがとう"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "なっさん姫",
+          "url": "https://cookpad.com/jp/users/40310875"
+        },
+        "datePublished": "2025-07-26",
+        "text": "２色でも、美味しいです♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "seesaa♪",
+          "url": "https://cookpad.com/jp/users/40845864"
+        },
+        "datePublished": "2025-07-23",
+        "text": "何度もリピしてます"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "まる゜",
+          "url": "https://cookpad.com/jp/users/40217078"
+        },
+        "datePublished": "2025-07-18",
+        "text": "黒豚ミンチで作りました。味付けがバッチリです(^^♪美味しかった！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "いたずらコリラックマ",
+          "url": "https://cookpad.com/jp/users/40567988"
+        },
+        "datePublished": "2025-07-05",
+        "text": "今日は、3色丼🩷\n\n美味しそうにできました☆\n子供達、美味しそうに食べてくれてます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "clover55",
+          "url": "https://cookpad.com/jp/users/40842597"
+        },
+        "datePublished": "2025-07-01",
+        "text": "豚ひき肉を使って作りました☆三色丼の時はこの味付けをいつもリピしています☆"
+      }
+    ],
+    "commentCount": 4728
+  },
+  "timestamp": "2025-08-08T19:42:42.583Z"
+}

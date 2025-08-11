@@ -1,0 +1,128 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19021438",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ねじりこんにゃくの煮物",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1845344/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19021438",
+    "description": "子供たちの大好きなねじりこんにゃくの煮物＾＾子供たちの好物なので辛みは入れず食べやすく！簡単だけど立派な１品♪",
+    "datePublished": "2012-06-28",
+    "dateModified": "2020-01-30",
+    "keywords": "こんにゃく,☆醤油,☆みりん,☆酒,☆砂糖,ごま油,鰹節",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "蒟蒻はスライスしたら真ん中に切り目を入れ、そこに上下どちらかを差し込みくるっと。",
+        "image": "https://img-global-jp.cpcdn.com/steps/9641945/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ごま油を熱したフライパンで蒟蒻を炒めます。パチパチといい音がしてくるまでしっかりと。",
+        "image": "https://img-global-jp.cpcdn.com/steps/9641946/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "そこに☆の調味料すべて入れ煮詰めていきます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/9641947/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ほんの少し汁が残るぐらいまで煮詰めたら鰹節をまぶして出来上がり。",
+        "image": "https://img-global-jp.cpcdn.com/steps/9641948/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "こんにゃく 大１パック・小２パック",
+      "☆醤油 大3",
+      "☆みりん 大２",
+      "☆酒 大２",
+      "☆砂糖 大１",
+      "ごま油 適量",
+      "鰹節 半パック"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "nao・・・",
+      "url": "https://cookpad.com/jp/users/40052678"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 41574
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♥bambi♥",
+          "url": "https://cookpad.com/jp/users/40039333"
+        },
+        "datePublished": "2025-06-06",
+        "text": "子供たちが好きでよく作っています♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "★むさ",
+          "url": "https://cookpad.com/jp/users/40618920"
+        },
+        "datePublished": "2025-05-09",
+        "text": "ねじる作業が好きです。美味しくってパクパク食べれます。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かしゅかしゅん",
+          "url": "https://cookpad.com/jp/users/40178790"
+        },
+        "datePublished": "2025-05-09",
+        "text": "いいお味ですね〜♪子どもたちの大好物、また作ります＾＾"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "だいぽよ☆",
+          "url": "https://cookpad.com/jp/users/40174369"
+        },
+        "datePublished": "2025-03-28",
+        "text": "簡単ですごく美味しかったです！\nヘルシーだしいいですね。お弁当にも入れました😊"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Léø",
+          "url": "https://cookpad.com/jp/users/41233405"
+        },
+        "datePublished": "2025-03-06",
+        "text": "出来た( ｰ̀дｰ́)وめっちゃ簡単！味染みて美味しい"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "✳︎✳︎まぁ✳︎✳︎",
+          "url": "https://cookpad.com/jp/users/41231950"
+        },
+        "datePublished": "2025-01-30",
+        "text": "鷹の爪を入れて、大人味にしました！めっちゃおいしくて、おつまみにも最高でした😋リピします✨"
+      }
+    ],
+    "commentCount": 1818
+  },
+  "timestamp": "2025-08-08T19:53:13.829Z"
+}

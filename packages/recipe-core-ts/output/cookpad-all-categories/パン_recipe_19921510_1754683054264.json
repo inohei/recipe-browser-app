@@ -1,0 +1,77 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19921510",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "★簡単絶品本格的♪フルーツホイップサンド",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4518722/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19921510",
+    "description": "ハニーホイップと苺が素敵にマッチしたフルーツホイップサンドが美味しく完成。一度食べたら癖に成るお味に仕上がっています★。",
+    "datePublished": "2017-05-16",
+    "dateModified": "2017-06-04",
+    "keywords": "8枚切り食パン,苺,ホイップ ( ID 20052021 ハニーホイップ参照 )",
+    "recipeYield": "6切れ分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "苺は洗い葉を取り除き水分を切りお好みの大きさに切る。\n手順に従いハニーホイップを作る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "食パンの耳を切り落とす。\n片面ずつハニーホイップを塗り、苺を乗せサンドする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "三角が2個出来る様切る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "2017.6.4カテゴリに承認されました♪。有難うございます★。"
+      }
+    ],
+    "recipeIngredient": [
+      "8枚切り食パン 6枚",
+      "苺 お好み量",
+      "ホイップ ( ID 20052021 ハニーホイップ参照 ) お好み量"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "anko栄養士",
+      "url": "https://cookpad.com/jp/users/40094432"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 246
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "punipuni_pad",
+          "url": "https://cookpad.com/jp/users/40698284"
+        },
+        "datePublished": "2019-04-30",
+        "text": "ハニーホイップめっちゃ美味しい♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "Dream♪",
+          "url": "https://cookpad.com/jp/users/40662051"
+        },
+        "datePublished": "2018-01-09",
+        "text": "honeyホイップで奥深くとっても美味♪今年も宜しくお願いします"
+      }
+    ],
+    "commentCount": 4
+  },
+  "timestamp": "2025-08-08T19:57:34.264Z"
+}

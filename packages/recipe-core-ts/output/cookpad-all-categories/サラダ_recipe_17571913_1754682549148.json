@@ -1,0 +1,103 @@
+{
+  "url": "https://cookpad.com/jp/recipes/17571913",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "人参とツナのサラダ",
+    "image": "https://img-global-jp.cpcdn.com/recipes/3002192/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/17571913",
+    "description": "定番の食材で、満足の一品になりました。",
+    "datePublished": "2015-02-11",
+    "dateModified": "2015-02-11",
+    "keywords": "人参(千切り),ツナ缶(70g),胡麻ドレッシング,マヨネーズ,粗挽きこしょう,ベビーリーフ,パセリ",
+    "recipeYield": "2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "①、人参に、ふんわりラップをして、レンジで2分半くらい加熱する。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "②、ツナ缶のオイルを軽くきる。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "③、ドレシッングの材料を合わせる。味を見て塩で調節する。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "④、③に、①と②を合わせる。\nベビーリーフを盛りつけ、粗挽きこしょうをひと振りし、パセリをちらす。"
+      }
+    ],
+    "recipeIngredient": [
+      "人参(千切り) 中1本",
+      "ツナ缶(70g) 1缶",
+      "胡麻ドレッシング 大さじ2",
+      "マヨネーズ 大さじ2〜3",
+      "粗挽きこしょう 適量",
+      "ベビーリーフ 適量",
+      "パセリ 少々"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "ぴんの☆",
+      "url": "https://cookpad.com/jp/users/40055337"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1582
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "♡ナムギュ♡",
+          "url": "https://cookpad.com/jp/users/40260698"
+        },
+        "datePublished": "2024-09-25",
+        "text": "レンジにかけた人参がちょうど良い食感でとても食べやすくて美味しかったです😋💕\nまた作りたいと思います😊✨"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "anzusmap",
+          "url": "https://cookpad.com/jp/users/40051596"
+        },
+        "datePublished": "2019-07-29",
+        "text": "とても美味しかったです。素敵レシピありがとう。リピ決定です。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック旅好！！",
+          "url": "https://cookpad.com/jp/users/40702014"
+        },
+        "datePublished": "2019-04-17",
+        "text": "簡単に変わり映えするサラダが出来ました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ぽんずー",
+          "url": "https://cookpad.com/jp/users/40068170"
+        },
+        "datePublished": "2015-06-30",
+        "text": "人参サラダ大好き～♫とても美味しかったです♡"
+      }
+    ],
+    "commentCount": 7
+  },
+  "timestamp": "2025-08-08T19:49:09.148Z"
+}

@@ -1,0 +1,132 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18599581",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "やりいかの煮付け",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4259969/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18599581",
+    "description": "今が旬の柔らかいやりいかを甘辛く煮付けました。 2017.4.18 人気検索でトップ1になりました。",
+    "datePublished": "2016-12-28",
+    "dateModified": "2017-10-08",
+    "keywords": "やりいか,日本酒,醤油,みりん,砂糖",
+    "recipeYield": "2～3人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "やりいかをサッと水洗いし、キッチンペーパーで水分を拭きとっておきます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21291232/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋に日本酒、みりんを入れ煮立たせ、アルコール分を飛ばしてから、しょうゆと砂糖を入れ、やりいかを入れます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21291233/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "火加減は中火よりやや強火にし、落し蓋をして時々鍋を揺すりながら約5分煮ます。火を止め、約5分おいて味をなじませます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21291234/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ふっくらと煮あがりました。完成です。\n軟骨と目玉以外全部食べられます。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21291235/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "やりいか 約500g",
+      "日本酒 1/2カップ（100ml）",
+      "醤油 大2",
+      "みりん 大2",
+      "砂糖 大1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "べにざけ",
+      "url": "https://cookpad.com/jp/users/40094007"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 19204
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 6
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "くろまめちゃん",
+          "url": "https://cookpad.com/jp/users/40124165"
+        },
+        "datePublished": "2025-06-02",
+        "text": "簡単で美味しかったです！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ともこみんと",
+          "url": "https://cookpad.com/jp/users/40137410"
+        },
+        "datePublished": "2025-05-17",
+        "text": "このレシピ、最高です！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックM96XDX☆",
+          "url": "https://cookpad.com/jp/users/40421467"
+        },
+        "datePublished": "2025-03-23",
+        "text": "美味し過ぎて２日連続！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックM96XDX☆",
+          "url": "https://cookpad.com/jp/users/40421467"
+        },
+        "datePublished": "2025-03-22",
+        "text": "美味しく頂きました！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "れれれーん",
+          "url": "https://cookpad.com/jp/users/40429342"
+        },
+        "datePublished": "2025-01-17",
+        "text": "里芋も入れちゃいました！！美味しかったです♫"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クック5RLPSW☆",
+          "url": "https://cookpad.com/jp/users/41174591"
+        },
+        "datePublished": "2024-11-14",
+        "text": "とってもふっくら出来ました！ありがとうございます♪"
+      }
+    ],
+    "commentCount": 347
+  },
+  "timestamp": "2025-08-08T19:44:25.355Z"
+}

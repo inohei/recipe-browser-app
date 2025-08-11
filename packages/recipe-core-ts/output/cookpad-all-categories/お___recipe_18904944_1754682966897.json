@@ -1,0 +1,79 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18904944",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "お弁当用！ほんのり甘い卵焼き",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4312137/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18904944",
+    "description": "1番小さい卵焼き器で作りました！ほんのり甘いのでお子様向けかも。主人には喜んで貰えたけど(笑",
+    "datePublished": "2017-01-26",
+    "dateModified": "2017-04-17",
+    "keywords": "卵,砂糖,牛乳",
+    "recipeYield": "1人〜2人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "ボウルに卵を割り入れ、砂糖と牛乳を加えます"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵に火が通って来たら、巻いていきます"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "このようになったら完成",
+        "image": "https://img-global-jp.cpcdn.com/steps/22234504/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "卵 1個",
+      "砂糖 小さじ1/3",
+      "牛乳 大さじ1"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "nz18Eli",
+      "url": "https://cookpad.com/jp/users/40053230"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 206
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 1
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆miffy☆彡",
+          "url": "https://cookpad.com/jp/users/40081092"
+        },
+        "datePublished": "2017-06-26",
+        "text": "おいしかったです！ありがとうございます"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "かじゅえーん",
+          "url": "https://cookpad.com/jp/users/40225678"
+        },
+        "datePublished": "2017-03-27",
+        "text": "美味しかったです"
+      }
+    ],
+    "commentCount": 4
+  },
+  "timestamp": "2025-08-08T19:56:06.897Z"
+}

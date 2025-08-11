@@ -1,0 +1,140 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19624913",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "ハロウィンに♪サクサク！かぼちゃクッキー",
+    "image": "https://img-global-jp.cpcdn.com/recipes/1987070/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19624913",
+    "description": "かぼちゃの色味と香りが残っていて、サクサクで、という理想を叶えたレシピ♪ 試行錯誤の末、やっとたどり着きました～☆",
+    "datePublished": "2012-10-12",
+    "dateModified": "2012-11-12",
+    "keywords": "かぼちゃ（皮を取った状態で）,無塩バター（無塩マーガリン）,砂糖,薄力粉,片栗粉又はコーンスターチ",
+    "recipeYield": "２０枚くらい",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "バターを１㎝角に切る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "かぼちゃをレンジで加熱し、皮を取る。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "かぼちゃが熱いうちに、フードプロセッサーにかける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "３．にバター・砂糖・薄力粉・片栗粉を順に入れ、その都度FPをまわす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ラップに包んで冷蔵庫で１時間以上寝かせる。※やわらかい生地なので、よく寝かせると扱いやすいです（私は３時間～半日位）"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "打ち粉（分量外）の薄力粉をしき、生地を５～７ミリくらいの厚さにのばす。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "型ぬきして、１７０度に予熱したオーブンで１８～２０分くらい焼いて完成♪"
+      }
+    ],
+    "recipeIngredient": [
+      "かぼちゃ（皮を取った状態で） ６０ｇ",
+      "無塩バター（無塩マーガリン） ６０ｇ",
+      "砂糖 ６０ｇ",
+      "薄力粉 １２０ｇ",
+      "片栗粉又はコーンスターチ ２０ｇ"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "＊べーぐる＊",
+      "url": "https://cookpad.com/jp/users/40050807"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 40345
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 3
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ろんたまっは",
+          "url": "https://cookpad.com/jp/users/40167888"
+        },
+        "datePublished": "2024-11-13",
+        "text": "生地が柔らかくて、型抜きが少し大変でしたが…しっとりしたクッキーでこどもと美味しく食べました☆"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ほちる。",
+          "url": "https://cookpad.com/jp/users/40342527"
+        },
+        "datePublished": "2024-11-01",
+        "text": "カボチャではなく焼き芋にしたハロウィンスイートで♡サクザク美味しい♪ハロウィンの型抜きはセリアで。来年もリピします！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ひちょみん",
+          "url": "https://cookpad.com/jp/users/40513662"
+        },
+        "datePublished": "2024-10-31",
+        "text": "ハロウィンのお菓子に幼稚園・小学校帰りの子供と作りました。生地が柔らかくて子供は大変そうでしたが、とても美味しくできて大満足です"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "シナモンミルクティー",
+          "url": "https://cookpad.com/jp/users/40037876"
+        },
+        "datePublished": "2024-10-31",
+        "text": "子供と楽しく作りました。美味しかったです。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "さっちゃん←元こ茄子",
+          "url": "https://cookpad.com/jp/users/40034183"
+        },
+        "datePublished": "2024-10-30",
+        "text": "今年もかぼちゃが大量にあるので、ハロウィンに作りました♪焼けすぎたかも！でも旨い！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "☆sowelu☆",
+          "url": "https://cookpad.com/jp/users/85287043"
+        },
+        "datePublished": "2024-10-30",
+        "text": "余ったかぼちゃで。簡単でおいしくできました！"
+      }
+    ],
+    "commentCount": 1560
+  },
+  "timestamp": "2025-08-08T19:58:41.439Z"
+}

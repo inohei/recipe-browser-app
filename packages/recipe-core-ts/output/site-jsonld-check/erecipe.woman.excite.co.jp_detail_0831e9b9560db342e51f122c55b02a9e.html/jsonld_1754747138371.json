@@ -1,0 +1,97 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "Recipe",
+    "mainEntityOfPage": "https://erecipe.woman.excite.co.jp/detail/0831e9b9560db342e51f122c55b02a9e.html",
+    "name": "黄金比のタレで！定番の豚肉の生姜焼き",
+    "image": {
+      "@type": "ImageObject",
+      "url": "https://image.excite.co.jp/jp/erecipe/recipe/0/8/0831e9b9560db342e51f122c55b02a9e/c4428aeca4e59ca93cfad72fa6cdf35f.jpeg",
+      "width": 800,
+      "height": 529
+    },
+    "datePublished": "2021-04-16",
+    "dateModified": "2021-04-16",
+    "recipeYield": "4人分",
+    "recipeIngredient": [
+      "豚肉(ショウガ焼き用) 300〜350g",
+      "酒 小さじ2",
+      "みりん 小さじ1",
+      "しょうゆ 小さじ2",
+      "ショウガ(すりおろし) 1片分",
+      "サラダ油 大さじ1",
+      "酒 小さじ2",
+      "砂糖 大さじ3",
+      "みりん 小さじ2",
+      "しょうゆ 大さじ3",
+      "ショウガ汁 大さじ1",
+      "キャベツ 1/8〜1/4個",
+      "貝われ菜 1/2パック",
+      "プチトマト 8〜12個"
+    ],
+    "recipeInstructions": "下準備1. 豚薄切り肉は食べやすい長さに切り、＜下味調味料＞をしっかりもみ込み、10分おく。 下準備2. キャベツはせん切りにし、水に放ってザルに上げる。 下準備3. 貝われ菜は根元を落とし、長さを半分に切って水洗いし、キャベツと混ぜ合わせ、食べる直前まで冷やしておく。 作り方1. フライパンにサラダ油を熱し、豚薄切り肉を1枚ずつ広げながら中火で両面を焼き、いったん取り出しておく。 作り方2. フライパンに豚薄切り肉を戻し、＜合わせ調味料＞を加えて肉にからめ、最後にショウガ汁を加えてからませる。 作り方3. 器にキャベツと豚薄切り肉を盛り合わせ、（2）のタレを少し煮詰めて豚薄切り肉にかけ、プチトマトを添える。",
+    "publisher": {
+      "@type": "Organization",
+      "name": "E・レシピ",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://image.excite.co.jp/jp/erecipe/erecipe_amp_h60.png",
+        "width": 284,
+        "height": 60
+      }
+    },
+    "keywords": "黄金比のタレで！定番の豚肉の生姜焼き,酒,レシピ,作り方,簡単,おいしい,E・レシピ",
+    "author": {
+      "@type": "Person",
+      "name": "E・レシピスタッフ"
+    },
+    "cookTime": "PT25M",
+    "totalTime": "PT25M",
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "322 kcal"
+    },
+    "recipeCategory": "主菜",
+    "recipeCuisine": "和食",
+    "cookingMethod": "焼く",
+    "commentCount": "18",
+    "comment": [
+      {
+        "@type": "Comment",
+        "author": {
+          "@type": "Person",
+          "name": "いちご"
+        },
+        "description": "生姜焼用がなく、薄切肉で作りました。薄切りだし一枚ずつ焼くのもな…と思い、一気に炒めたせいか、濃いめの味に仕上がりました。それにしてもキャベツが高い！代わりに、もやしと小松菜炒めを添えました。",
+        "datePublished": "2017-12-15",
+        "dateModified": "2017-12-15",
+        "upvoteCount": "6",
+        "image": "https://s.eximg.jp/erecipe/reviews/201712/16/20171216152235_744221.jpeg"
+      },
+      {
+        "@type": "Comment",
+        "author": {
+          "@type": "Person",
+          "name": "まなちな"
+        },
+        "description": "人参と玉葱も加えてかさまししました。お肉とよく合い栄養がとれて嬉しいです。味がしっかりしみてご飯がすすむしサラダが美味しく食べられます。",
+        "datePublished": "2017-10-17",
+        "dateModified": "2017-10-17",
+        "upvoteCount": "4",
+        "image": "https://s.eximg.jp/erecipe/reviews/201710/17/20171017211623_670119.jpeg"
+      },
+      {
+        "@type": "Comment",
+        "author": {
+          "@type": "Person",
+          "name": "あこちゃん"
+        },
+        "description": "いつも市販のタレを使っていたので、はじめて自分で調合してみたら、とても簡単なのにおいしくできました！\r\n下味を漬けていたので、短時間の調理でもしっかりした味で、つい食べ過ぎてしまいました(笑)",
+        "datePublished": "2017-08-11",
+        "dateModified": "2017-08-11",
+        "upvoteCount": "2",
+        "image": "https://s.eximg.jp/erecipe/reviews/201708/11/20170811225749_643559.jpeg"
+      }
+    ]
+  }
+]

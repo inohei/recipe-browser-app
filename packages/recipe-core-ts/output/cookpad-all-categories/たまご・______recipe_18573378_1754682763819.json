@@ -1,0 +1,141 @@
+{
+  "url": "https://cookpad.com/jp/recipes/18573378",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単♪塩味半熟ゆで卵を自宅で★作り置き",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4242247/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/18573378",
+    "description": "お弁当やおつまみに！塩味半熟ゆで卵を家庭でも。 好みの塩加減の半熟ゆで卵を気軽に食べられて、お財布にも優しいです♪",
+    "datePublished": "2017-03-09",
+    "dateModified": "2018-04-12",
+    "keywords": "卵,冷水,塩",
+    "recipeYield": "お好みの量",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "深めのタッパーに水を張り、塩が底に少し溶け残るくらいの量の塩を入れ飽和食塩水を作る。\n冷蔵庫で1時間以上冷やしておく。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21286394/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵を冷蔵庫から出し、常温に戻しておく。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "鍋に卵がきちんと浸かる量のお湯を沸かす。\n卵をお玉に乗せて殻が割れないよう入れる。\n※卵を入れ終わる時間差を少なくする。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お湯が再沸騰したら火力を弱め、コトコトと7分半～茹でる。\n※好みの茹で加減になるよう、茹で時間は調整を。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21331683/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵の殻が割れないように、鍋のお湯を捨てる。\n冷蔵庫で冷やしていた塩水に殻のまま手早く浸ける。"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "粗熱が取れたら、タッパーの蓋を閉めて冷蔵庫で14～20時間浸ける。\n※卵はきちんと全体が塩水に浸かるようにする。",
+        "image": "https://img-global-jp.cpcdn.com/steps/21286395/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "漬け終ったら殻の水気を拭き取り、冷蔵庫で5～6日保存可能。\n漬け終わり直後よりも、数日経ったほうが味が付き美味しい。"
+      }
+    ],
+    "recipeIngredient": [
+      "卵 4個",
+      "冷水 400cc",
+      "塩 (140g)水100ccに対して35g"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "★水渚★",
+      "url": "https://cookpad.com/jp/users/40168758"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1474
+      },
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/LikeAction",
+        "userInteractionCount": 3
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ずぼら伝説",
+          "url": "https://cookpad.com/jp/users/40300190"
+        },
+        "datePublished": "2020-11-08",
+        "text": "連投失礼します。ちなみに私は味の素小さじ1/2入れたらよりコンビニっぽい味になりました。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "ずぼら伝説",
+          "url": "https://cookpad.com/jp/users/40300190"
+        },
+        "datePublished": "2020-11-08",
+        "text": "ずっと気になってたコンビニ塩味卵ようやく実行！手っ取り早く冷たい水は氷水で作りました。一晩冷蔵庫でつけてめっちゃ美味でした！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "minami1967",
+          "url": "https://cookpad.com/jp/users/40910299"
+        },
+        "datePublished": "2019-01-15",
+        "text": "おいしいー。感動！次はもっと半熟目指します！"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "saayacchi",
+          "url": "https://cookpad.com/jp/users/40645351"
+        },
+        "datePublished": "2018-09-30",
+        "text": "とっても簡単で美味しく出来ました。\n家族にも好評でした♡"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "おるご",
+          "url": "https://cookpad.com/jp/users/40130157"
+        },
+        "datePublished": "2018-03-11",
+        "text": "リベンジ成功！完璧な黄身が出来上がりました( ´ ▽ ` )"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "おるご",
+          "url": "https://cookpad.com/jp/users/40130157"
+        },
+        "datePublished": "2018-03-07",
+        "text": "7分半だとまだ君がとろんとろんでした。次は8分で再チャレします！"
+      }
+    ],
+    "commentCount": 18
+  },
+  "timestamp": "2025-08-08T19:52:43.819Z"
+}

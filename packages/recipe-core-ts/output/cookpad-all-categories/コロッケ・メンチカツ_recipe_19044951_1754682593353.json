@@ -1,0 +1,190 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19044951",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "昔ながらのコロッケ やっぱり手作りは最高",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4395045/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19044951",
+    "description": "話題のレシピ入り感謝！昔ながらのコロッケです。夕食の一品にお弁当にぴったりです！ 手作りのコロッケは、やっぱり最高です♡",
+    "datePublished": "2017-03-05",
+    "dateModified": "2018-10-06",
+    "keywords": "じゃがいも,牛豚合挽き肉,玉ねぎ,卵,バター,塩コショー,うすくち醤油,卵,小麦粉,パン粉,■サラダ油(揚げ用),中濃ソース,ケチャップ",
+    "recipeYield": "3〜4人分",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "じゃがいもは芽を取り、皮付きでゆでて下さい\n串が通ればOK！",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880817/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "熱いうちに皮をむき、マッシャー等で潰して下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880826/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "玉ねぎはみじん切りにして下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880833/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵を固ゆでのゆで玉子にし、白身をみじん切りにして下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880836/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "フライパンにバターをしき、中強火にして下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880840/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "バターが溶けたら挽肉、玉ねぎの順に炒めて下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880842/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "炒めて、玉ねぎの水分が飛んだら、塩コショー、うすくち醤油を入れて、軽く炒めて下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880844/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "じゃがいも、挽肉、玉ねぎ、ゆで玉子を入れてよく混ぜて、塩コショーで味を整えて下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880846/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "小判型に形を整えて下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880851/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "卵と小麦粉をよく混ぜて下さい\n※小麦粉のダマがなくなるまで！",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880856/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "⑩にタネをくぐらせ、パン粉をつける",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880859/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "パン粉をつけた状態で、10分ほど寝かせる",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880860/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "たっぷりの油で、170℃3分ほど、揚げて下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880863/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "アミなどで、油を切って下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21880875/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "お皿に盛付けて、お好みで、ソースをかけて、お召し上がり下さい",
+        "image": "https://img-global-jp.cpcdn.com/steps/21881020/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "じゃがいも 400g",
+      "牛豚合挽き肉 120g",
+      "玉ねぎ 120g",
+      "卵 1個",
+      "バター 10g",
+      "塩コショー 適量",
+      "うすくち醤油 小匙1/2",
+      "卵 1個",
+      "小麦粉 大匙3",
+      "パン粉 適量(60gぐらい)",
+      "■サラダ油(揚げ用) 適量",
+      "中濃ソース 大匙4",
+      "ケチャップ 大匙2"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "いっちゃんレシピ♪",
+      "url": "https://cookpad.com/jp/users/40095370"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 1634
+      }
+    ],
+    "comment": [
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックO16WLM☆",
+          "url": "https://cookpad.com/jp/users/41195132"
+        },
+        "datePublished": "2024-10-03",
+        "text": "参考にさせていただきました♪ゆで卵、初めて入れましたが美味しかったです♪麺つゆやナツメグ、牛乳も入れて味と食感を整えました♪"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "nonopeko",
+          "url": "https://cookpad.com/jp/users/41044880"
+        },
+        "datePublished": "2022-05-30",
+        "text": "久々にリピです。少し柔らかめになってしまいました💦コンソメを足して味付けを濃いめに。あっという間になくなりました～"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "nonopeko",
+          "url": "https://cookpad.com/jp/users/41044880"
+        },
+        "datePublished": "2020-05-10",
+        "text": "実はコロッケお初です。美味しくできて感謝です(≧∇≦)b"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "mii-po",
+          "url": "https://cookpad.com/jp/users/40714168"
+        },
+        "datePublished": "2020-05-08",
+        "text": "我が家のコロッケは毎回こちらのレシピにお世話になってます。ゆで卵入りがお気に入り！たくさん作ってもすぐなくなります。"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "papikun",
+          "url": "https://cookpad.com/jp/users/40032573"
+        },
+        "datePublished": "2020-01-07",
+        "text": "玉子初めて入れました！ソースも美味しかったです❤︎"
+      },
+      {
+        "@type": "Comment",
+        "name": "Cooksnap",
+        "author": {
+          "@type": "Person",
+          "name": "クックZHAW7E☆",
+          "url": "https://cookpad.com/jp/users/41009432"
+        },
+        "datePublished": "2019-08-25",
+        "text": "時間が掛かりましたが美味しくできました。ありがとうございました。"
+      }
+    ],
+    "commentCount": 49
+  },
+  "timestamp": "2025-08-08T19:49:53.353Z"
+}

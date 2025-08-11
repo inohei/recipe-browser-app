@@ -1,0 +1,59 @@
+{
+  "url": "https://cookpad.com/jp/recipes/19437492",
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "簡単！アジのニラ七味煮",
+    "image": "https://img-global-jp.cpcdn.com/recipes/4522265/1200x630cq80/photo.jpg",
+    "url": "https://cookpad.com/jp/recipes/19437492",
+    "description": "おつまみにも♪",
+    "datePublished": "2017-05-15",
+    "dateModified": "2017-05-15",
+    "keywords": "アジ,ニラ,減塩醤油,みりん,しょうが(チューブ),七味唐辛子,水",
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "text": "骨をしっかり取って細切りにして塩を振ってしばらくして水をペーパーで取る",
+        "image": "https://img-global-jp.cpcdn.com/steps/22425360/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "アジをだしで煮る",
+        "image": "https://img-global-jp.cpcdn.com/steps/22425361/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "沸騰したら短く切ったニラを加える",
+        "image": "https://img-global-jp.cpcdn.com/steps/22425362/400x400cq80/photo.jpg"
+      },
+      {
+        "@type": "HowToStep",
+        "text": "ニラが煮えたら完成",
+        "image": "https://img-global-jp.cpcdn.com/steps/22425363/400x400cq80/photo.jpg"
+      }
+    ],
+    "recipeIngredient": [
+      "アジ １切れ",
+      "ニラ 1/2束",
+      "減塩醤油 大さじ1",
+      "みりん 大さじ1",
+      "しょうが(チューブ) 2cm",
+      "七味唐辛子 小さじ1/2",
+      "水 100cc"
+    ],
+    "author": {
+      "@type": "Person",
+      "name": "だんどり亭",
+      "url": "https://cookpad.com/jp/users/40051364"
+    },
+    "recipeCuisine": "日本語",
+    "interactionStatistic": [
+      {
+        "@type": "InteractionCounter",
+        "interactionType": "http://schema.org/BookmarkAction",
+        "userInteractionCount": 147
+      }
+    ]
+  },
+  "timestamp": "2025-08-08T19:44:48.751Z"
+}
