@@ -1,4 +1,4 @@
-import type { CanonicalUnit, NormalizedIngredient, NormalizedRecipe, NormalizedYield } from "./core.js";
+import type { CanonicalUnit, NormalizedIngredient, NormalizedInstruction, NormalizedRecipe, NormalizedYield } from "./core.js";
 export declare class Ingredient {
     readonly data: NormalizedIngredient;
     constructor(data: NormalizedIngredient);
@@ -27,6 +27,15 @@ export declare class Ingredient {
     scale(factor: number): Ingredient;
     format(): string;
     toJSON(): NormalizedIngredient;
+}
+export declare class Instruction {
+    readonly data: NormalizedInstruction;
+    constructor(data: NormalizedInstruction);
+    get text(): string;
+    get imageUrl(): string | undefined;
+    get name(): string | undefined;
+    get url(): string | undefined;
+    toJSON(): NormalizedInstruction;
 }
 export declare class Yield {
     readonly data: NormalizedYield | undefined;
@@ -64,7 +73,7 @@ export declare class Recipe {
     get author(): string | undefined;
     get baseServings(): number | undefined;
     get ingredients(): Ingredient[];
-    get instructions(): string[];
+    get instructions(): Instruction[];
     get times(): {
         prep?: string;
         cook?: string;

@@ -6,6 +6,7 @@ function clampToPeople(n: number): number {
   return Math.max(1, Math.round(n));
 }
 
+
 export function RecipeSidebarApp({
   initialRecipe,
   isMobile = false,
@@ -54,22 +55,6 @@ export function RecipeSidebarApp({
   return (
     <>
       <div class="rb-body">
-        <div class="rb-header">
-          <button
-            class="rb-close-button"
-            data-action="close"
-            onClick={() => {
-              // Shadow DOMの場合、イベントが親要素に伝播される
-              const event = new CustomEvent('closeSidebar', { bubbles: true });
-              const currentElement = document.querySelector('#recipe-sidebar-container');
-              if (currentElement) {
-                currentElement.dispatchEvent(event);
-              }
-            }}
-          >
-            ×
-          </button>
-        </div>
         {displayedRecipe.imageUrl && (
           <div class="rb-header-image">
             <img class="rb-image" src={displayedRecipe.imageUrl} />
@@ -154,12 +139,21 @@ export function RecipeSidebarApp({
           ))}
         </ul>
 
-        <div class="rb-instructions-header">
+        <div class="rb-section-header">
           <div class="rb-section-title">作り方</div>
         </div>
         <ol class="rb-steps">
-          {displayedRecipe.instructions.map((step: string) => (
-            <li>{step}</li>
+          {displayedRecipe.instructions.map((step, index) => (
+            <li>
+              <div class="rb-step-content">
+                <div class="rb-step-text">{step.text}</div>
+                {step.imageUrl && (
+                  <div class="rb-step-image">
+                    <img src={step.imageUrl} alt={`手順${index + 1}`} />
+                  </div>
+                )}
+              </div>
+            </li>
           ))}
         </ol>
       </div>

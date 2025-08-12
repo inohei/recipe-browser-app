@@ -119,6 +119,26 @@ export class Ingredient {
         return { ...this.data };
     }
 }
+export class Instruction {
+    constructor(data) {
+        this.data = data;
+    }
+    get text() {
+        return this.data.text;
+    }
+    get imageUrl() {
+        return this.data.imageUrl;
+    }
+    get name() {
+        return this.data.name;
+    }
+    get url() {
+        return this.data.url;
+    }
+    toJSON() {
+        return { ...this.data };
+    }
+}
 export class Yield {
     constructor(data) {
         this.data = data;
@@ -199,7 +219,7 @@ export class Recipe {
         return this.data.ingredients.map((i) => new Ingredient(i));
     }
     get instructions() {
-        return this.data.instructions;
+        return this.data.instructions.map((i) => new Instruction(i));
     }
     get times() {
         return this.data.times;

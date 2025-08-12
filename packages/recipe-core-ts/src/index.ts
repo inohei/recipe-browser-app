@@ -4,15 +4,16 @@
 
 export {
   CanonicalUnit,
-  equalsIgnoreCase,
   NON_SCALABLE_REGEX,
+  NUMBER_PATTERN,
   NormalizedIngredient,
+  NormalizedInstruction,
   NormalizedRecipe,
   NormalizedYield,
-  normalizeNumerals,
-  NUMBER_PATTERN,
-  roundForUnit,
   SORTED_UNIT_ENTRIES,
+  equalsIgnoreCase,
+  normalizeNumerals,
+  roundForUnit,
   stripAndCollectParentheticals,
   toArray,
   unitDisplayJa,
@@ -23,4 +24,4 @@ export {
 export { parseJsonLdRecipesFromScripts } from "./parse";
 
 // Export domain classes only for public API
-export { Ingredient, Recipe, Yield } from "./domain";
+export { Ingredient, Instruction, Recipe, Yield } from "./domain";

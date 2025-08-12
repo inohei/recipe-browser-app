@@ -1,16 +1,15 @@
-import { render } from "preact";
 import { getJsonLdScriptsFromDocument } from "../../src/dom/jsonld";
 import { parseJsonLdRecipesFromScripts, Recipe } from "../../src/index";
-import { RecipeSidebarApp } from "../../src/ui/RecipeSidebarApp";
-import { getShadowDOMContainerStyles } from "../../src/ui/styles";
+
+// グローバルな状態管理
+let currentSidebar: HTMLIFrameElement | null = null;
+let currentRecipeData: any = null;
 
 const HOST_COMP_STYLE_ID = "recipe-sidebar-host-compensation";
 const SIDEBAR_WIDTH_CSS = "min(360px, 40vw)";
 
 function injectHostCompensationStyles() {
-  if (document.getElementById(HOST_COMP_STYLE_ID)) return;
   const style = document.createElement("style");
-  style.id = HOST_COMP_STYLE_ID;
   style.textContent = `
     html { 
       margin-right: ${SIDEBAR_WIDTH_CSS} !important; 
@@ -18,11 +17,12 @@ function injectHostCompensationStyles() {
       height: auto !important;
       min-height: 100% !important;
     }
-    body { 
+    body {
       overflow-x: hidden !important; 
       overflow-y: auto !important;
       height: auto !important;
       min-height: 100% !important;
+      box-sizing: border-box !important;
     }
   `;
   document.head.appendChild(style);
@@ -33,64 +33,99 @@ function removeHostCompensationStyles() {
   if (style && style.parentNode) style.parentNode.removeChild(style);
 }
 
-function createSidebarWithShadowDOM(recipe: Recipe): { container: HTMLElement; shadowRoot: ShadowRoot } {
-  // サイドバーコンテナ要素を作成
-  const container = document.createElement("div");
-  container.id = "recipe-sidebar-container";
-  container.style.cssText = `
-    position: absolute !important;
+function showSidebar() {
+  if (currentSidebar) {
+    // 既に表示されている場合は何もしない
+    return;
+  }
+
+  if (!currentRecipeData) {
+    // レシピデータがない場合は検索を試行
+    const scripts = getJsonLdScriptsFromDocument(document);
+    const recipesRaw = parseJsonLdRecipesFromScripts(scripts);
+    if (!recipesRaw.length) return;
+    currentRecipeData = recipesRaw[0];
+  }
+
+  const normalizedRecipe = Recipe.fromJsonLd(currentRecipeData);
+  currentSidebar = createSidebarWithIframe(normalizedRecipe, currentRecipeData);
+  injectHostCompensationStyles();
+}
+
+function hideSidebar() {
+  if (currentSidebar) {
+    currentSidebar.remove();
+    currentSidebar = null;
+    removeHostCompensationStyles();
+  }
+}
+
+function toggleSidebar() {
+  if (currentSidebar) {
+    hideSidebar();
+  } else {
+    showSidebar();
+  }
+}
+
+function createSidebarWithIframe(recipe: Recipe, rawRecipeData: any): HTMLIFrameElement {
+  // iframeを作成
+  const iframe = document.createElement("iframe");
+  iframe.id = "recipe-sidebar-iframe";
+  iframe.src = chrome.runtime.getURL("./iframe-content.html");
+  iframe.style.cssText = `
+    position: fixed !important;
     top: 0 !important;
     right: 0 !important;
-    height: auto !important;
-    min-height: 100vh !important;
+    height: 100vh !important;
     width: ${SIDEBAR_WIDTH_CSS} !important;
     border: none !important;
     box-shadow: 0 0 12px rgba(0,0,0,0.15) !important;
     border-left: 1px solid #eee !important;
     z-index: 2147483647 !important;
     background: white !important;
-    overflow: visible !important;
+    overflow: hidden !important;
   `;
 
-  // Shadow DOMを作成
-  const shadowRoot = container.attachShadow({ mode: 'closed' });
+  // iframeからのメッセージを受信
+  let iframeReady = false;
 
-  // Shadow DOM内にスタイルを注入
-  const style = document.createElement("style");
-  style.textContent = getShadowDOMContainerStyles();
-  shadowRoot.appendChild(style);
+  window.addEventListener('message', (event) => {
+    if (event.source !== iframe.contentWindow) return;
 
-  // レシピアプリのコンテナを作成
-  const appContainer = document.createElement("div");
-  appContainer.id = "recipe-sidebar-root";
-  appContainer.style.cssText = `
-    min-height: 100%;
-    overflow: visible;
-    display: block;
-  `;
-  shadowRoot.appendChild(appContainer);
+    if (event.data.type === 'IFRAME_READY') {
+      iframeReady = true;
+      // レシピデータを送信
+      iframe.contentWindow?.postMessage({
+        type: 'RECIPE_DATA',
+        recipe: rawRecipeData
+      }, '*');
+    } else if (event.data.type === 'CLOSE_SIDEBAR') {
+      hideSidebar();
+    }
+  });
 
-  // レシピアプリをレンダリング
-  render(
-    <RecipeSidebarApp
-      initialRecipe={recipe}
-      isMobile={false}
-    />,
-    appContainer
-  );
+  // iframe読み込み完了時の処理
+  iframe.onload = () => {
+    if (!iframeReady) {
+      // フォールバック: 少し待ってからレシピデータを送信
+      setTimeout(() => {
+        iframe.contentWindow?.postMessage({
+          type: 'RECIPE_DATA',
+          recipe: rawRecipeData
+        }, '*');
+      }, 100);
+    }
+  };
 
   const host = (document.body || document.documentElement);
-  if (host.firstChild) {
-    host.insertBefore(container, host.firstChild);
-  } else {
-    host.appendChild(container);
-  }
+  host.appendChild(iframe);
 
   try {
-    console.log("[recipe-ext] Shadow DOM sidebar created");
+    console.log("[recipe-ext] Iframe sidebar created");
   } catch { }
 
-  return { container, shadowRoot };
+  return iframe;
 }
 
 function main() {
@@ -99,24 +134,24 @@ function main() {
     const recipesRaw = parseJsonLdRecipesFromScripts(scripts);
     if (!recipesRaw.length) return;
 
-    injectHostCompensationStyles();
+    // レシピデータを保存
+    currentRecipeData = recipesRaw[0];
 
-    // レシピデータを正規化
-    const normalizedRecipe = Recipe.fromJsonLd(recipesRaw[0]);
-
-    // Shadow DOMでサイドバーを作成
-    const { container } = createSidebarWithShadowDOM(normalizedRecipe);
-
-    // カスタムイベントで閉じる処理を実装
-    container.addEventListener("closeSidebar", () => {
-      container.remove();
-      removeHostCompensationStyles();
-    });
+    // 自動表示
+    showSidebar();
 
   } catch (e) {
     // silent fail
   }
 }
+
+// backgroundからのメッセージを受信
+chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+  if (message.type === 'TOGGLE_SIDEBAR') {
+    toggleSidebar();
+    sendResponse({ success: true });
+  }
+});
 
 // run once at document end
 main();

@@ -1,6 +1,7 @@
 import type {
   CanonicalUnit,
   NormalizedIngredient,
+  NormalizedInstruction,
   NormalizedRecipe,
   NormalizedYield,
 } from "./core.js";
@@ -166,6 +167,27 @@ export class Ingredient {
   }
 }
 
+export class Instruction {
+  constructor(public readonly data: NormalizedInstruction) {}
+
+  get text(): string {
+    return this.data.text;
+  }
+  get imageUrl(): string | undefined {
+    return this.data.imageUrl;
+  }
+  get name(): string | undefined {
+    return this.data.name;
+  }
+  get url(): string | undefined {
+    return this.data.url;
+  }
+
+  toJSON(): NormalizedInstruction {
+    return { ...this.data };
+  }
+}
+
 export class Yield {
   constructor(public readonly data: NormalizedYield | undefined) {}
 
@@ -248,8 +270,8 @@ export class Recipe {
   get ingredients(): Ingredient[] {
     return this.data.ingredients.map((i) => new Ingredient(i));
   }
-  get instructions(): string[] {
-    return this.data.instructions;
+  get instructions(): Instruction[] {
+    return this.data.instructions.map((i) => new Instruction(i));
   }
   get times(): { prep?: string; cook?: string; total?: string } | undefined {
     return this.data.times;

@@ -22,6 +22,12 @@ export type NormalizedIngredient = {
     secondarySuffix?: string;
     scalable: boolean;
 };
+export type NormalizedInstruction = {
+    text: string;
+    imageUrl?: string;
+    name?: string;
+    url?: string;
+};
 export type NormalizedRecipe = {
     name?: string;
     imageUrl?: string;
@@ -29,7 +35,7 @@ export type NormalizedRecipe = {
     yieldText?: string;
     baseServings?: number;
     ingredients: NormalizedIngredient[];
-    instructions: string[];
+    instructions: NormalizedInstruction[];
     times?: {
         prep?: string;
         cook?: string;

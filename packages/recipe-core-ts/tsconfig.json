@@ -11,9 +11,10 @@
     "baseUrl": ".",
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
-    "noEmit": false
+    "noEmit": false,
+    "moduleDetection": "force"
   },
-  "include": ["src/**/*", "extension/src/**/*"]
+  "include": ["src/**/*"]
 }
 
 

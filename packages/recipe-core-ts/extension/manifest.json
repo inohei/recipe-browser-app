@@ -18,5 +18,11 @@
       "js": ["dist/content.js"],
       "run_at": "document_end"
     }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["iframe-content.html", "dist/iframe-content.js"],
+      "matches": ["<all_urls>"]
+    }
   ]
 }

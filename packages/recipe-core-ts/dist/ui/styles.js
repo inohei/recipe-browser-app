@@ -1,23 +1,21 @@
 // 共通のスタイル定義
 export const SHARED_STYLES = {
-  // 基本的なコンテナスタイル
-  CONTAINER_BASE: `
+    // 基本的なコンテナスタイル
+    CONTAINER_BASE: `
     font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
     line-height: 1.6;
     color: #333;
     background: #fff;
     box-sizing: border-box;
   `,
-
-  // 基本的なiframe内で使用する通常のスタイル
-  IFRAME_BASE: `
+    // 基本的なiframe内で使用する通常のスタイル
+    IFRAME_BASE: `
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   `,
-
-  // RecipeSidebarAppの共通スタイル
-  RECIPE_APP_STYLES: `
+    // RecipeSidebarAppの共通スタイル
+    RECIPE_APP_STYLES: `
     .rb-body { 
       flex: 1; 
       overflow: visible; 
@@ -318,10 +316,9 @@ export const SHARED_STYLES = {
     }
   `,
 };
-
 // iframe用サイドバーコンテナスタイル
-export function getIframeContainerStyles(): string {
-  return `
+export function getIframeContainerStyles() {
+    return `
     body {
       ${SHARED_STYLES.CONTAINER_BASE}
       height: 100vh;
@@ -387,10 +384,9 @@ export function getIframeContainerStyles(): string {
     ${SHARED_STYLES.RECIPE_APP_STYLES}
   `;
 }
-
 // モバイル用（全画面、CSS_RESET不要）のコンテナスタイル - iframe側のデザインに統一
-export function getMobileContainerStyles(): string {
-  return `
+export function getMobileContainerStyles() {
+    return `
     #recipe-mobile-container { 
       ${SHARED_STYLES.CONTAINER_BASE}
       min-height: 100vh; 
@@ -554,12 +550,12 @@ export function getMobileContainerStyles(): string {
     }
   `;
 }
-
 // スタイルを注入するヘルパー関数
-export function injectStyles(styleId: string, cssContent: string): void {
-  if (document.getElementById(styleId)) return;
-  const style = document.createElement("style");
-  style.id = styleId;
-  style.textContent = cssContent;
-  document.head.appendChild(style);
+export function injectStyles(styleId, cssContent) {
+    if (document.getElementById(styleId))
+        return;
+    const style = document.createElement("style");
+    style.id = styleId;
+    style.textContent = cssContent;
+    document.head.appendChild(style);
 }

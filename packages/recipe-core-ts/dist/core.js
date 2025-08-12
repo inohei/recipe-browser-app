@@ -250,14 +250,14 @@ export function parseNumber(numStr) {
 export function cleanIngredientName(nameWork, originalLine) {
     let cleaned = nameWork.replace(/\s+/g, " ").trim();
     // ブレットポイント記号を除去
-    cleaned = cleaned.replace(/^[・•\-\*\+★☆]\s*/, '');
+    cleaned = cleaned.replace(/^[・•\-\*\+★☆]\s*/, "");
     // 末尾の「：」も除去（材料名に含まれてしまった場合）
-    cleaned = cleaned.replace(/：$/, '');
+    cleaned = cleaned.replace(/：$/, "");
     if (!cleaned || cleaned.length < 2) {
         const words = originalLine.split(/\s+/);
         cleaned = words.find((w) => w.length >= 2 && !/\d/.test(w)) || originalLine;
         // 見つけた単語からもブレットポイント記号を除去
-        cleaned = cleaned.replace(/^[・•\-\*\+★☆]\s*/, '').replace(/：$/, '');
+        cleaned = cleaned.replace(/^[・•\-\*\+★☆]\s*/, "").replace(/：$/, "");
     }
     return cleaned;
 }

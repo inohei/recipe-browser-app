@@ -720,21 +720,57 @@ function parseRecipeYield(text) {
 }
 function normalizeInstructions(instr) {
   if (!instr) return [];
-  if (typeof instr === "string") return [instr.trim()].filter(Boolean);
+  if (typeof instr === "string") {
+    return [{ text: instr.trim() }].filter((i4) => i4.text);
+  }
   if (Array.isArray(instr)) {
     const res = [];
     for (const step of instr) {
       if (!step) continue;
-      if (typeof step === "string") res.push(step.trim());
-      else if (typeof step.text === "string") res.push(step.text.trim());
-      else if (typeof step.name === "string") res.push(step.name.trim());
+      if (typeof step === "string") {
+        res.push({ text: step.trim() });
+      } else if (typeof step === "object") {
+        const instruction = {
+          text: ""
+        };
+        if (typeof step.text === "string") {
+          instruction.text = step.text.trim();
+        } else if (typeof step.name === "string") {
+          instruction.text = step.name.trim();
+        }
+        if (step.image) {
+          instruction.imageUrl = extractImageUrl(step.image);
+        }
+        if (typeof step.name === "string" && step.name !== instruction.text) {
+          instruction.name = step.name.trim();
+        }
+        if (typeof step.url === "string") {
+          instruction.url = step.url;
+        }
+        if (instruction.text) {
+          res.push(instruction);
+        }
+      }
     }
-    return res.filter(Boolean);
+    return res.filter((i4) => i4.text);
   }
   if (typeof instr === "object") {
-    if (typeof instr.text === "string") return [instr.text.trim()];
-    if (Array.isArray(instr.itemListElement))
+    if (typeof instr.text === "string") {
+      const instruction = { text: instr.text.trim() };
+      if (instr.image) {
+        instruction.imageUrl = extractImageUrl(instr.image);
+      }
+      if (typeof instr.name === "string") {
+        instruction.name = instr.name.trim();
+      }
+      if (typeof instr.url === "string") {
+        instruction.url = instr.url;
+      }
+      return [instruction];
+    }
+    if (Array.isArray(instr.itemListElement)) {
       return normalizeInstructions(instr.itemListElement);
+    }
   }
   return [];
 }
@@ -771,20 +807,10 @@ function extractSecondaryFromParens(parensInner, allowedUnits) {
 function parseIngredientLine(line) {
   const original = line.trim();
   const spaceSplit = original.split(/[\s　]+/);
-  if (spaceSplit.length === 2 && !spaceSplit[0].match(/^[・•\-\*\+★☆]$/)) {
+  if (spaceSplit.length === 2) {
     const result = tryParseIngredientQuantity(
       spaceSplit[0],
       spaceSplit[1],
-      original
-    );
-    if (result) return result;
-  }
-  const colonSplit = original.split("\uFF1A");
-  if (colonSplit.length === 2) {
-    const ingredientPart = colonSplit[0].trim().replace(/^[・•\-\*\+]\s*/, "");
-    const result = tryParseIngredientQuantity(
-      ingredientPart,
-      colonSplit[1].trim(),
       original
     );
     if (result) return result;
@@ -814,7 +840,7 @@ function tryParseIngredientQuantity(ingredient, quantityStr, originalLine) {
   }
   return {
     originalText: originalLine,
-    name: cleanIngredientName(ingredient, originalLine),
+    name: ingredient,
     quantity: primaryFromParens?.quantity ?? quantityInfo.quantity,
     quantityRange: primaryFromParens?.quantityRange ?? quantityInfo.quantityRange,
     unit: primaryFromParens?.unit ?? quantityInfo.unit,
@@ -1328,6 +1354,26 @@ var Ingredient = class _Ingredient {
     return { ...this.data };
   }
 };
+var Instruction = class {
+  constructor(data) {
+    this.data = data;
+  }
+  get text() {
+    return this.data.text;
+  }
+  get imageUrl() {
+    return this.data.imageUrl;
+  }
+  get name() {
+    return this.data.name;
+  }
+  get url() {
+    return this.data.url;
+  }
+  toJSON() {
+    return { ...this.data };
+  }
+};
 var Yield = class _Yield {
   constructor(data) {
     this.data = data;
@@ -1408,7 +1454,7 @@ var Recipe = class _Recipe {
     return this.data.ingredients.map((i4) => new Ingredient(i4));
   }
   get instructions() {
-    return this.data.instructions;
+    return this.data.instructions.map((i4) => new Instruction(i4));
   }
   get times() {
     return this.data.times;
@@ -1637,12 +1683,15 @@ var SHARED_STYLES = {
     }
     
     .rb-header-image {
-      position: relative;
+      position: sticky;
+      top: 0;
       width: 100%;
       height: 200px;
       overflow: hidden;
       margin: 0;
       padding: 0;
+      z-index: 10;
+      background: #fff;
     }
     
     .rb-header-image .rb-image { 
@@ -1686,23 +1735,33 @@ var SHARED_STYLES = {
     }
     
     .rb-section-header {
+      position: sticky;
+      top: 200px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin: 20px 20px 8px 20px;
+      margin: 16px 0 0 0;
       flex-wrap: nowrap;
-      gap: 12px;
-      min-height: 32px;
+      gap: 16px;
+      min-height: 40px;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      z-index: 9;
+      padding: 12px 20px;
+      border-bottom: 2px solid #f8f9fa;
     }
     
     .rb-body .rb-section-title { 
-      font-weight: 700; 
+      font-weight: 600; 
       margin: 0; 
-      color: #333;
-      font-size: 18px;
+      color: #2d3748;
+      font-size: 17px;
       display: block;
       font-family: inherit;
       flex-shrink: 0;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+      font-size: 14px;
     }
     
     .rb-body .rb-yield { 
@@ -1776,7 +1835,7 @@ var SHARED_STYLES = {
     .rb-body .rb-list { 
       list-style: none; 
       padding: 0 20px; 
-      margin: 0 0 12px 0; 
+      margin: 8px 0 24px 0; 
       display: block;
     }
     .rb-body .rb-list li { 
@@ -1795,50 +1854,158 @@ var SHARED_STYLES = {
       font-family: inherit;
     }
     .rb-body .rb-steps { 
-      padding-left: 40px; 
-      margin: 0 20px 20px 20px;
-      color: #333;
+      padding: 0; 
+      margin: 8px 20px 24px 20px;
+      color: #1a1a1a;
       display: block;
       font-family: inherit;
-      list-style-type: decimal;
+      list-style: none;
       counter-reset: recipe-step;
     }
     .rb-body .rb-steps li { 
-      margin: 8px 0; 
-      color: #333;
-      line-height: 1.6;
-      display: list-item;
+      margin: 0 0 12px 0; 
+      color: #1a1a1a;
+      line-height: 1.7;
+      display: flex;
+      align-items: flex-start;
       font-family: inherit;
-      list-style-type: decimal;
-      padding-left: 8px;
+      padding: 16px;
+      background: rgba(248, 250, 252, 0.6);
+      border-radius: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.04);
+      counter-increment: recipe-step;
+      position: relative;
+      gap: 12px;
+    }
+    
+    .rb-body .rb-steps li::before {
+      content: counter(recipe-step);
+      background: #3b82f6;
+      color: white;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 600;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: all 0.2s ease;
+    }
+    
+    .rb-body .rb-steps li:hover {
+      background: rgba(248, 250, 252, 0.9);
+      border-color: rgba(0, 0, 0, 0.08);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    }
+    
+    .rb-body .rb-steps li:hover::before {
+      background: #2563eb;
+      transform: scale(1.1);
+    }
+    
+    .rb-body .rb-step-content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+    }
+    
+    .rb-body .rb-step-text {
+      flex: 1;
+      line-height: 1.7;
+      color: #1a1a1a;
+    }
+    
+    .rb-body .rb-step-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 8px;
+    }
+    
+    .rb-body .rb-step-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease;
+    }
+    
+    .rb-body .rb-step-image img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
   `
 };
-function getShadowDOMContainerStyles() {
+function getIframeContainerStyles() {
   return `
-    :host {
+    body {
       ${SHARED_STYLES.CONTAINER_BASE}
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
+      height: 100vh;
+      display: block;
+      overflow: visible;
+      position: relative;
+      /* \u30DA\u30FC\u30B8\u5168\u4F53\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u3092\u6709\u52B9\u5316 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
     }
     
     #recipe-sidebar-root {
-      height: 100%;
-      overflow: auto;
-      display: flex;
-      flex-direction: column;
+      height: 100vh;
+      overflow: visible;
+      display: block;
       margin: 0;
       padding: 0;
       ${SHARED_STYLES.CONTAINER_BASE}
+      /* \u30DA\u30FC\u30B8\u5168\u4F53\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u3092\u6709\u52B9\u5316 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
+    }
+    
+    /* iframe\u5185\u3067\u306F\u89AA\u30DA\u30FC\u30B8\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u306B\u8FFD\u5F93 */
+    .rb-body { 
+      flex: none; 
+      overflow: visible; 
+      color: #111; 
+      background: #fff;
+      box-sizing: border-box;
+      display: block;
+      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+      height: auto;
+      min-height: 100vh;
+      /* \u30DA\u30FC\u30B8\u5168\u4F53\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u3092\u6709\u52B9\u5316 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
+    }
+    
+    
+    .rb-instructions-header {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      z-index: 5;
+      margin: 16px 0 0 0;
+      padding: 12px 20px;
+      border-bottom: 2px solid #f8f9fa;
+    }
+    
+    .rb-instructions-header .rb-section-title {
+      font-weight: 600; 
+      margin: 0; 
+      color: #2d3748;
+      font-size: 14px;
+      display: block;
+      font-family: inherit;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
     }
     
     ${SHARED_STYLES.RECIPE_APP_STYLES}
   `;
-}
-function getIframeContainerStyles() {
-  return getShadowDOMContainerStyles();
 }
 function getMobileContainerStyles() {
   return `
@@ -1853,7 +2020,7 @@ function getMobileContainerStyles() {
       position: relative;
     }
     
-    /* \u30E2\u30D0\u30A4\u30EB\u5411\u3051\u306E\u7279\u5225\u306A\u30B9\u30BF\u30A4\u30EB\u4FEE\u6B63 */
+    /* \u30E2\u30D0\u30A4\u30EB\u5411\u3051\u306E\u7279\u5225\u306A\u30B9\u30BF\u30A4\u30EB\u4FEE\u6B63 - iframe\u5074\u306B\u7D71\u4E00 */
     #recipe-mobile-container .rb-body { 
       flex: none; 
       overflow: visible; 
@@ -1862,14 +2029,19 @@ function getMobileContainerStyles() {
       box-sizing: border-box;
       display: block;
       font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+      height: auto;
+      min-height: 100vh;
+      /* iframe\u5074\u306B\u5408\u308F\u305B\u3066\u30B9\u30AF\u30ED\u30FC\u30EB\u8A2D\u5B9A\u3092\u7D71\u4E00 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
     }
     
-    /* \u753B\u50CF\u3068\u30BF\u30A4\u30C8\u30EB\u90E8\u5206\u3092\u56FA\u5B9A */
+    /* \u753B\u50CF\u3068\u30BF\u30A4\u30C8\u30EB\u90E8\u5206\u3092\u56FA\u5B9A - iframe\u5074\u306E\u30B5\u30A4\u30BA\u306B\u7D71\u4E00 */
     #recipe-mobile-container .rb-header-image {
       position: sticky;
-      top: 100px;
+      top: 0;
       width: 100%;
-      height: 250px;
+      height: 200px; /* iframe\u5074\u306B\u5408\u308F\u305B\u3066250px\u2192200px\u306B\u5909\u66F4 */
       overflow: hidden;
       margin: 0;
       padding: 0;
@@ -1886,123 +2058,61 @@ function getMobileContainerStyles() {
       padding: 0;
     }
     
+    /* \u30AA\u30FC\u30D0\u30FC\u30EC\u30A4\u3092iframe\u5074\u306B\u7D71\u4E00 */
     #recipe-mobile-container .rb-title-overlay {
       position: absolute;
       bottom: 0;
       left: 0;
       right: 0;
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
-      padding: 24px;
+      padding: 15px; /* iframe\u5074\u306B\u5408\u308F\u305B\u306624px\u219215px\u306B\u5909\u66F4 */
       display: flex;
       align-items: flex-end;
     }
     
+    /* \u30BF\u30A4\u30C8\u30EB\u30B5\u30A4\u30BA\u3092iframe\u5074\u306B\u7D71\u4E00 */
     #recipe-mobile-container .rb-title-overlay .rb-name {
-      font-size: 28px; 
+      font-size: 20px; /* iframe\u5074\u306B\u5408\u308F\u305B\u306628px\u219220px\u306B\u5909\u66F4 */
       font-weight: 800; 
       color: #fff;
       line-height: 1.2;
       margin: 0;
-      text-shadow: 
-        0 2px 8px rgba(0, 0, 0, 0.8),
-        0 1px 3px rgba(0, 0, 0, 0.9),
-        1px 1px 0 rgba(0, 0, 0, 0.7),
-        -1px -1px 0 rgba(0, 0, 0, 0.7),
-        1px -1px 0 rgba(0, 0, 0, 0.7),
-        -1px 1px 0 rgba(0, 0, 0, 0.7);
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8); /* iframe\u5074\u306B\u7D71\u4E00 */
       font-family: inherit;
       letter-spacing: 0.5px;
-      backdrop-filter: blur(2px);
     }
     
-    /* \u6750\u6599\u30D8\u30C3\u30C0\u30FC\u3092\u30B9\u30C6\u30A3\u30C3\u30AD\u30FC\u306B\uFF08\u753B\u50CF\u3042\u308A\u306E\u5834\u5408\uFF09 */
-    #recipe-mobile-container .rb-header-image + .rb-section-header {
-      position: sticky;
-      top: 250px;
-      background: #fff;
-      z-index: 5;
-      margin: 0;
-      padding: 16px 20px 12px 20px;
-      border-bottom: 1px solid #f0f0f0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    
-    /* \u6750\u6599\u30D8\u30C3\u30C0\u30FC\u3092\u30B9\u30C6\u30A3\u30C3\u30AD\u30FC\u306B\uFF08\u753B\u50CF\u306A\u3057\u306E\u5834\u5408\uFF09 */
-    #recipe-mobile-container .rb-name + .rb-section-header {
-      position: sticky;
-      top: 108px; /* \u30BF\u30A4\u30C8\u30EB\u9AD8\u3055\u5206 */
-      background: #fff;
-      z-index: 5;
-      margin: 0;
-      padding: 16px 20px 12px 20px;
-      border-bottom: 1px solid #f0f0f0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    
-    /* \u4F5C\u308A\u65B9\u30D8\u30C3\u30C0\u30FC\u3082\u30B9\u30C6\u30A3\u30C3\u30AD\u30FC\u306B\uFF08\u753B\u50CF\u3042\u308A\u306E\u5834\u5408\uFF09 */
-    #recipe-mobile-container .rb-header-image ~ .rb-instructions-header {
-      position: sticky;
-      top: 250px;
-      background: #fff;
-      z-index: 5;
-      margin: 20px 0 0 0;
-      padding: 16px 20px 12px 20px;
-      border-bottom: 1px solid #f0f0f0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    
-    /* \u4F5C\u308A\u65B9\u30D8\u30C3\u30C0\u30FC\u3082\u30B9\u30C6\u30A3\u30C3\u30AD\u30FC\u306B\uFF08\u753B\u50CF\u306A\u3057\u306E\u5834\u5408\uFF09 */
-    #recipe-mobile-container .rb-name ~ .rb-instructions-header {
-      position: sticky;
-      top: 108px; /* \u30BF\u30A4\u30C8\u30EB\u9AD8\u3055\u5206 */
-      background: #fff;
-      z-index: 5;
-      margin: 20px 0 0 0;
-      padding: 16px 20px 12px 20px;
-      border-bottom: 1px solid #f0f0f0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    
-    #recipe-mobile-container .rb-instructions-header .rb-section-title {
-      font-weight: 700; 
-      margin: 0; 
-      color: #333;
-      font-size: 18px;
-      display: block;
-      font-family: inherit;
-    }
-    
-    /* \u753B\u50CF\u306A\u3057\u306E\u30BF\u30A4\u30C8\u30EB\u90E8\u5206\u306E\u30B9\u30BF\u30A4\u30EB\u8ABF\u6574 */
-    #recipe-mobile-container .rb-name {
-      position: sticky;
-      top: 0;
-      background: #fff;
-      z-index: 10;
-      font-size: 28px; 
-      font-weight: 700; 
-      margin: 0; 
-      padding: 20px;
+    /* \u753B\u50CF\u306A\u3057\u306E\u30BF\u30A4\u30C8\u30EB\u90E8\u5206\u306E\u30B9\u30BF\u30A4\u30EB\u8ABF\u6574 - iframe\u5074\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-body > .rb-name {
+      font-size: 24px; /* iframe\u5074\u306B\u5408\u308F\u305B\u306628px\u219224px\u306B\u5909\u66F4 */
+      font-weight: 600; 
+      margin: 20px 20px 16px 20px; /* iframe\u5074\u306B\u7D71\u4E00 */
       color: #333;
       line-height: 1.3;
       display: block;
       font-family: inherit;
-      border-bottom: 1px solid #f0f0f0;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     
-    #recipe-mobile-container ${SHARED_STYLES.RECIPE_APP_STYLES}
-    
+    /* \u30E2\u30D0\u30A4\u30EB\u7248\u3067\u306E\u30BB\u30AF\u30B7\u30E7\u30F3\u30D8\u30C3\u30C0\u30FC\u306E\u8ABF\u6574 - iframe\u5074\u306E\u4F4D\u7F6E\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-section-header {
+      position: sticky;
+      top: 200px; /* iframe\u5074\u306B\u5408\u308F\u305B\u3066250px\u2192200px\u306B\u5909\u66F4 */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 16px 0 0 0;
+      flex-wrap: nowrap;
+      gap: 16px;
+      min-height: 40px;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      z-index: 9;
+      padding: 12px 20px;
+      border-bottom: 2px solid #f8f9fa;
+    }
 
+    /* \u5171\u901A\u30B9\u30BF\u30A4\u30EB\u3092\u9069\u7528 */
+    ${SHARED_STYLES.RECIPE_APP_STYLES}
+    
     
     /* \u30E2\u30D0\u30A4\u30EB\u7528\u30D5\u30C3\u30BF\u30FC\u30DC\u30BF\u30F3\u30B9\u30BF\u30A4\u30EB */
     .recipe-mobile-footer {
@@ -2123,21 +2233,6 @@ function RecipeSidebarApp({
     return initialRecipe.scale(factorServings);
   }, [initialRecipe, isInteractiveRange, minVal, maxVal]);
   return /* @__PURE__ */ u3(k, { children: /* @__PURE__ */ u3("div", { class: "rb-body", children: [
-    /* @__PURE__ */ u3("div", { class: "rb-header", children: /* @__PURE__ */ u3(
-      "button",
-      {
-        class: "rb-close-button",
-        "data-action": "close",
-        onClick: () => {
-          const event = new CustomEvent("closeSidebar", { bubbles: true });
-          const currentElement = document.querySelector("#recipe-sidebar-container");
-          if (currentElement) {
-            currentElement.dispatchEvent(event);
-          }
-        },
-        children: "\xD7"
-      }
-    ) }),
     displayedRecipe.imageUrl && /* @__PURE__ */ u3("div", { class: "rb-header-image", children: [
       /* @__PURE__ */ u3("img", { class: "rb-image", src: displayedRecipe.imageUrl }),
       /* @__PURE__ */ u3("div", { class: "rb-title-overlay", children: /* @__PURE__ */ u3("h1", { class: "rb-name", children: displayedRecipe.name || "\u30EC\u30B7\u30D4" }) })
@@ -2208,8 +2303,11 @@ function RecipeSidebarApp({
       /* @__PURE__ */ u3("span", { children: ing.name || ing.originalText }),
       /* @__PURE__ */ u3("span", { class: "rb-qty", children: ing.format() || "" })
     ] })) }),
-    /* @__PURE__ */ u3("div", { class: "rb-instructions-header", children: /* @__PURE__ */ u3("div", { class: "rb-section-title", children: "\u4F5C\u308A\u65B9" }) }),
-    /* @__PURE__ */ u3("ol", { class: "rb-steps", children: displayedRecipe.instructions.map((step) => /* @__PURE__ */ u3("li", { children: step })) })
+    /* @__PURE__ */ u3("div", { class: "rb-section-header", children: /* @__PURE__ */ u3("div", { class: "rb-section-title", children: "\u4F5C\u308A\u65B9" }) }),
+    /* @__PURE__ */ u3("ol", { class: "rb-steps", children: displayedRecipe.instructions.map((step, index) => /* @__PURE__ */ u3("li", { children: /* @__PURE__ */ u3("div", { class: "rb-step-content", children: [
+      /* @__PURE__ */ u3("div", { class: "rb-step-text", children: step.text }),
+      step.imageUrl && /* @__PURE__ */ u3("div", { class: "rb-step-image", children: /* @__PURE__ */ u3("img", { src: step.imageUrl, alt: `\u624B\u9806${index + 1}` }) })
+    ] }) })) })
   ] }) });
 }
 

@@ -301,27 +301,63 @@ export function parseRecipeYield(text) {
 function normalizeInstructions(instr) {
     if (!instr)
         return [];
-    if (typeof instr === "string")
-        return [instr.trim()].filter(Boolean);
+    if (typeof instr === "string") {
+        return [{ text: instr.trim() }].filter((i) => i.text);
+    }
     if (Array.isArray(instr)) {
         const res = [];
         for (const step of instr) {
             if (!step)
                 continue;
-            if (typeof step === "string")
-                res.push(step.trim());
-            else if (typeof step.text === "string")
-                res.push(step.text.trim());
-            else if (typeof step.name === "string")
-                res.push(step.name.trim());
+            if (typeof step === "string") {
+                res.push({ text: step.trim() });
+            }
+            else if (typeof step === "object") {
+                const instruction = {
+                    text: "",
+                };
+                // textフィールドを優先
+                if (typeof step.text === "string") {
+                    instruction.text = step.text.trim();
+                }
+                else if (typeof step.name === "string") {
+                    instruction.text = step.name.trim();
+                }
+                // 画像URLを抽出
+                if (step.image) {
+                    instruction.imageUrl = extractImageUrl(step.image);
+                }
+                // その他のメタデータ
+                if (typeof step.name === "string" && step.name !== instruction.text) {
+                    instruction.name = step.name.trim();
+                }
+                if (typeof step.url === "string") {
+                    instruction.url = step.url;
+                }
+                if (instruction.text) {
+                    res.push(instruction);
+                }
+            }
         }
-        return res.filter(Boolean);
+        return res.filter((i) => i.text);
     }
     if (typeof instr === "object") {
-        if (typeof instr.text === "string")
-            return [instr.text.trim()];
-        if (Array.isArray(instr.itemListElement))
+        if (typeof instr.text === "string") {
+            const instruction = { text: instr.text.trim() };
+            if (instr.image) {
+                instruction.imageUrl = extractImageUrl(instr.image);
+            }
+            if (typeof instr.name === "string") {
+                instruction.name = instr.name.trim();
+            }
+            if (typeof instr.url === "string") {
+                instruction.url = instr.url;
+            }
+            return [instruction];
+        }
+        if (Array.isArray(instr.itemListElement)) {
             return normalizeInstructions(instr.itemListElement);
+        }
     }
     return [];
 }
@@ -360,19 +396,9 @@ function extractSecondaryFromParens(parensInner, allowedUnits) {
 }
 export function parseIngredientLine(line) {
     const original = line.trim();
-    // まずスペースで区切りを試す（ただし、最初の部分がブレットポイント記号のみの場合はスキップ）
     const spaceSplit = original.split(/[\s　]+/);
-    if (spaceSplit.length === 2 && !spaceSplit[0].match(/^[・•\-\*\+★☆]$/)) {
+    if (spaceSplit.length === 2) {
         const result = tryParseIngredientQuantity(spaceSplit[0], spaceSplit[1], original);
-        if (result)
-            return result;
-    }
-    // スペースで区切れない場合は「：」で区切りを試す
-    const colonSplit = original.split('：');
-    if (colonSplit.length === 2) {
-        // 材料名部分からブレットポイント記号を除去
-        const ingredientPart = colonSplit[0].trim().replace(/^[・•\-\*\+]\s*/, '');
-        const result = tryParseIngredientQuantity(ingredientPart, colonSplit[1].trim(), original);
         if (result)
             return result;
     }
@@ -403,7 +429,7 @@ function tryParseIngredientQuantity(ingredient, quantityStr, originalLine) {
     }
     return {
         originalText: originalLine,
-        name: cleanIngredientName(ingredient, originalLine),
+        name: ingredient,
         quantity: primaryFromParens?.quantity ?? quantityInfo.quantity,
         quantityRange: primaryFromParens?.quantityRange ?? quantityInfo.quantityRange,
         unit: primaryFromParens?.unit ?? quantityInfo.unit,

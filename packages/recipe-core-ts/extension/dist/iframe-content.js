@@ -256,14 +256,6 @@ n = v.slice, l = { __e: function(n2, l3, u4, t3) {
   return n2.__v.__b - l3.__v.__b;
 }, $.__r = 0, f = /(PointerCapture)$|Capture$/i, c = 0, s = F(false), a = F(true), h = 0;
 
-// src/dom/jsonld.ts
-function getJsonLdScriptsFromDocument(doc = document) {
-  const nodes = Array.from(
-    doc.querySelectorAll('script[type="application/ld+json"]')
-  );
-  return nodes.map((n2) => n2.textContent || "").filter(Boolean);
-}
-
 // src/core.ts
 var unitMap = {
   // weight
@@ -454,9 +446,6 @@ function toArray(x2) {
   if (!x2) return [];
   return Array.isArray(x2) ? x2 : [x2];
 }
-function equalsIgnoreCase(a3, b) {
-  return a3?.toLowerCase?.() === b?.toLowerCase?.();
-}
 function checkNonScalableKeywords(text) {
   const m3 = text.match(NON_SCALABLE_REGEX);
   if (!m3) return void 0;
@@ -513,34 +502,6 @@ function roundForUnit(value, unit) {
 }
 
 // src/parse.ts
-function parseJsonLdRecipesFromScripts(scripts) {
-  const recipes = [];
-  for (const text of scripts) {
-    try {
-      const data = JSON.parse(text);
-      const nodes = Array.isArray(data) ? data : [data];
-      for (const node of nodes) {
-        collectRecipes(node, recipes);
-      }
-    } catch {
-    }
-  }
-  return recipes;
-}
-function collectRecipes(node, acc) {
-  if (!node || typeof node !== "object") return;
-  const types = toArray(node["@type"]).map(String);
-  if (types.some((t3) => equalsIgnoreCase(t3, "Recipe"))) {
-    acc.push(node);
-  }
-  if (Array.isArray(node["@graph"])) {
-    for (const n2 of node["@graph"]) collectRecipes(n2, acc);
-  }
-  for (const key of Object.keys(node)) {
-    const val = node[key];
-    if (val && typeof val === "object") collectRecipes(val, acc);
-  }
-}
 function normalizeRecipe(raw) {
   const name = raw.name || raw.headline || void 0;
   const imageUrl = extractImageUrl(raw.image);
@@ -759,21 +720,57 @@ function parseRecipeYield(text) {
 }
 function normalizeInstructions(instr) {
   if (!instr) return [];
-  if (typeof instr === "string") return [instr.trim()].filter(Boolean);
+  if (typeof instr === "string") {
+    return [{ text: instr.trim() }].filter((i4) => i4.text);
+  }
   if (Array.isArray(instr)) {
     const res = [];
     for (const step of instr) {
       if (!step) continue;
-      if (typeof step === "string") res.push(step.trim());
-      else if (typeof step.text === "string") res.push(step.text.trim());
-      else if (typeof step.name === "string") res.push(step.name.trim());
+      if (typeof step === "string") {
+        res.push({ text: step.trim() });
+      } else if (typeof step === "object") {
+        const instruction = {
+          text: ""
+        };
+        if (typeof step.text === "string") {
+          instruction.text = step.text.trim();
+        } else if (typeof step.name === "string") {
+          instruction.text = step.name.trim();
+        }
+        if (step.image) {
+          instruction.imageUrl = extractImageUrl(step.image);
+        }
+        if (typeof step.name === "string" && step.name !== instruction.text) {
+          instruction.name = step.name.trim();
+        }
+        if (typeof step.url === "string") {
+          instruction.url = step.url;
+        }
+        if (instruction.text) {
+          res.push(instruction);
+        }
+      }
     }
-    return res.filter(Boolean);
+    return res.filter((i4) => i4.text);
   }
   if (typeof instr === "object") {
-    if (typeof instr.text === "string") return [instr.text.trim()];
-    if (Array.isArray(instr.itemListElement))
+    if (typeof instr.text === "string") {
+      const instruction = { text: instr.text.trim() };
+      if (instr.image) {
+        instruction.imageUrl = extractImageUrl(instr.image);
+      }
+      if (typeof instr.name === "string") {
+        instruction.name = instr.name.trim();
+      }
+      if (typeof instr.url === "string") {
+        instruction.url = instr.url;
+      }
+      return [instruction];
+    }
+    if (Array.isArray(instr.itemListElement)) {
       return normalizeInstructions(instr.itemListElement);
+    }
   }
   return [];
 }
@@ -810,20 +807,10 @@ function extractSecondaryFromParens(parensInner, allowedUnits) {
 function parseIngredientLine(line) {
   const original = line.trim();
   const spaceSplit = original.split(/[\s　]+/);
-  if (spaceSplit.length === 2 && !spaceSplit[0].match(/^[・•\-\*\+★☆]$/)) {
+  if (spaceSplit.length === 2) {
     const result = tryParseIngredientQuantity(
       spaceSplit[0],
       spaceSplit[1],
-      original
-    );
-    if (result) return result;
-  }
-  const colonSplit = original.split("\uFF1A");
-  if (colonSplit.length === 2) {
-    const ingredientPart = colonSplit[0].trim().replace(/^[・•\-\*\+]\s*/, "");
-    const result = tryParseIngredientQuantity(
-      ingredientPart,
-      colonSplit[1].trim(),
       original
     );
     if (result) return result;
@@ -853,7 +840,7 @@ function tryParseIngredientQuantity(ingredient, quantityStr, originalLine) {
   }
   return {
     originalText: originalLine,
-    name: cleanIngredientName(ingredient, originalLine),
+    name: ingredient,
     quantity: primaryFromParens?.quantity ?? quantityInfo.quantity,
     quantityRange: primaryFromParens?.quantityRange ?? quantityInfo.quantityRange,
     unit: primaryFromParens?.unit ?? quantityInfo.unit,
@@ -1367,6 +1354,26 @@ var Ingredient = class _Ingredient {
     return { ...this.data };
   }
 };
+var Instruction = class {
+  constructor(data) {
+    this.data = data;
+  }
+  get text() {
+    return this.data.text;
+  }
+  get imageUrl() {
+    return this.data.imageUrl;
+  }
+  get name() {
+    return this.data.name;
+  }
+  get url() {
+    return this.data.url;
+  }
+  toJSON() {
+    return { ...this.data };
+  }
+};
 var Yield = class _Yield {
   constructor(data) {
     this.data = data;
@@ -1447,7 +1454,7 @@ var Recipe = class _Recipe {
     return this.data.ingredients.map((i4) => new Ingredient(i4));
   }
   get instructions() {
-    return this.data.instructions;
+    return this.data.instructions.map((i4) => new Instruction(i4));
   }
   get times() {
     return this.data.times;
@@ -1619,297 +1626,549 @@ function D2(n2, t3) {
 var SHARED_STYLES = {
   // 基本的なコンテナスタイル
   CONTAINER_BASE: `
-    font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif !important;
-    line-height: 1.6 !important;
-    color: #333 !important;
-    background: #fff !important;
-    box-sizing: border-box !important;
+    font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #fff;
+    box-sizing: border-box;
   `,
-  // サイトスタイルからの分離用CSS Reset
-  CSS_RESET: `
-    all: unset !important;
-    display: block !important;
-    box-sizing: border-box !important;
+  // 基本的なiframe内で使用する通常のスタイル
+  IFRAME_BASE: `
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   `,
   // RecipeSidebarAppの共通スタイル
   RECIPE_APP_STYLES: `
-    .rb-header { 
-      all: unset !important;
-      display: flex !important; 
-      align-items: center !important; 
-      justify-content: space-between !important; 
-      padding: 12px !important; 
-      border-bottom: 1px solid #eee !important; 
-      background: #f8f9fa !important;
-      box-sizing: border-box !important;
-      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif !important;
-    }
-    .rb-header .rb-title { 
-      all: unset !important;
-      font-weight: 700 !important; 
-      font-size: 16px !important; 
-      color: #333 !important;
-      margin: 0 !important;
-      font-family: inherit !important;
-    }
-    .rb-header .rb-close { 
-      all: unset !important;
-      font-size: 18px !important; 
-      border: none !important; 
-      background: transparent !important; 
-      cursor: pointer !important; 
-      color: #666 !important;
-      padding: 4px !important;
-      border-radius: 4px !important;
-      font-family: inherit !important;
-    }
-    .rb-header .rb-close:hover {
-      background: #e9ecef !important;
-    }
     .rb-body { 
-      all: unset !important;
-      flex: 1 !important; 
-      overflow: auto !important; 
-      padding: 20px !important; 
-      color: #111 !important; 
-      background: #fff !important;
-      box-sizing: border-box !important;
-      display: block !important;
-      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif !important;
+      flex: 1; 
+      overflow: visible; 
+      color: #111; 
+      background: #fff;
+      box-sizing: border-box;
+      display: block;
+      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
     }
-    .rb-body .rb-name { 
-      all: unset !important;
-      font-size: 24px !important; 
-      font-weight: 600 !important; 
-      margin-bottom: 16px !important; 
-      color: #333 !important;
-      line-height: 1.3 !important;
-      display: block !important;
-      font-family: inherit !important;
+    
+    .rb-header {
+      display: flex;
+      justify-content: flex-end;
+      padding: 8px 12px;
+      background: #fff;
+      border-bottom: 1px solid #f0f0f0;
     }
-    .rb-body .rb-image { 
-      all: unset !important;
-      width: 100% !important; 
-      border-radius: 8px !important; 
-      object-fit: cover !important; 
-      max-height: 240px !important; 
-      margin-bottom: 20px !important; 
-      display: block !important;
+    
+    .rb-close-button {
+      width: 32px;
+      height: 32px;
+      border: none;
+      border-radius: 50%;
+      background: #f8f9fa;
+      color: #666;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+      font-family: inherit;
+      line-height: 1;
     }
-    .rb-body .rb-yield { 
-      all: unset !important;
-      margin: 4px 0 12px !important; 
-      color: #333 !important; 
-      display: flex !important; 
-      align-items: center !important; 
-      gap: 6px !important; 
-      font-family: inherit !important;
+    
+    .rb-close-button:hover {
+      background: #e9ecef;
+      color: #333;
+      transform: scale(1.1);
     }
-    .rb-body .rb-yield .rb-yield-label { 
-      all: unset !important;
-      font-weight: 600 !important; 
-      color: #333 !important;
-      font-family: inherit !important;
+    
+    .rb-header-image {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      z-index: 10;
+      background: #fff;
     }
-    .rb-body .rb-yield .rb-yield-inline { 
-      all: unset !important;
-      display: inline-flex !important; 
-      align-items: center !important; 
-      gap: 6px !important; 
+    
+    .rb-header-image .rb-image { 
+      width: 100%; 
+      height: 100%;
+      object-fit: cover; 
+      display: block;
+      margin: 0;
+      padding: 0;
     }
-    .rb-body .rb-yield .rb-btn { 
-      all: unset !important;
-      width: 24px !important; 
-      height: 24px !important; 
-      border: 1px solid #ddd !important; 
-      border-radius: 4px !important; 
-      background: #fff !important; 
-      cursor: pointer !important; 
-      display: flex !important;
-      align-items: center !important;
-      justify-content: center !important;
-      font-size: 14px !important;
-      color: #333 !important;
-      font-family: inherit !important;
-      box-sizing: border-box !important;
+    
+    .rb-title-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px;
+      display: flex;
+      align-items: flex-end;
     }
-    .rb-body .rb-yield .rb-btn:hover {
-      background: #f8f9fa !important;
+    
+    .rb-title-overlay .rb-name {
+      font-size: 20px; 
+      font-weight: 800; 
+      color: #fff;
+      line-height: 1.2;
+      margin: 0;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+      font-family: inherit;
+      letter-spacing: 0.5px;
     }
-    .rb-body .rb-yield .rb-num { 
-      all: unset !important;
-      width: 48px !important; 
-      text-align: center !important; 
-      height: 24px !important; 
-      border: 1px solid #ddd !important;
-      border-radius: 4px !important;
-      background: #fff !important;
-      color: #333 !important;
-      font-size: 14px !important;
-      font-family: inherit !important;
-      box-sizing: border-box !important;
-      display: block !important;
-      padding: 2px 4px !important;
-      line-height: 1.2 !important;
+    
+    .rb-body > .rb-name { 
+      font-size: 24px; 
+      font-weight: 600; 
+      margin: 20px 20px 16px 20px; 
+      color: #333;
+      line-height: 1.3;
+      display: block;
+      font-family: inherit;
     }
+    
+    .rb-section-header {
+      position: sticky;
+      top: 200px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 16px 0 0 0;
+      flex-wrap: nowrap;
+      gap: 16px;
+      min-height: 40px;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      z-index: 9;
+      padding: 12px 20px;
+      border-bottom: 2px solid #f8f9fa;
+    }
+    
     .rb-body .rb-section-title { 
-      all: unset !important;
-      font-weight: 700 !important; 
-      margin: 20px 0 8px !important; 
-      color: #333 !important;
-      font-size: 18px !important;
-      display: block !important;
-      font-family: inherit !important;
+      font-weight: 600; 
+      margin: 0; 
+      color: #2d3748;
+      font-size: 17px;
+      display: block;
+      font-family: inherit;
+      flex-shrink: 0;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+    
+    .rb-body .rb-yield { 
+      margin: 0; 
+      color: #333; 
+      display: flex; 
+      align-items: center; 
+      gap: 8px; 
+      font-family: inherit;
+      font-size: 14px;
+      flex-shrink: 0;
+      white-space: nowrap;
+    }
+    
+    .rb-body .rb-yield .rb-yield-inline { 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 8px; 
+    }
+    
+    .rb-body .rb-yield .rb-yield-display {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    
+    .rb-body .rb-yield .rb-btn { 
+      width: 28px; 
+      height: 28px; 
+      border: 1px solid #ddd; 
+      border-radius: 4px; 
+      background: #fff; 
+      cursor: pointer; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      color: #333;
+      font-family: inherit;
+      box-sizing: border-box;
+      transition: all 0.2s ease;
+    }
+    
+    .rb-body .rb-yield .rb-btn-round {
+      border-radius: 50%;
+      font-weight: 600;
+    }
+    
+    .rb-body .rb-yield .rb-btn:hover {
+      background: #f8f9fa;
+      transform: scale(1.05);
+    }
+    
+    .rb-body .rb-yield .rb-num { 
+      width: 36px;
+      max-width: 36px;
+      text-align: center; 
+      height: 24px; 
+      border: none;
+      border-radius: 0;
+      background: transparent;
+      color: #333;
+      font-size: 14px;
+      font-family: inherit;
+      box-sizing: border-box;
+      display: inline-block;
+      padding: 2px 4px;
+      line-height: 1.2;
+      font-weight: 500;
     }
     .rb-body .rb-list { 
-      all: unset !important;
-      list-style: none !important; 
-      padding: 0 !important; 
-      margin: 0 0 12px 0 !important; 
-      display: block !important;
+      list-style: none; 
+      padding: 0 20px; 
+      margin: 8px 0 24px 0; 
+      display: block;
     }
     .rb-body .rb-list li { 
-      all: unset !important;
-      display: flex !important; 
-      justify-content: space-between !important; 
-      gap: 8px !important; 
-      padding: 8px 0 !important; 
-      border-bottom: 1px solid #f0f0f0 !important;
-      color: #333 !important;
-      font-family: inherit !important;
-      box-sizing: border-box !important;
+      display: flex; 
+      justify-content: space-between; 
+      gap: 8px; 
+      padding: 8px 0; 
+      border-bottom: 1px solid #f0f0f0;
+      color: #333;
+      font-family: inherit;
+      box-sizing: border-box;
     }
     .rb-body .rb-list .rb-qty { 
-      all: unset !important;
-      color: #666 !important; 
-      font-weight: 500 !important;
-      font-family: inherit !important;
+      color: #666; 
+      font-weight: 500;
+      font-family: inherit;
     }
     .rb-body .rb-steps { 
-      all: unset !important;
-      padding-left: 20px !important; 
-      margin: 0 !important;
-      color: #333 !important;
-      display: block !important;
-      font-family: inherit !important;
-      list-style-type: decimal !important;
-      counter-reset: recipe-step !important;
+      padding: 0; 
+      margin: 8px 20px 24px 20px;
+      color: #1a1a1a;
+      display: block;
+      font-family: inherit;
+      list-style: none;
+      counter-reset: recipe-step;
     }
     .rb-body .rb-steps li { 
-      all: unset !important;
-      margin: 8px 0 !important; 
-      color: #333 !important;
-      line-height: 1.6 !important;
-      display: list-item !important;
-      font-family: inherit !important;
-      list-style-type: decimal !important;
-      padding-left: 8px !important;
+      margin: 0 0 12px 0; 
+      color: #1a1a1a;
+      line-height: 1.7;
+      display: flex;
+      align-items: flex-start;
+      font-family: inherit;
+      padding: 16px;
+      background: rgba(248, 250, 252, 0.6);
+      border-radius: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.04);
+      counter-increment: recipe-step;
+      position: relative;
+      gap: 12px;
+    }
+    
+    .rb-body .rb-steps li::before {
+      content: counter(recipe-step);
+      background: #3b82f6;
+      color: white;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 600;
+      flex-shrink: 0;
+      margin-top: 2px;
+      transition: all 0.2s ease;
+    }
+    
+    .rb-body .rb-steps li:hover {
+      background: rgba(248, 250, 252, 0.9);
+      border-color: rgba(0, 0, 0, 0.08);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    }
+    
+    .rb-body .rb-steps li:hover::before {
+      background: #2563eb;
+      transform: scale(1.1);
+    }
+    
+    .rb-body .rb-step-content {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      width: 100%;
+    }
+    
+    .rb-body .rb-step-text {
+      flex: 1;
+      line-height: 1.7;
+      color: #1a1a1a;
+    }
+    
+    .rb-body .rb-step-image {
+      display: flex;
+      justify-content: center;
+      margin-top: 8px;
+    }
+    
+    .rb-body .rb-step-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: all 0.2s ease;
+    }
+    
+    .rb-body .rb-step-image img:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
   `
 };
-function getDesktopContainerStyles() {
+function getIframeContainerStyles() {
   return `
-    #recipe-sidebar-container { 
-      ${SHARED_STYLES.CSS_RESET}
-      position: fixed !important; 
-      top: 0 !important; 
-      right: 0 !important; 
-      height: 100vh !important; 
-      width: 360px !important; 
+    body {
       ${SHARED_STYLES.CONTAINER_BASE}
-      box-shadow: 0 0 12px rgba(0,0,0,0.15) !important; 
-      border-left: 1px solid #eee !important; 
-      z-index: 2147483647 !important; 
-      display: flex !important; 
-      flex-direction: column !important; 
-      overflow: hidden !important; 
+      height: 100vh;
+      display: block;
+      overflow: visible;
+      position: relative;
+      /* \u30DA\u30FC\u30B8\u5168\u4F53\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u3092\u6709\u52B9\u5316 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
     }
-    #recipe-sidebar-container * {
-      ${SHARED_STYLES.CSS_RESET}
+    
+    #recipe-sidebar-root {
+      height: 100vh;
+      overflow: visible;
+      display: block;
+      margin: 0;
+      padding: 0;
+      ${SHARED_STYLES.CONTAINER_BASE}
+      /* \u30DA\u30FC\u30B8\u5168\u4F53\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u3092\u6709\u52B9\u5316 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
     }
-    #recipe-sidebar-container ${SHARED_STYLES.RECIPE_APP_STYLES}
+    
+    /* iframe\u5185\u3067\u306F\u89AA\u30DA\u30FC\u30B8\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u306B\u8FFD\u5F93 */
+    .rb-body { 
+      flex: none; 
+      overflow: visible; 
+      color: #111; 
+      background: #fff;
+      box-sizing: border-box;
+      display: block;
+      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+      height: auto;
+      min-height: 100vh;
+      /* \u30DA\u30FC\u30B8\u5168\u4F53\u306E\u30B9\u30AF\u30ED\u30FC\u30EB\u3092\u6709\u52B9\u5316 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
+    }
+    
+    
+    .rb-instructions-header {
+      position: sticky;
+      top: 0;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      z-index: 5;
+      margin: 16px 0 0 0;
+      padding: 12px 20px;
+      border-bottom: 2px solid #f8f9fa;
+    }
+    
+    .rb-instructions-header .rb-section-title {
+      font-weight: 600; 
+      margin: 0; 
+      color: #2d3748;
+      font-size: 14px;
+      display: block;
+      font-family: inherit;
+      letter-spacing: 0.025em;
+      text-transform: uppercase;
+    }
+    
+    ${SHARED_STYLES.RECIPE_APP_STYLES}
   `;
 }
 function getMobileContainerStyles() {
   return `
     #recipe-mobile-container { 
-      ${SHARED_STYLES.CSS_RESET}
       ${SHARED_STYLES.CONTAINER_BASE}
-      min-height: 100vh !important; 
-      display: flex !important; 
-      flex-direction: column !important; 
-      width: 100% !important;
-      overflow-x: hidden !important;
-      padding-bottom: 80px !important; /* \u30D5\u30C3\u30BF\u30FC\u30DC\u30BF\u30F3\u306E\u305F\u3081\u306E\u30B9\u30DA\u30FC\u30B9 */
-      position: relative !important;
+      min-height: 100vh; 
+      display: block; 
+      width: 100%;
+      overflow-x: hidden;
+      overflow-y: visible;
+      padding-bottom: 80px; /* \u30D5\u30C3\u30BF\u30FC\u30DC\u30BF\u30F3\u306E\u305F\u3081\u306E\u30B9\u30DA\u30FC\u30B9 */
+      position: relative;
     }
-    /* \u30E2\u30D0\u30A4\u30EB\u7248\u3067\u306F\u3088\u308A\u7DE9\u3084\u304B\u306A\u30EA\u30BB\u30C3\u30C8\u3092\u9069\u7528 */
-    #recipe-mobile-container > :not(.rb-header):not(.rb-body) {
-      font-family: inherit !important;
-      box-sizing: border-box !important;
-    }
-    #recipe-mobile-container ${SHARED_STYLES.RECIPE_APP_STYLES}
     
-    /* \u30E2\u30D0\u30A4\u30EB\u7528\u8FFD\u52A0\u30B9\u30BF\u30A4\u30EB */
-    #recipe-mobile-container .rb-header .rb-close { 
-      display: none !important; /* \u30E2\u30D0\u30A4\u30EB\u3067\u306F\u9589\u3058\u308B\u30DC\u30BF\u30F3\u3092\u975E\u8868\u793A */
+    /* \u30E2\u30D0\u30A4\u30EB\u5411\u3051\u306E\u7279\u5225\u306A\u30B9\u30BF\u30A4\u30EB\u4FEE\u6B63 - iframe\u5074\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-body { 
+      flex: none; 
+      overflow: visible; 
+      color: #111; 
+      background: #fff;
+      box-sizing: border-box;
+      display: block;
+      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Yu Gothic', 'Meiryo', sans-serif;
+      height: auto;
+      min-height: 100vh;
+      /* iframe\u5074\u306B\u5408\u308F\u305B\u3066\u30B9\u30AF\u30ED\u30FC\u30EB\u8A2D\u5B9A\u3092\u7D71\u4E00 */
+      touch-action: pan-y;
+      overscroll-behavior: auto;
     }
+    
+    /* \u753B\u50CF\u3068\u30BF\u30A4\u30C8\u30EB\u90E8\u5206\u3092\u56FA\u5B9A - iframe\u5074\u306E\u30B5\u30A4\u30BA\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-header-image {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 200px; /* iframe\u5074\u306B\u5408\u308F\u305B\u3066250px\u2192200px\u306B\u5909\u66F4 */
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      z-index: 10;
+      background: #fff;
+    }
+    
+    #recipe-mobile-container .rb-header-image .rb-image { 
+      width: 100%; 
+      height: 100%;
+      object-fit: cover; 
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* \u30AA\u30FC\u30D0\u30FC\u30EC\u30A4\u3092iframe\u5074\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-title-overlay {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 15px; /* iframe\u5074\u306B\u5408\u308F\u305B\u306624px\u219215px\u306B\u5909\u66F4 */
+      display: flex;
+      align-items: flex-end;
+    }
+    
+    /* \u30BF\u30A4\u30C8\u30EB\u30B5\u30A4\u30BA\u3092iframe\u5074\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-title-overlay .rb-name {
+      font-size: 20px; /* iframe\u5074\u306B\u5408\u308F\u305B\u306628px\u219220px\u306B\u5909\u66F4 */
+      font-weight: 800; 
+      color: #fff;
+      line-height: 1.2;
+      margin: 0;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8); /* iframe\u5074\u306B\u7D71\u4E00 */
+      font-family: inherit;
+      letter-spacing: 0.5px;
+    }
+    
+    /* \u753B\u50CF\u306A\u3057\u306E\u30BF\u30A4\u30C8\u30EB\u90E8\u5206\u306E\u30B9\u30BF\u30A4\u30EB\u8ABF\u6574 - iframe\u5074\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-body > .rb-name {
+      font-size: 24px; /* iframe\u5074\u306B\u5408\u308F\u305B\u306628px\u219224px\u306B\u5909\u66F4 */
+      font-weight: 600; 
+      margin: 20px 20px 16px 20px; /* iframe\u5074\u306B\u7D71\u4E00 */
+      color: #333;
+      line-height: 1.3;
+      display: block;
+      font-family: inherit;
+    }
+    
+    /* \u30E2\u30D0\u30A4\u30EB\u7248\u3067\u306E\u30BB\u30AF\u30B7\u30E7\u30F3\u30D8\u30C3\u30C0\u30FC\u306E\u8ABF\u6574 - iframe\u5074\u306E\u4F4D\u7F6E\u306B\u7D71\u4E00 */
+    #recipe-mobile-container .rb-section-header {
+      position: sticky;
+      top: 200px; /* iframe\u5074\u306B\u5408\u308F\u305B\u3066250px\u2192200px\u306B\u5909\u66F4 */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 16px 0 0 0;
+      flex-wrap: nowrap;
+      gap: 16px;
+      min-height: 40px;
+      background: rgba(255, 255, 255, 0.98);
+      backdrop-filter: blur(8px);
+      z-index: 9;
+      padding: 12px 20px;
+      border-bottom: 2px solid #f8f9fa;
+    }
+
+    /* \u5171\u901A\u30B9\u30BF\u30A4\u30EB\u3092\u9069\u7528 */
+    ${SHARED_STYLES.RECIPE_APP_STYLES}
+    
     
     /* \u30E2\u30D0\u30A4\u30EB\u7528\u30D5\u30C3\u30BF\u30FC\u30DC\u30BF\u30F3\u30B9\u30BF\u30A4\u30EB */
     .recipe-mobile-footer {
-      position: fixed !important;
-      bottom: 0 !important;
-      left: 0 !important;
-      right: 0 !important;
-      background: #fff !important;
-      border-top: 1px solid #eee !important;
-      padding: 12px 20px !important;
-      box-shadow: 0 -2px 8px rgba(0,0,0,0.1) !important;
-      z-index: 2147483648 !important;
-      box-sizing: border-box !important;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #fff;
+      border-top: 1px solid #eee;
+      padding: 12px 20px;
+      box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+      z-index: 2147483648;
+      box-sizing: border-box;
     }
     
     .recipe-mobile-footer button {
-      width: 100% !important;
-      background: #007AFF !important;
-      color: white !important;
-      border: none !important;
-      border-radius: 8px !important;
-      padding: 12px !important;
-      font-size: 16px !important;
-      font-weight: 600 !important;
-      cursor: pointer !important;
-      font-family: inherit !important;
-      ${SHARED_STYLES.CSS_RESET}
+      width: 100%;
+      background: #007AFF;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      ${SHARED_STYLES.IFRAME_BASE}
     }
     
     .recipe-mobile-footer button:hover {
-      background: #0056b3 !important;
+      background: #0056b3;
     }
     
     /* \u30EC\u30B7\u30D4\u30D3\u30E5\u30FC\u306B\u623B\u308B\u30DC\u30BF\u30F3\u30B9\u30BF\u30A4\u30EB */
     .recipe-return-button {
-      ${SHARED_STYLES.CSS_RESET}
-      position: fixed !important;
-      bottom: 20px !important;
-      right: 20px !important;
-      z-index: 2147483647 !important;
-      background: #ff6b35 !important;
-      color: white !important;
-      border: none !important;
-      border-radius: 25px !important;
-      padding: 12px 20px !important;
-      font-size: 14px !important;
-      font-weight: 600 !important;
-      cursor: pointer !important;
-      box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3) !important;
-      transition: all 0.2s ease !important;
-      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif !important;
+      ${SHARED_STYLES.IFRAME_BASE}
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 2147483647;
+      background: #ff6b35;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 12px 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+      transition: all 0.2s ease;
+      font-family: ui-sans-serif, -apple-system, 'Segoe UI', Roboto, sans-serif;
     }
     
     .recipe-return-button:hover {
-      transform: scale(1.05) !important;
-      box-shadow: 0 6px 16px rgba(255, 107, 53, 0.4) !important;
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(255, 107, 53, 0.4);
     }
   `;
 }
@@ -1939,12 +2198,11 @@ function clampToPeople(n2) {
 }
 function RecipeSidebarApp({
   initialRecipe,
-  onClose,
   isMobile = false
 }) {
   y2(() => {
     const STYLE_ID = "recipe-sidebar-app-styles";
-    const styles = isMobile ? getMobileContainerStyles() : getDesktopContainerStyles();
+    const styles = isMobile ? getMobileContainerStyles() : getIframeContainerStyles();
     injectStyles(STYLE_ID, styles);
   }, [isMobile]);
   const yieldParsed = T2(() => initialRecipe.yield, [initialRecipe]);
@@ -1974,32 +2232,28 @@ function RecipeSidebarApp({
     const factorServings = Math.max(1, Math.round(base * (mid / base)));
     return initialRecipe.scale(factorServings);
   }, [initialRecipe, isInteractiveRange, minVal, maxVal]);
-  return /* @__PURE__ */ u3(k, { children: [
-    /* @__PURE__ */ u3("div", { class: "rb-header", children: [
-      /* @__PURE__ */ u3("div", { class: "rb-title", children: "Recipe" }),
-      /* @__PURE__ */ u3("button", { class: "rb-close", type: "button", onClick: onClose, children: "\xD7" })
+  return /* @__PURE__ */ u3(k, { children: /* @__PURE__ */ u3("div", { class: "rb-body", children: [
+    displayedRecipe.imageUrl && /* @__PURE__ */ u3("div", { class: "rb-header-image", children: [
+      /* @__PURE__ */ u3("img", { class: "rb-image", src: displayedRecipe.imageUrl }),
+      /* @__PURE__ */ u3("div", { class: "rb-title-overlay", children: /* @__PURE__ */ u3("h1", { class: "rb-name", children: displayedRecipe.name || "\u30EC\u30B7\u30D4" }) })
     ] }),
-    /* @__PURE__ */ u3("div", { class: "rb-body", children: [
-      /* @__PURE__ */ u3("div", { class: "rb-name", children: displayedRecipe.name || "\u30EC\u30B7\u30D4" }),
-      displayedRecipe.imageUrl && /* @__PURE__ */ u3("img", { class: "rb-image", src: displayedRecipe.imageUrl }),
-      yieldText && /* @__PURE__ */ u3("div", { class: "rb-yield", children: [
-        /* @__PURE__ */ u3("span", { class: "rb-yield-label", children: "\u5206\u91CF" }),
-        !isInteractiveRange ? /* @__PURE__ */ u3("span", { children: [
-          "\uFF1A",
-          yieldText
-        ] }) : /* @__PURE__ */ u3("span", { class: "rb-yield-inline", children: [
+    !displayedRecipe.imageUrl && /* @__PURE__ */ u3("div", { class: "rb-name", children: displayedRecipe.name || "\u30EC\u30B7\u30D4" }),
+    /* @__PURE__ */ u3("div", { class: "rb-section-header", children: [
+      /* @__PURE__ */ u3("div", { class: "rb-section-title", children: "\u6750\u6599" }),
+      yieldText && /* @__PURE__ */ u3("div", { class: "rb-yield", children: !isInteractiveRange ? /* @__PURE__ */ u3("span", { children: yieldText }) : /* @__PURE__ */ u3("span", { class: "rb-yield-inline", children: [
+        /* @__PURE__ */ u3(
+          "button",
+          {
+            class: "rb-btn rb-btn-round",
+            onClick: () => {
+              setMinVal((v3) => clampToPeople(v3 - 1));
+              setMaxVal((v3) => clampToPeople(v3 - 1));
+            },
+            children: "\u2212"
+          }
+        ),
+        /* @__PURE__ */ u3("span", { class: "rb-yield-display", children: [
           yieldParsed.prefix && /* @__PURE__ */ u3("span", { children: yieldParsed.prefix }),
-          /* @__PURE__ */ u3(
-            "button",
-            {
-              class: "rb-btn",
-              onClick: () => {
-                setMinVal((v3) => clampToPeople(v3 - 1));
-                setMaxVal((v3) => clampToPeople(v3 - 1));
-              },
-              children: "\u2212"
-            }
-          ),
           /* @__PURE__ */ u3(
             "input",
             {
@@ -2029,82 +2283,78 @@ function RecipeSidebarApp({
               )
             }
           ),
-          /* @__PURE__ */ u3(
-            "button",
-            {
-              class: "rb-btn",
-              onClick: () => {
-                setMinVal((v3) => clampToPeople(v3 + 1));
-                setMaxVal((v3) => clampToPeople(v3 + 1));
-              },
-              children: "+"
-            }
-          ),
           yieldParsed.unitText && /* @__PURE__ */ u3("span", { children: yieldParsed.unitText }),
           yieldParsed.suffix && /* @__PURE__ */ u3("span", { children: yieldParsed.suffix })
-        ] })
-      ] }),
-      /* @__PURE__ */ u3("div", { class: "rb-section-title", children: "\u6750\u6599" }),
-      /* @__PURE__ */ u3("ul", { class: "rb-list", children: displayedRecipe.ingredients.map((ing) => /* @__PURE__ */ u3("li", { children: [
-        /* @__PURE__ */ u3("span", { children: ing.name || ing.originalText }),
-        /* @__PURE__ */ u3("span", { class: "rb-qty", children: ing.format() || "" })
-      ] })) }),
-      /* @__PURE__ */ u3("div", { class: "rb-section-title", children: "\u4F5C\u308A\u65B9" }),
-      /* @__PURE__ */ u3("ol", { class: "rb-steps", children: displayedRecipe.instructions.map((step) => /* @__PURE__ */ u3("li", { children: step })) })
-    ] })
-  ] });
+        ] }),
+        /* @__PURE__ */ u3(
+          "button",
+          {
+            class: "rb-btn rb-btn-round",
+            onClick: () => {
+              setMinVal((v3) => clampToPeople(v3 + 1));
+              setMaxVal((v3) => clampToPeople(v3 + 1));
+            },
+            children: "+"
+          }
+        )
+      ] }) })
+    ] }),
+    /* @__PURE__ */ u3("ul", { class: "rb-list", children: displayedRecipe.ingredients.map((ing) => /* @__PURE__ */ u3("li", { children: [
+      /* @__PURE__ */ u3("span", { children: ing.name || ing.originalText }),
+      /* @__PURE__ */ u3("span", { class: "rb-qty", children: ing.format() || "" })
+    ] })) }),
+    /* @__PURE__ */ u3("div", { class: "rb-section-header", children: /* @__PURE__ */ u3("div", { class: "rb-section-title", children: "\u4F5C\u308A\u65B9" }) }),
+    /* @__PURE__ */ u3("ol", { class: "rb-steps", children: displayedRecipe.instructions.map((step, index) => /* @__PURE__ */ u3("li", { children: /* @__PURE__ */ u3("div", { class: "rb-step-content", children: [
+      /* @__PURE__ */ u3("div", { class: "rb-step-text", children: step.text }),
+      step.imageUrl && /* @__PURE__ */ u3("div", { class: "rb-step-image", children: /* @__PURE__ */ u3("img", { src: step.imageUrl, alt: `\u624B\u9806${index + 1}` }) })
+    ] }) })) })
+  ] }) });
 }
 
-// extension/src/content-mobile.tsx
-function renderRecipeFromJsonLd(jsonLd) {
-  try {
-    const normalized = Recipe.fromJsonLd(jsonLd);
-    const container = document.getElementById("recipe-mobile-container");
-    if (!container) {
-      console.error("recipe-mobile-container not found");
-      return;
-    }
-    G(
-      /* @__PURE__ */ u3(
-        RecipeSidebarApp,
-        {
-          initialRecipe: normalized,
-          onClose: () => {
-            try {
-              window.flutter_inappwebview?.callHandler?.("closeRecipe");
-            } catch (_2) {
-            }
-          },
-          isMobile: true
-        }
-      ),
-      container
-    );
-  } catch (_2) {
-  }
-}
+// extension/src/iframe-content.tsx
 function main() {
-  try {
-    const injected = window.__RB_RECIPE_JSON;
-    if (injected) {
-      renderRecipeFromJsonLd(injected);
-      return;
-    }
-    const scripts = getJsonLdScriptsFromDocument(document);
-    const recipesRaw = parseJsonLdRecipesFromScripts(scripts);
-    if (!recipesRaw.length) return;
-    renderRecipeFromJsonLd(recipesRaw[0]);
-  } catch (e3) {
+  const container = document.getElementById("recipe-iframe-root");
+  if (!container) {
+    console.error("recipe-iframe-root not found");
+    return;
   }
+  window.addEventListener("message", (event) => {
+    try {
+      const data = event.data;
+      if (data.type === "RECIPE_DATA" && data.recipe) {
+        console.log("[recipe-ext] Received recipe data:", data.recipe);
+        console.log("[recipe-ext] Recipe instructions:", data.recipe.recipeInstructions);
+        const normalizedRecipe = Recipe.fromJsonLd(data.recipe);
+        console.log("[recipe-ext] Normalized recipe:", normalizedRecipe);
+        console.log("[recipe-ext] Instructions after normalization:", normalizedRecipe.instructions);
+        G(
+          /* @__PURE__ */ u3(
+            RecipeSidebarApp,
+            {
+              initialRecipe: normalizedRecipe,
+              isMobile: false
+            }
+          ),
+          container
+        );
+        console.log("[recipe-ext] Recipe rendered in iframe");
+      }
+    } catch (e3) {
+      console.error("[recipe-ext] Error processing message:", e3);
+    }
+  });
+  if (window.parent !== window) {
+    window.parent.postMessage({ type: "IFRAME_READY" }, "*");
+  }
+  window.closeSidebar = () => {
+    if (window.parent !== window) {
+      window.parent.postMessage({ type: "CLOSE_SIDEBAR" }, "*");
+    }
+  };
 }
-window.addEventListener("RB_SHOW_RECIPE", () => {
-  try {
-    const injected = window.__RB_RECIPE_JSON;
-    if (injected) {
-      renderRecipeFromJsonLd(injected);
-    }
-  } catch (_2) {
-  }
-});
-main();
-//# sourceMappingURL=content-mobile.js.map
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", main);
+} else {
+  main();
+}
+//# sourceMappingURL=iframe-content.js.map
