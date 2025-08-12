@@ -2322,11 +2322,7 @@ function main() {
     try {
       const data = event.data;
       if (data.type === "RECIPE_DATA" && data.recipe) {
-        console.log("[recipe-ext] Received recipe data:", data.recipe);
-        console.log("[recipe-ext] Recipe instructions:", data.recipe.recipeInstructions);
         const normalizedRecipe = Recipe.fromJsonLd(data.recipe);
-        console.log("[recipe-ext] Normalized recipe:", normalizedRecipe);
-        console.log("[recipe-ext] Instructions after normalization:", normalizedRecipe.instructions);
         G(
           /* @__PURE__ */ u3(
             RecipeSidebarApp,

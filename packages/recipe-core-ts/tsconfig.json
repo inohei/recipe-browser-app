@@ -12,9 +12,11 @@
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
     "noEmit": false,
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "extension/src/**/*"]
 }
 
 
